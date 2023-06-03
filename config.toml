@@ -1,0 +1,36 @@
+baseURL = 'https://headcrash.net/'
+defaultContentLanguage = 'de'
+title = './HeadCrash'
+theme = "headcrash"
+
+disableKinds = ["taxonomy", "term"]
+
+[params]
+    logoName = "Logo name"
+    email = "dr-artz@drmusterman.de"
+    phone = "+49 (0) 30 333 222 333"
+    address = [
+        "Steindorff Passage",
+        "Hauptstraße 2",
+        "10000 Hauptstadt",
+        "*Parkplätze stehen vor dem Haus zur Verfügung*"
+    ]
+
+
+[menu]
+    [[menu.top]]
+        name = "Festplattenvernichtung"
+        weight = 10
+        url = "#"
+    [[menu.top]]
+        name = "Datenlöschung"
+        weight = 20
+        url = "#"
+    [[menu.top]]
+        name = "SuperMegaService"
+        weight = 30
+        url = "#"
+    [[menu.top]]
+        name = "Datenrettung"
+        weight = 40
+        url = "#"
