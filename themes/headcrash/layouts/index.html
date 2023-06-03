@@ -1,6 +1,8 @@
 {{ define "main" }}
 <main class="main">
-    Main
-    {{ .Content }}
+    {{ partial "homepage/hero" . }}
+    <div class="width-wrapper">
+        {{ .Content }}
+    </div>
 </main>
 {{ end }}

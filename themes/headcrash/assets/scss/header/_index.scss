@@ -23,13 +23,13 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            // gap: var(--main-gap);
+            gap: calc(var(--main-gap) / 2);
             line-height: 0;
 
             &-name {
                 padding-bottom: 1px;
                 font-family: var(--ff-accent);
-                font-size: 2.2rem;
+                font-size: 2.4rem;
                 color: var(--light-bg-color);
             }
         }
@@ -48,7 +48,7 @@
             }
         
             svg {
-                stroke: var(--light-text-color);
+                stroke: var(--light-bg-color);
             }
         }
         
