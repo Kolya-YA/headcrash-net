@@ -27,10 +27,14 @@ disableKinds = ["taxonomy", "term"]
         weight = 20
         url = "#"
     [[menu.top]]
-        name = "SuperMegaService"
+        name = "Super-Mega-Dienstleistung"
         weight = 30
         url = "#"
     [[menu.top]]
         name = "Datenrettung"
         weight = 40
+        url = "#"
+    [[menu.top]]
+        name = "FAQ"
+        weight = 50
         url = "#"

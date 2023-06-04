@@ -1,0 +1,46 @@
+.services {
+    padding-block-start: var(--main-gap);
+    padding-block-end: calc(var(--main-gap) * 2);
+    background-color: var(--dark-bg-color);
+    color: var(--light-text-color);
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+        gap: var(--main-gap);
+    }
+
+    .scard {
+        display: block;
+        height: 100%;
+        padding: var(--main-gap);
+        border-radius: 4px;
+        background-color: var(--light-bg-color);
+        color: var(--dark-text-color);
+        text-decoration: none;
+
+        &__title {
+            margin-block-start: calc(var(--main-gap) / 2);
+            text-align: center;
+        }
+        
+        &__content {
+            
+        }
+
+        &__image {
+            width: 60%;
+            aspect-ratio: 3/2;
+            margin-inline: auto;
+            background-color: #ddd;
+            object-fit: cover;
+        }
+
+        &__text {
+
+        }
+    }
+}

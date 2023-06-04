@@ -1,0 +1,6 @@
+.content {
+    width: calc(min(65ch, 100% - 4rem));
+    padding-block-start: var(--main-gap);
+    padding-block-end: calc(var(--main-gap) * 2);
+
+}

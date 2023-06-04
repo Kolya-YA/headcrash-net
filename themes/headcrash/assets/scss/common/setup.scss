@@ -1,14 +1,12 @@
 /* Box sizing */
 *,
 *::before,
-
 *::after {
     box-sizing: border-box;
 }
 
 html {
     // color-scheme: light dark;
-
     height: 100vh;
     scroll-behavior: smooth;
 }
@@ -20,7 +18,7 @@ body {
     min-width: 360px;
     margin: 0;
     font-family: var(--ff-main);
-    font-size: var(--fs-600);
+    font-size: var(--fs-500);
     line-height: 1.6;
     background-color: var(--light-bg-color);
     color: var(--dark-text-color);
@@ -38,6 +36,10 @@ figure,
 picture {
     margin: 0;
     margin-block-start: 1em;
+}
+
+h3 {
+    font-size: var(--fs-600);
 }
 
 img,

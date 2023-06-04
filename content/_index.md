@@ -1,6 +1,22 @@
 ---
+titLe: Datenrettung
 ---
 
-# Title
+## Professionelle Datenrettung
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque at commodi esse, laudantium voluptatum, hic eos, temporibus doloribus nesciunt accusamus velit quibusdam fugit soluta quia. Itaque voluptas temporibus est molestiae ipsa neque ea accusamus aliquid aliquam. Deserunt quasi consequuntur cupiditate facere atque culpa tenetur suscipit, laudantium expedita pariatur esse corporis. Animi doloremque nemo facere doloribus atque odit quasi beatae culpa. Ipsam delectus expedita sapiente voluptate error illum fugit soluta, corrupti repudiandae ipsa ducimus, accusantium dolorum molestiae dignissimos! Sit aut possimus quas temporibus perspiciatis itaque labore, sapiente nobis mollitia nemo fugiat, facilis, minus ducimus officiis voluptates. Ab at odit mollitia in veritatis sed natus eos nemo, expedita sunt ea animi placeat voluptatum minima? Nesciunt possimus officiis distinctio pariatur, illo temporibus fugiat quaerat deserunt voluptatibus nostrum eligendi numquam corrupti recusandae harum et beatae tempore id voluptatem aliquid nemo quisquam necessitatibus. Voluptatem saepe sit ipsum reprehenderit cum. Consectetur reiciendis, nesciunt repellendus accusamus quos hic labore nam soluta ipsum rem, neque mollitia molestiae corrupti perspiciatis sequi laudantium vero, minus praesentium eos.
+Die Datenrettung hat in den letzten Jahren immer mehr an Bedeutung gewonnen. Inzwischen sind die Daten wesentlich wertvoller als die Speichermedien auf welchen sie gesichert wurden. Es gibt weniges, das ein Unternehmen härter trifft und selten etwas, das so ärgerlich für Privatleute ist, wie der Datenverlust von wichtigen Informationen. Aber egal ob Daten unabsichtlich gelöscht, der Datenträger beschädigt wurde oder die Daten durch logische Fehler abhanden gekommen sind – wir können Ihnen helfen!
+
+Wir als Dienstleister haben uns auf die Datenwiederherstellung spezialisiert und kümmern uns um die Datenrettung von Festplatten, Datenrettung von Raid-Systemen und vielen weiteren Speichermedien.
+
+*Unsere Dienstleistung bieten wir Unternehmen aber auch Privatleuten an. Nutzen Sie unser Kontaktformular für eine direkte und unverbindliche Anfrage oder wählen Sie unsere kostenfreie Servicenummer 0800-4335222.*
+
+## Wir retten Ihre Daten
+
+- professionell
+- schnell
+- bei absoluter Diskretion
+- und sie zahlen nur bei Erfolg
+
+Der Prozess der Datenrettung ist bei uns einfach und schnell gehalten. Sie können sich hier über den Ablauf der Datenrettung informieren. Der Prozess startet mit dem Absenden Ihrer Anfrage an uns. Für diejenigen, die lieber telefonieren stehen unsere Kundenberater parat um alle relevanten Daten aufzunehmen und Ihnen zu helfen.
+
+Falls sie sich erstmal näher zum Thema Datenrettung einlesen möchten finden Sie auf unserer Webseite ein Lexikon-Datenrettung mit Erklärungen zu den Fachbegriffen und den Sachverhalten im Bereich der Datenrettung.

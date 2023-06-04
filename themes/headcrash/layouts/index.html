@@ -2,7 +2,13 @@
 <main class="main">
     {{ partial "homepage/hero" . }}
     <div class="width-wrapper">
-        {{ .Content }}
+        <div class="content">
+            {{ .Content }}
+        </div>
     </div>
+    {{ partial "homepage/services" . }}
 </main>
+<aside>
+    {{ partial "homepage/blog" . }}
+</aside>
 {{ end }}
