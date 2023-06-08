@@ -1,0 +1,1 @@
+(()=>{var e=document.querySelector(".back-to-top");window.addEventListener("scroll",()=>{const t=window.scrollY>window.innerHeight*.5;e.style.visibility=t?"visible":"hidden"})})()
