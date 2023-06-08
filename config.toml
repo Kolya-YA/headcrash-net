@@ -1,4 +1,5 @@
-baseURL = 'https://headcrash.net/'
+# baseURL = 'https://headcrash.net/'
+baseURL = 'https://kolya-ya.github.io/headcrash-net/'
 defaultContentLanguage = 'de'
 title = './HeadCrash'
 theme = "headcrash"
