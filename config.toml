@@ -1,5 +1,4 @@
-# baseURL = 'https://headcrash.net/'
-baseURL = 'https://kolya-ya.github.io/headcrash-net/'
+baseURL = 'https://headcrash.net/'
 defaultContentLanguage = 'de'
 title = './HeadCrash'
 theme = "headcrash"
@@ -8,12 +7,13 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
     logoName = "Logo name"
-    email = "dr-artz@drmusterman.de"
+    email = "dr-hdd@headcrash.net"
     phone = "+49 (0) 30 333 222 333"
     address = [
         "Steindorff Passage",
         "Hauptstraße 2",
-        "10000 Hauptstadt",
+        "10405 Berlin",
+        "Deutschland",
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
     
