@@ -15,26 +15,12 @@ disableKinds = ["taxonomy", "term"]
         "10000 Hauptstadt",
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
+    
+    heroBackground = "59.jpg"
 
 
 [menu]
-    [[menu.top]]
-        name = "Festplattenvernichtung"
-        weight = 10
-        url = "#"
-    [[menu.top]]
-        name = "Datenlöschung"
-        weight = 20
-        url = "#"
-    [[menu.top]]
-        name = "Super-Mega-Dienstleistung"
-        weight = 30
-        url = "#"
-    [[menu.top]]
-        name = "Datenrettung"
-        weight = 40
-        url = "#"
-    [[menu.top]]
-        name = "FAQ"
-        weight = 50
+    [[menu.info]]
+        name = "Kontakt"
+        weight = 200
         url = "#"

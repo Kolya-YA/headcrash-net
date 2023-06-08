@@ -1,6 +1,8 @@
 @import "common/fonts";
 @import "common/custom-properties";
 @import "common/setup";
+@import "common/sc-details";
+@import "common/back-to-top";
 // @import "common/separator";
 // @import "common/link-btn";
 @import "header";
@@ -10,7 +12,7 @@
 @import "homepage/content";
 @import "homepage/services";
 @import "homepage/blog";
-// @import "info";
+@import "single";
 // @import "form";
 // @import "contacts";
 // @import "form";

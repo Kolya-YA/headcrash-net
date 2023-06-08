@@ -1,0 +1,40 @@
+.sc-details {
+    margin-block-end: var(--main-gap);
+    background-color: #3331;
+    border-radius: calc(var(--main-gap) / 3);
+    overflow: hidden;                
+    
+    &__summary {
+        padding: var(--main-gap);
+        background-color: #3333;
+        cursor: pointer;
+
+        * {
+            display: inline-block;
+            margin: 0;
+        }
+    }
+    
+    &__content {
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 1000ms ease-out;
+        
+        & > div {
+            overflow: hidden;                
+            transition: padding 1s;
+        }
+    }
+
+}
+
+.sc-details[open] {
+    
+    .sc-details__content {
+        grid-template-rows: 1fr;
+        
+        & > div {
+            padding: var(--main-gap);                
+        }
+    }
+}

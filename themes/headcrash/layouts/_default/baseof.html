@@ -4,11 +4,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
         {{- block "main" . }}{{- end }}
-        </div>
         {{- partial "footer.html" . -}}
-        {{/*  {{- partial "footer/footer.html" . -}}  */}}
-        {{/*  {{- partial "footer-scripts" . -}}  */}}
+        {{- partial "back-to-top.html" }}
+        {{- partial "footer-scripts.html" . -}}
     </body>
 </html>

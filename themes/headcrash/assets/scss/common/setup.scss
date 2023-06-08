@@ -26,7 +26,7 @@ body {
 
 main {
     // width: calc(min(65ch, 100% - 4rem));
-    margin-inline: auto;
+    // margin-inline: auto;
 }
 
 /* Reset margins */
@@ -50,8 +50,9 @@ svg {
 }
 
 .width-wrapper {
-    width: calc(min(1280px, 100vw));
+    max-width: calc(min(1280px, 100vw));
     min-width: 360px;
     margin-inline: auto;
+    overflow: hidden;
     padding-inline: var(--main-gap);
 }

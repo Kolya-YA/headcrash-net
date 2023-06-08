@@ -1,5 +1,5 @@
 .header {
-    @media (min-width: 52em) {
+    @media (min-width: 64em) {
         --toggler-display: none;
         --nav-visibility: visible;
         --desktop-border: none;
@@ -17,7 +17,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-block: var(--main-gap);
+        padding-block: calc(var(--main-gap) / 2);
         
         .header__logo {
             display: flex;
@@ -25,6 +25,7 @@
             justify-content: space-between;
             gap: calc(var(--main-gap) / 2);
             line-height: 0;
+            text-decoration: none;
 
             &-name {
                 padding-bottom: 1px;
@@ -104,10 +105,4 @@
             }
         }
     }
-}
-    
-
-.header-bottom {
-
-
 }

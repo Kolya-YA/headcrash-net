@@ -1,10 +1,10 @@
 <header class="header">
     <div class="width-wrapper">
         <div class="header__block">
-            <div class="header__logo">
+            <a {{ if not .IsHome }}href="/"{{ end }}class="header__logo">
                 {{ partial "logo-svg" }}
                 <div class="header__logo-name">{{ .Site.Title }}</div>
-            </div>
+            </a>
             <div class="header__nav-toggler" id="navShow">
                 <button type="button" aria-label="Menu" aria-expanded="false" aria-controls="mainnav">
                     <svg xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,10 @@
                 </div>
                 
                 <ul class="header__nav-list" role="list">
-                    {{ range .Site.Menus.top }}
+                    {{ $top := .Site.Menus.top }}
+                    {{ $info := .Site.Menus.info }}
+                    {{ $bigmenu := $top | append $info}}
+                    {{ range $bigmenu }}
                     <li class="header__nav-item">
                         <a href="{{ .URL }}">{{ .Name }}</a>
                     </li>

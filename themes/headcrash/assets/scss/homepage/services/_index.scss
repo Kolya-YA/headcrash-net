@@ -10,17 +10,35 @@
         list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
-        gap: var(--main-gap);
+        column-gap: var(--main-gap);
+        row-gap: calc(var(--main-gap) * 2);
+        
     }
 
     .scard {
+        --b-size: 3rem;
+        position: relative;
         display: block;
         height: 100%;
+        margin-block-start: calc(var(--b-size) / 2);
         padding: var(--main-gap);
         border-radius: 4px;
         background-color: var(--light-bg-color);
         color: var(--dark-text-color);
         text-decoration: none;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(var(--b-size) * -0.3);
+            left: calc(var(--b-size) * 0.3);
+            display: block;
+            width: var(--b-size);
+            height: var(--b-size);
+            background-color: inherit;
+            // filter: brightness(90%);
+            border-radius: 50%;
+        }
 
         &__title {
             margin-block-start: calc(var(--main-gap) / 2);
