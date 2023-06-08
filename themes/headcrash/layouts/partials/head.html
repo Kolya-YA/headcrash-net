@@ -4,10 +4,6 @@
 
     <title>🛑 Change me</title>
 
-    <script type="module">
-        document.documentElement.classList.replace('no-js', 'js');
-    </script>
-
     {{- $scss := resources.Get "scss/main.scss" }}
     {{/* {{- $style := $scss | toCSS | minify | fingerprint }} */}}
     {{- $style := $scss | toCSS }}

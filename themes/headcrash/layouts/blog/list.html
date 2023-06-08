@@ -20,8 +20,6 @@
             <h5 class="meta">
                 {{ .Date.Format "02.01.2006" }} | {{ .WordCount }} Words
             </h5>
-        </main>
-        <aside class="list__aside">
             <ul>
                 {{ range .Pages }}
                 <li>
@@ -29,6 +27,8 @@
                 </li>
                 {{ end }}
             </ul>
+        </main>
+        <aside class="list__aside">
             {{ partial "homepage/services" . }}
         </aside>
     </div>
