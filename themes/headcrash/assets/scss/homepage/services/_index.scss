@@ -3,9 +3,10 @@
     padding-block-end: calc(var(--main-gap) * 2);
     background-color: var(--dark-bg-color);
     color: var(--light-text-color);
-
+    
     &__list {
-        margin: 0;
+        margin-block-start: var(--main-gap);
+        margin-block-end: 0;
         padding: 0;
         list-style: none;
         display: grid;
@@ -16,28 +17,27 @@
     }
 
     .scard {
-        --b-size: 3rem;
         position: relative;
         display: block;
         height: 100%;
-        margin-block-start: calc(var(--b-size) / 2);
         padding: var(--main-gap);
         border-radius: 4px;
         background-color: var(--light-bg-color);
         color: var(--dark-text-color);
         text-decoration: none;
-
+        
         &::before {
+            --y-size: 12px;
             content: "";
             position: absolute;
-            top: calc(var(--b-size) * -0.3);
-            left: calc(var(--b-size) * 0.3);
+            top: calc(var(--y-size) * -1);
+            left: calc(var(--y-size) * 1);
             display: block;
-            width: var(--b-size);
-            height: var(--b-size);
+            width: 50%;
+            height: calc(var(--y-size) * 2);
             background-color: inherit;
-            // filter: brightness(90%);
-            border-radius: 50%;
+            border-top-left-radius: var(--y-size);
+            border-top-right-radius: var(--y-size);
         }
 
         &__title {
@@ -53,6 +53,7 @@
             width: 60%;
             aspect-ratio: 3/2;
             margin-inline: auto;
+            margin-block-end: var(--main-gap);
             background-color: #ddd;
             object-fit: cover;
         }
