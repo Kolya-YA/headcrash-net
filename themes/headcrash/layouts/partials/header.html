@@ -1,7 +1,7 @@
 <header class="header">
     <div class="width-wrapper">
         <div class="header__block">
-            <a {{ if not .IsHome }}href="/"{{ end }}class="header__logo">
+            <a {{ if not .IsHome }}href="{{ site.Home.RelPermalink }}"{{ end }}class="header__logo">
                 {{ partial "logo-svg" }}
                 <div class="header__logo-name">{{ .Site.Title }}</div>
             </a>
