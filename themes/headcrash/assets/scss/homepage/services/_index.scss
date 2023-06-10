@@ -1,12 +1,10 @@
 .services {
-    padding-block-start: var(--main-gap);
-    padding-block-end: calc(var(--main-gap) * 2);
+    padding-block: var(--main-gap);
     background-color: var(--dark-bg-color);
     color: var(--light-text-color);
     
     &__list {
-        margin-block-start: var(--main-gap);
-        margin-block-end: 0;
+        margin-block: var(--main-gap);                       
         padding: 0;
         list-style: none;
         display: grid;
@@ -22,9 +20,10 @@
         height: 100%;
         padding: var(--main-gap);
         border-radius: 4px;
-        background-color: var(--light-bg-color);
         color: var(--dark-text-color);
         text-decoration: none;
+        background-color: var(--light-bg-color);
+        transition: background-color 300ms;
         
         &::before {
             --y-size: 12px;
@@ -60,6 +59,11 @@
 
         &__text {
 
+        }
+
+        &:hover,
+        &:focus-visible {
+            background-color: var(--light-bg-color-dark);
         }
     }
 }

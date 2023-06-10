@@ -21,6 +21,7 @@
         border-radius: 4px;
         color: var(--dark-text-color);
         text-decoration: none;
+        transition: background-color 300ms, color 300ms;
 
         &__title {
             margin-block-start: calc(var(--main-gap) / 2);
@@ -35,6 +36,11 @@
             font-size: .9rem;
         }
 
+        &:hover,
+        &:focus-visible {
+            background-color: var(--light-bg-color-dark);
+        }
+
         &:has(:only-child) {
             grid-template-rows: auto;
             place-content: center;
@@ -45,7 +51,15 @@
                 text-align: center;
                 text-wrap: balance;
             }
+
+            &:hover,
+            &:focus-visible {
+                background-color: var(--dark-bg-color-light);
+                color:var(--dark-bg-color-dark);
+            }
         }
+
+
 
     }
 }
