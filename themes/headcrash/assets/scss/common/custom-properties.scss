@@ -1,20 +1,28 @@
 :root {
     /* Colors */
-    --accent-color: #5cb931;
+    --accent-color-dark: hsl(101, 58%, 26%);
     --accent-color: hsl(101, 58%, 46%);
-    --light-bg-color: hsl(94, 73%, 96%);
-    --light-bg-color: hsl(94, 73%, 98%);
-    --dark-bg-color: #414a3b;
-    --dark-bg-color: hsl(94, 11%, 26%);
+    --accent-color-light: hsl(101, 58%, 66%);
+    
+    --link-color-dark: hsl(240, 33%, 50%);
     --link-color: hsl(240, 33%, 70%);
-    --link-color: oklch(70% 0.07 284);
+    --link-color-light: hsl(240, 33%, 90%);
+    
+    --dark-bg-color-dark: hsl(94, 11%, 6%);
+    --dark-bg-color: hsl(94, 11%, 26%);
+    --dark-bg-color-light: hsl(94, 11%, 46%);
+    
+    --light-bg-color-dark: hsl(94, 73%, 78%);
+    --light-bg-color: hsl(94, 73%, 98%);
+    --light-bg-color-light: hsl(94, 73%, 100%);
+
     --light-text-color: #EEE;
     --dark-text-color: #333;
 
     --ff-main: "Exo", Arial, Helvetica, sans-serif;
     // --ff-accent: "Fira Code", "Courier New", Courier, monospace;
     --ff-accent: "Courier New", Courier, monospace;
-    --ff-mono: "Exo", Arial, Helvetica, sans-serif;
+    --ff-mono: "Courier New", Courier, monospace;
     
     /* font-sizes */
     --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
