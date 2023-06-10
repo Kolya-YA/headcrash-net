@@ -4,6 +4,8 @@
     <div class="single">
         <main class="single__main">
             <article>
+                {{ partial "back-to-section.html" . }}
+
                 {{ with $singleBg }}
                     {{ $bgimg := .Resize "600x webp q30" }}
                 <h1 class="single__header single__header--bg"
@@ -15,6 +17,7 @@
                     {{ .Title }}
                 </h1>
                 {{ end }}
+                
                 {{ .Content }}
             </article>
             <h5 class="meta">
