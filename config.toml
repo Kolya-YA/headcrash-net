@@ -18,10 +18,3 @@ disableKinds = ["taxonomy", "term"]
     ]
     
     heroBackground = "59.jpg"
-
-
-[menu]
-    [[menu.info]]
-        name = "Kontakt"
-        weight = 200
-        url = "#"
