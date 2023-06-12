@@ -39,19 +39,19 @@ price:
         text: "Wir leisten einen 24 Std.-Service für alle Datenrettungen im Express-Service auch am Wochenende. Nach Eingang Ihrer Datenträger arbeiten wir rund um die Uhr, um eine schnelle und vollständige Wiederherstellung Ihrer Daten zu gewährleisten."
 ---
 
-## Kostenlose Schadendiagnose
+### Kostenlose Schadendiagnose
 
 Die Geräte und Betriebssysteme, an denen man zu Hause oder in der PC-Werkstatt Festplatten testet, sind für die Arbeit mit einwandfrei funktionierender Hardware gedacht und nicht für Fehlerdiagnostik. Die Tools, die Oberflächenscan durchführen, können zum Beispiel defekte Sektoren von defekten Köpfen nicht unterscheiden. Bei uns wird die Festplatte für kurze Zeit an eine Spezialstation angeschlossen, der interne Initialisierungsvorgang verfolgt und der Schaden grob definiert. Dieser Test dauert in der Regel **ein paar Minuten**. Bei Hardwaredefekten sagt uns der Test über den Zustand der Festplatte mehr, als die ganzen Beschreibungen, wie sich die Festplatte an verschiedenen Rechnern, USB-Gehäusen, Betriebssystemen und SMART verhält. Nach dem Ergebnis werden weitere Schritte unternommen. Der Kunde erhält nach der Diagnostik die Liste der wiederherstellbaren Daten erstmal nicht. Die Liste bekommt der Kunde, wenn die Datenrettung abgeschlossen ist. Nach einer abgeschlossenen Datenrettung ist es möglich, auch eine verlässliche Aussage über die Qualität der geretteten Daten zu machen.
 
 Die Festplatte ist ein kleiner Computer. Genauso wie ein Computer, hat eine Festplatte einen Prozessor, einen Speicher und ein Betriebssystem (Microcode). Der Microcode ist in der Lage, eine Fehleranaylse durchzuführen und zu protokolieren. Ein Großteil davon bleibt nur für den Hersteller der Hardware durch bestimmte Kommunikationsports und Schnittstellen sichtbar. Leider werden die Technologien bei den Festplattenherstellern streng intern gehalten und sind für den Großteil der Datenretter nicht verfügbar. **Deswegen sind nur wenige Datenrettungs-Unternehmen in der Lage, die Diagnose kostenlos und innerhalb weniger Stunden durchzuführen.** Durch fachliche Kooperation mit spezialisierten Entwicklungsfirmen, Herstellern und wissenschaftlichen Einrichtungen auf internationaler Ebene, besitzen wir diese Kommunikationstechnologien. Durch Kommunikationsports und Schnittstellen können wir mehrere Festplatten **ohne IDE/SATA und SCSI Anschluß sowohl diagnostizieren, als auch eine Datenrettung durchführen!**
 
-## NO DATA — NO FEE! Keine Datenrettung — keine Kosten!
+### NO Data — NO Fee! Keine Datenrettung — keine Kosten&excl;
 
-### HDDLab ist darauf spezialisiert, die Daten von physisch und elektronisch beschädigten Festplatten zu retten.Die Diagnose ist grundsätzlich kostenlos
+#### HDDLab ist darauf spezialisiert, die Daten von physisch und elektronisch beschädigten Festplatten zu retten.Die Diagnose ist grundsätzlich kostenlos
 
 Der Preis für eine Datenrettung bestimmt sich durch die Art des Defektes und die Speichergröße des Datenträgers. Falls die Diagnose ergeben hat, dass die Datenrettung zu einem Preis **bis 300 EUR** erledigt werden kann, so gilt der Auftrag als erteilt und die Datenrettung **wird OHNE zusätzliche Rücksprache mit dem Kunden gemacht**. In allen anderen Fällen bekommt der Kunde einen Kostenvoranschlag in der Regel **innerhalb von 4 Stunden** nach Erhalt des Datenträgers. Eventuell fallen zu den Preisen noch Kosten für einen baugleichen Datenträger zu marktüblichen Preisen an, die unabhängig vom Erfolg bezahlt werden müssen, sowie die Versandkosten in der Höhe von 4,50 Euro.
 
-### Preisbeispiele
+#### Preisbeispiele
 
 - **Festplatte** mit defekter Elektronik: Diagnose kostenlos, 357 EUR Datenrettung + 4,50 Versandkosten = 361,50 EUR inkl. MwSt.
 - **Speicherkarte** mit gelöschten Bildern: Diagnose kostenlos, 160 EUR Datenrettung + 4,50 Versandkosten = 164,50 EUR inkl. MwSt.
@@ -60,7 +60,7 @@ Der Preis für eine Datenrettung bestimmt sich durch die Art des Defektes und di
 
 **Falls die Diagnose ergeben hat, dass die Daten nicht zu retten sind, so entstehen für den Kunden KEINE Kosten.**
 
-### Warum sind Sie so günstig?
+#### Warum sind Sie so günstig?
 
 Wir halten unsere Preise europaweit immer auf dem niedrigsten Stand, indem wir Arbeitsprozesse optimieren. Wir verwenden eigene, innovative Techniken und gelangen dadurch oft schneller an die Daten des Kunden. An diesen Techniken arbeiten wir zusammen mit anderen Datenrettungsspezialisten weltweit. Unser Wissen über technische Eigenschaften verschiedener Modelle, Revisionen, Reihen und deren Kompatibilität ermöglicht es uns, Datenrettungsprozesse effektiver zu gestalten und viele Fälle als Standardrettung zu bearbeiten.
 
