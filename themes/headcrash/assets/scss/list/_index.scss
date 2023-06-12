@@ -1,5 +1,5 @@
 .list {
-    margin-block-start: var(--main-gap);
+    margin-block-start: calc(var(--main-gap) * 2);
     display: flex;
     flex-wrap: wrap;
     // grid-template-columns: minmax(74ch, 1fr) 1fr;
@@ -30,7 +30,34 @@
     
     &__aside {
         flex: 1;
-        background-color: #aaa2;
+        // background-color: #aaa2;
+
+        .pages-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            &__item {
+
+            }
+            
+            &__link {
+                display: block;
+                margin-block-end: var(--main-gap);
+                padding-inline: calc(var(--main-gap) * 1.5);
+                padding-block: calc(var(--main-gap) / 2);
+                background-color: var(--light-bg-color-light);
+                border-radius: 3px;
+                box-shadow: var(--box-shadow);
+                text-decoration: none;
+                color: var(--dark-text-color);
+                transition: background-color 300ms ease;
+
+                &:is(:hover, :focus-visible) {
+                    background-color: var(--link-color-light);
+                }
+            }
+        }
     }
 
 }
