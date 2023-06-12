@@ -1,0 +1,17 @@
+{{ $headless := site.GetPage "/headless" }}
+{{ with $headless.Resources.GetMatch .  }}
+<section class="price">
+    <h2>{{ .Title }}</h2>
+    <ul>
+        {{ range .Params.price }}
+        <li>
+            <h3>{{ .title }}</h3>
+            <div>{{ .cost }}</div>
+            <div>bis {{ .duration }}</div>
+            <div>{{ .text | markdownify }}</div>
+        </li>
+        {{ end }}
+    </ul>
+    {{ .Content }}
+</section>
+{{ end }}

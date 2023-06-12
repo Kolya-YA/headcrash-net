@@ -16,10 +16,13 @@
                 </h1>
                 {{ end }}
                 {{ .Content }}
+                <h5 class="meta">
+                    {{ .Date.Format "02.01.2006" }} | {{ .WordCount }} Words
+                </h5>
             </article>
-            <h5 class="meta">
-                {{ .Date.Format "02.01.2006" }} | {{ .WordCount }} Words
-            </h5>
+            {{ with .Params.Price }}
+                {{ partial "price-section" . }}
+            {{ end }}
         </main>
         <aside class="list__aside">
             <ul>
