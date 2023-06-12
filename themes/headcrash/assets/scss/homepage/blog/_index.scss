@@ -17,6 +17,7 @@
         grid-template-rows: auto 1fr auto;
         height: 100%;
         padding: var(--main-gap);
+        background-color: var(--light-bg-color-light);
         border: 3px solid var(--dark-bg-color);
         border-radius: 4px;
         color: var(--dark-text-color);
@@ -36,26 +37,24 @@
             font-size: .9rem;
         }
 
-        &:hover,
-        &:focus-visible {
-            background-color: var(--light-bg-color-dark);
+        &:is(:hover, :focus-visible) {
+            background-color: var(--link-color-light);
         }
-
+        
         &:has(:only-child) {
             grid-template-rows: auto;
             place-content: center;
-            background-color: var(--dark-bg-color);
+            background-color: var(--dark-bg-color-light);
             color: var(--light-text-color);
-
+            
             h3 {
                 text-align: center;
                 text-wrap: balance;
             }
-
-            &:hover,
-            &:focus-visible {
-                background-color: var(--dark-bg-color-light);
-                color:var(--dark-bg-color-dark);
+            
+            &:is(:hover, :focus-visible)  {
+                background-color: var(--link-color-light);
+                color:var(--dark-text-color);
             }
         }
 

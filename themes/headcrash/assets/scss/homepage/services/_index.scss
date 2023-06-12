@@ -1,6 +1,6 @@
 .services {
     padding-block: var(--main-gap);
-    background-color: var(--dark-bg-color);
+    background-color: var(--dark-bg-color-light);
     color: var(--light-text-color);
     
     &__list {
@@ -22,7 +22,7 @@
         border-radius: 4px;
         color: var(--dark-text-color);
         text-decoration: none;
-        background-color: var(--light-bg-color);
+        background-color: var(--light-bg-color-light);
         transition: background-color 300ms;
         
         &::before {
@@ -61,9 +61,8 @@
 
         }
 
-        &:hover,
-        &:focus-visible {
-            background-color: var(--light-bg-color-dark);
+        &:is(:hover, :focus-visible) {
+            background-color: var(--link-color-light);
         }
     }
 }

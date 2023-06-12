@@ -16,8 +16,12 @@
     --light-bg-color: hsl(94, 73%, 98%);
     --light-bg-color-light: hsl(94, 73%, 100%);
 
-    --light-text-color: hsl(0, 0%, 93%);
+    --light-text-color: hsl(0, 0%, 98%);
     --dark-text-color: hsl(0, 0%, 20%);
+
+    --dark-bg-gradient: radial-gradient(
+        farthest-corner circle at 9% 73%, #414a3b 5% 5%, 89%, #748268 100%
+    );
 
     --box-shadow: 
         rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 

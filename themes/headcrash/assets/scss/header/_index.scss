@@ -49,7 +49,7 @@
             }
         
             svg {
-                stroke: var(--light-bg-color);
+                // stroke: var(--light-bg-color);
             }
         }
         
@@ -90,12 +90,12 @@
                 display: block;
                 padding: 0.6em;
                 color: inherit;
-                transition: background-color 0.3s linear, color 0.3s linear;
-                border-bottom: var(--desktop-border, 2px solid var(--btn-grey));
-        
-                &:hover,
-                &:focus-visible {
-                    color: var(--accent-color);
+                border-bottom: 4px solid transparent;
+                transition: border-color 600ms ease, color 300ms ease;
+                
+                &:is(:hover, :focus-visible) {
+                    color: var(--link-color);
+                    border-color: 2px solid var(--link-color);
                 }
             }
         
