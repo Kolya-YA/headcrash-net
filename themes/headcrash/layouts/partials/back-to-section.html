@@ -1,5 +1,5 @@
-{{if (.CurrentSection.IsHome) }}
-    isHome
-{{ else }}
-    <a href="{{ .CurrentSection.RelPermalink }}"><—— {{ .CurrentSection.Name }}</a>
+{{if not (.CurrentSection.IsHome) }}
+    <a href="{{ .CurrentSection.RelPermalink }}">
+        ⇐ {{ .CurrentSection.Name }}
+    </a>
 {{ end }}

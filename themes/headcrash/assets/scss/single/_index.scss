@@ -15,8 +15,9 @@
         &--bg {
             margin: 0;
             min-height: 8em;
-            background-color: var(--dark-bg-color);
-            background-image: var(--single-bg-image);
+            background: 
+                var(--single-bg-image),
+                var(--dark-bg-gradient, var(--dark-bg-color));
             background-blend-mode: overlay;
             background-repeat: no-repeat;
             background-size: cover;
