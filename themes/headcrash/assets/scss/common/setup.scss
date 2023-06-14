@@ -49,6 +49,10 @@ svg {
     max-width: 100%;
 }
 
+a {
+    color: var(--link-color-dark);
+}
+
 .width-wrapper {
     max-width: calc(min(1280px, 100vw));
     min-width: 360px;
