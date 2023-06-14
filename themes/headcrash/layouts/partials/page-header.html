@@ -1,0 +1,22 @@
+{{- $listBg := .Resources.GetMatch .Params.cover_img -}}
+{{- with $listBg }}
+    {{- $bgimg := .Resize "600x webp q30" -}}
+    <header
+        class="page-header page-header--bg"
+        style="--page-header-bg-image: url('{{ $bgimg.RelPermalink }}');">
+{{- else }}
+    <header class="page-header">
+{{- end }}
+    <div class="page-header__top">
+        <div class="page-header__back-to-section">
+            {{/*  {{ partial "back-to-section" page }}  */}}
+        </div>
+    {{- with .Params.Price }}
+        {{ $headless := site.GetPage "/headless" }}
+        {{- with $headless.Resources.GetMatch .  }}
+            <a class="page-header__price-link" href="#price">{{ .Title }}</a>
+        {{- end -}}
+    {{- end }}
+    </div>
+    <h1 class="page-header__title">{{ .Title }}</h1>
+</header>

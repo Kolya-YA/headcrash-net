@@ -1,20 +1,9 @@
 {{ define "main" }}
-{{ $listBg := .Resources.GetMatch .Params.cover_img }}
 <div class="width-wrapper">
     <div class="list">
         <main class="list__main">
             <article>
-                {{ with $listBg }}
-                    {{ $bgimg := .Resize "600x webp q30" }}
-                <h1 class="list__header list__header--bg"
-                    style="--header-bg-image: url('{{ $bgimg.RelPermalink }}');">
-                    {{ $.Title }}
-                </h1>
-                {{ else }}            
-                <h1 class="list__header">
-                    {{ .Title }}
-                </h1>
-                {{ end }}
+                {{ partial "page-header" . }}
                 {{ .Content }}
             </article>
             <h5 class="meta">

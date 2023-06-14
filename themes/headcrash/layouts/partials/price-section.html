@@ -1,6 +1,6 @@
 {{ $headless := site.GetPage "/headless" }}
 {{ with $headless.Resources.GetMatch .  }}
-<section class="price">
+<section class="price" id="price">
     <h2 class="prise__title">{{ .Title }}</h2>
     <ul class="price__list">
         {{ range .Params.price }}

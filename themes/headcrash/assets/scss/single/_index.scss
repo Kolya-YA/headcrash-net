@@ -1,8 +1,7 @@
 .single {
-    margin-block-start: var(--main-gap);
+    margin-block-start: calc(var(--main-gap) * 2);
     display: flex;
     flex-wrap: wrap;
-    // grid-template-columns: minmax(74ch, 1fr) 1fr;
     gap: calc(var(--main-gap) * 2);
 
     &__main {
@@ -31,7 +30,6 @@
     
     &__aside {
         flex: 1;
-        background-color: #aaa2;
     }
 
 }

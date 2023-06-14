@@ -1,23 +1,10 @@
 {{ define "main" }}
-{{ $singleBg := .Resources.GetMatch .Params.cover_img }}
 <div class="width-wrapper">
     <div class="single">
         <main class="single__main">
             <article>
                 {{ partial "back-to-section.html" . }}
-
-                {{ with $singleBg }}
-                    {{ $bgimg := .Resize "600x webp q30" }}
-                <h1 class="single__header single__header--bg"
-                    style="--single-bg-image: url('{{ $bgimg.RelPermalink }}');">
-                    {{ $.Title }}
-                </h1>
-                {{ else }}            
-                <h1 class="single__header">
-                    {{ .Title }}
-                </h1>
-                {{ end }}
-                
+                {{ partial "page-header" . }}                
                 {{ .Content }}
             </article>
             <h5 class="meta">
