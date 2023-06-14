@@ -95,10 +95,15 @@
                 
                 &:is(:hover, :focus-visible) {
                     color: var(--link-color);
-                    border-color: 2px solid var(--link-color);
                 }
+                
             }
-        
+            
+            &-item--active > a {
+                color: var(--link-color-light);
+                border-color: 2px solid var(--link-color-light);
+            }
+
             &.header__nav--open {
                 visibility: visible;
                 transform: none;

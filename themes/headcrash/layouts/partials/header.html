@@ -38,9 +38,10 @@
                 <ul class="header__nav-list" role="list">
                     {{ $top := .Site.Menus.top }}
                     {{ $info := .Site.Menus.info }}
-                    {{ $bigmenu := $top | append $info}}
-                    {{ range $bigmenu }}
-                    <li class="header__nav-item">
+                    {{ $headermenu := $top | append $info}}
+                    {{ range $headermenu }}
+                    {{ $active := or (page.IsMenuCurrent "top" . ) (page.IsMenuCurrent "info" . )}}
+                    <li class="header__nav-item{{ if $active }} header__nav-item--active{{ end }}">
                         <a href="{{ .URL }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
