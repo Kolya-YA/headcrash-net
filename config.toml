@@ -9,12 +9,17 @@ disableKinds = ["taxonomy", "term"]
     logoName = "Logo name"
     email = "dr-hdd@headcrash.net"
     phone = "+49 (0) 30 333 222 333"
+    phones = [
+        "+49 30 417 25 045",
+        "0800-433-5-222"
+    ]
     address = [
-        "Steindorff Passage",
-        "Hauptstraße 2",
+        "HDDLab / XDatenrettung",
+        "Danziger str. 78a",
         "10405 Berlin",
         "Deutschland",
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
+    route = "google map route url"
     
     heroBackground = "59.jpg"

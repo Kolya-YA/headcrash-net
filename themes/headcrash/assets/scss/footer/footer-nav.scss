@@ -1,0 +1,22 @@
+.footer {
+    
+    .footer-nav {
+        padding: 0;
+        list-style: none;
+    
+        &__link {
+            line-height: 2;
+            color: var(--light-bg-color);
+            transition: color 300ms linear;
+
+            &:is(:hover, :focus-visible) {
+                color: var(--link-color-light);
+            }
+
+    
+            &--active {
+                color: var(--link-color);
+            }
+        }
+    }
+}

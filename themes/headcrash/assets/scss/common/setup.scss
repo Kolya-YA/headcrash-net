@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+}
+
 html {
     // color-scheme: light dark;
     height: 100vh;
@@ -30,11 +34,10 @@ main {
 }
 
 /* Reset margins */
-h1, h2, h3, h4, h5,
+h1, h2, h3, h4, h5, h6
 p,
 figure,
 picture {
-    margin: 0;
     margin-block-start: 1em;
 }
 

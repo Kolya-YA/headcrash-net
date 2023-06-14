@@ -1,11 +1,35 @@
 <footer class="footer">
     <div class="width-wrapper">
-        <div class="footer__block">
-            Footer
+        <div class="footer-inner">
+            <div class="footer__main">
+                <a class="footer__logo" href="{{ site.Home.RelPermalink }}">
+                    {{ partial "logo-svg" }}
+                    <h2>{{ site.Title }}</h2>
+                </a>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-part">
+                    {{ site.Params.email }}<br>
+                    {{ range site.Params.phones }}
+                    {{ . | markdownify }}<br>
+                    {{ end }}
+                    </div>
+                    <div class="footer__contacts-part">
+                        {{ range site.Params.address }}
+                        {{ . | markdownify }}<br>
+                        {{ end }}
+                    </div>
+                    <div class="footer__contacts-part">
+                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                            Eine Route zu uns bauen
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__navs">
+                {{ partial "footer/footer-nav.html" "top" }}
+                {{ partial "footer/footer-nav.html" "info" }}
+            </div>
         </div>
-        {{ partial "footer/footer-menu.html" "top" }}
-        {{ partial "footer/footer-menu.html" "info" }}
-        {{ partial "footer/footer-menu.html" "legal" }}
-        {{ partial "footer/footer-copyright"}}
     </div>
+    {{ partial "footer/footer-legal"}}
 </footer>

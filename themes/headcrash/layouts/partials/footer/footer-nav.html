@@ -1,0 +1,12 @@
+<ul class="footer-nav">
+    {{ $menuName := . }}
+    {{ range index site.Menus . }}
+    {{ $active := page.IsMenuCurrent $menuName . }}
+    <li class="footer-nav__item">
+        <a  class="footer-nav__link{{ if $active }} footer-nav__link--active{{ end }}"
+            href="{{ .URL }}">
+            {{ .Name }}
+        </a>
+    </li>
+    {{ end }}
+</ul>
