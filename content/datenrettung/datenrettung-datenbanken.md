@@ -2,6 +2,11 @@
 title: "Datenbanken"
 weight: 140
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 140
 ---
 
 ## Datenrettung von Datenbanken

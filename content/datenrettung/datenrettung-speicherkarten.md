@@ -2,6 +2,11 @@
 title: "Datenrettung SD Karte"
 weight: 30
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 30
 ---
 
 ## Datenrettung von Speicherkarten (SD Karten, CF Karten, MMC, …)

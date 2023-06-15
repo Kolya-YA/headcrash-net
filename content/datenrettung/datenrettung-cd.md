@@ -2,6 +2,11 @@
 title: "Datenrettung CD"
 weight: 90
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 90
 ---
 
 ### Datenrettung von CD’s

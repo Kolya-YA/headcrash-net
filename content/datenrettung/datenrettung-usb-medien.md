@@ -1,7 +1,12 @@
 ---
 title: "Datenrettung USB"
-weight: 180
+weight: 190
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 190
 ---
 
 ## Datenrettung von USB-Medien wie USB-Sticks, etc

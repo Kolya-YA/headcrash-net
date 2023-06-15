@@ -2,6 +2,11 @@
 title: "Datenrettung Server"
 weight: 100
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 100
 ---
 
 ## Datenrettung von Servern

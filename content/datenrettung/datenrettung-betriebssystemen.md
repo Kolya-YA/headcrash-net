@@ -2,6 +2,11 @@
 title: "Betriebssysteme"
 weight: 150
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 150
 ---
 
 ## Datenrettung von Betriebssystemen wie Windows, Linux, Mac OS

@@ -2,6 +2,11 @@
 title: "Datenrettung Bilder"
 weight: 80
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 80
 ---
 
 ### Datenrettung von Fotos und Bildern

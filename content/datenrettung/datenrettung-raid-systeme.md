@@ -2,6 +2,11 @@
 title: "Datenrettung RAID"
 weight: 20
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 20
 ---
 
 ## Datenrettung von RAID 0, 1, 2, 3, 4, 5 - 50

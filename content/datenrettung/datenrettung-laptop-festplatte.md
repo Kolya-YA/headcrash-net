@@ -2,6 +2,11 @@
 title: "Laptop Festplatte"
 weight: 170
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 170
 ---
 
 ## Datenrettung von Laptop Festplatten

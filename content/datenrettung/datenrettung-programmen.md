@@ -2,6 +2,11 @@
 title: "Programmen"
 weight: 160
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 160
 ---
 
 ## Datenrettung von Programmen

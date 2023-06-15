@@ -2,6 +2,11 @@
 title: "Mobile Datenträger"
 weight: 130
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 130
 ---
 
 ## Datenrettung von mobilen Datenträgern wie externe Festplatten

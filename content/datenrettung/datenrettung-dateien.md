@@ -2,6 +2,11 @@
 title: "Datenrettung Dateien"
 weight: 70
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 70
 ---
 
 ## Datenrettung von Dateien wie doc, xls oder mp3

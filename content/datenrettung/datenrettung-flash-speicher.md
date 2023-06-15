@@ -2,6 +2,11 @@
 title: "Datenrettung Flash"
 weight: 60
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 60
 ---
 
 ## Datenrettung von Flash-Speicher

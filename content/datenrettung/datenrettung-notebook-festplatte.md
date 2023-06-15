@@ -2,6 +2,11 @@
 title: "Datenrettung Notebook"
 weight: 110
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 110
 ---
 
 ## Datenrettung von Notebook HDD

@@ -2,6 +2,11 @@
 title: "Datenbänder (Tapes)"
 weight: 120
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenrettung
+      weight: 120
 ---
 
 ## Datenrettung von Datenbändern (Tapes)
