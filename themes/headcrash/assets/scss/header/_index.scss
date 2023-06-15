@@ -98,6 +98,82 @@
                 }
                 
             }
+
+            &-item--has-children {
+                position: relative;
+
+                .header__nav-sublist {
+                    position: absolute;
+                    z-index: 99;
+                    left: 0;
+                    // top: calc(100% + 5px);
+                    width: max-content;
+                    padding-block: var(--main-gap);
+                    padding-inline: calc(var(--main-gap) * 2);
+                    list-style: none;
+                    background-color: var(--light-bg-color);
+                    border-radius: var(--border-radius);
+                    box-shadow: var(--box-shadow);
+                    pointer-events: none;
+                    opacity: 0;
+                    transform: translateY(calc(var(--main-gap) * -1));
+                    transition:
+                        pointer-events 300ms 1s,
+                        opacity 300ms ease-in-out 300ms,
+                        transform 300ms ease-in-out 300ms;
+
+                    & a {
+                        color: var(--dark-text-color);
+                        text-decoration: none;
+                        line-height: 1.8;
+                        transition: color 300ms ease-in-out;
+
+                        &:is(:hover, :focus-visible) {
+                            color: var(--link-color);
+                        }
+                    }
+
+                    &:is(:hover, :focus-within) {
+                        pointer-events: all;
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                } 
+                
+                & > a::before {
+                    content: "\25b8";
+                    display: inline-block;
+                    margin-inline-end: 8px;
+                    transition: transform 300ms ease-in-out;
+                }
+                
+                & > a {
+
+                    &:is(:hover, :focus-visible) {
+                        
+                        &::before {
+                            transform: rotate(90deg);
+                        }
+
+                        & + .header__nav-sublist {
+                            pointer-events: all;
+                            opacity: 1;
+                            transform: translateY(0);
+                        }
+                    }
+                }
+
+                .header__nav-sublist {
+
+                    
+                    
+
+                    
+                }
+                
+            }
+
+
             
             &-item--active > a {
                 color: var(--link-color-light);

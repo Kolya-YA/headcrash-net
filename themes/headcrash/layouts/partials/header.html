@@ -40,9 +40,26 @@
                     {{ $info := .Site.Menus.info }}
                     {{ $headermenu := $top | append $info}}
                     {{ range $headermenu }}
-                    {{ $active := or (page.IsMenuCurrent "top" . ) (page.IsMenuCurrent "info" . )}}
-                    <li class="header__nav-item{{ if $active }} header__nav-item--active{{ end }}">
+                    {{
+                        $active := or 
+                        (or (page.IsMenuCurrent "top" . ) (page.IsMenuCurrent "info" . ))
+                        (or (page.HasMenuCurrent "top" . ) (page.HasMenuCurrent "info" . ))
+                    }}
+                    <li
+                        class="header__nav-item
+                        {{- if $active }} header__nav-item--active{{ end }}
+                        {{- if .HasChildren }} header__nav-item--has-children{{ end -}}
+                    ">
                         <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ with .Children }}
+                        <ul class="header__nav-sublist">
+                            {{ range . }}
+                            <li class="header__nav-subitem">
+                                <a href="{{ .URL }}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
                     </li>
                     {{ end }}
                 </ul>

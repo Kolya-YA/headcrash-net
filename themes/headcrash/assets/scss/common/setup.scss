@@ -21,6 +21,7 @@ body {
     min-height: 100vh;
     min-width: 360px;
     margin: 0;
+    overflow-x: hidden;
     font-family: var(--ff-main);
     font-size: var(--fs-500);
     line-height: 1.6;
@@ -60,6 +61,5 @@ a {
     max-width: calc(min(1280px, 100vw));
     min-width: 360px;
     margin-inline: auto;
-    overflow: hidden;
     padding-inline: var(--main-gap);
 }
