@@ -1,5 +1,5 @@
 ---
-title: "Festplattenvernichtung"
+title: "Datenträgervernichtung"
 date: 2023-06-01
 cover_img: "57.jpg"
 
@@ -10,7 +10,8 @@ menu:
 
 ## Sichere, umweltfreundliche und kostenlose Festplattenvernichtung
 <!--more-->
-In den letzten Jahren stieg die Produktion bei Speichermedien enorm, wie z. B. bei Festplatten und USB-Sticks. <!--more-->Zudem ist der Bedarf an Datenspeicher weltweit stark angestiegen.Wohin aber mit den alten Festplatten.Wie kann man am sichersten und umweltfreundlichsten die alten oder auch defekten Festplatten entsorgen?
+
+In den letzten Jahren stieg die Produktion bei Speichermedien enorm, wie z. B. bei Festplatten und USB-Sticks. Zudem ist der Bedarf an Datenspeicher weltweit stark angestiegen.Wohin aber mit den alten Festplatten.Wie kann man am sichersten und umweltfreundlichsten die alten oder auch defekten Festplatten entsorgen?
 
 Am häufigsten wird die Festplattenvernichtung mit dem Schredder angeboten. Der Schredder ist ein mechanisches Gerät zum Zerkleinern von verschiedenen Materialien. Jede Festplatte enthält unterschiedliche Wertmetalle wie z.B. Aluminium, Stahl, Gold und Kupfer. Beim Zerschreddern einer Festplatte ist der  Rohstoffgewinn deutlich komplizierter und verbraucht mehr Energie, da die Wertmetalle sich vermischen. FestplattenvernichtungEine umweltfreundliche Alternative von Festplattenvernichtung wäre es, die Festplatte vor dem Zerschreddern in alle Einzelteile zu zerlegen und nach Metallsorten zu sortierten. Dieses Verfahren der Festplattenvernichtung stellt einen leichteren Weg zur Wertmetallgewinn dar.
 
