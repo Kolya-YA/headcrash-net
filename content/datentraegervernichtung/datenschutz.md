@@ -2,6 +2,11 @@
 title: "Datenschutz"
 weight: 30
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 30
 ---
 
 ## Totam, quos commodi&excl;

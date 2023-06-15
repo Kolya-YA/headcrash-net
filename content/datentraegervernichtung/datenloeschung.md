@@ -2,6 +2,12 @@
 title: "Datenlöschung"
 weight: 70
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      identifier: Datenträgervernichtung-inner
+      weight: 70
 ---
 
 ## At, minus non&excl;

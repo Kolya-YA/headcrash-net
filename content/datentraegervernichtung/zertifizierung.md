@@ -2,6 +2,11 @@
 title: "Zertifizierung"
 weight: 100
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 100
 ---
 
 ## A, natus assumenda&excl;

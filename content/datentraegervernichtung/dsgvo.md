@@ -2,6 +2,11 @@
 title: "DSGVO"
 weight: 90
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 90
 ---
 
 ## A, odio officia

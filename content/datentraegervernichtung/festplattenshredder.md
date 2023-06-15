@@ -2,6 +2,11 @@
 title: "Festplattenshredder"
 weight: 50
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 60
 ---
 
 ## Saepe, voluptates quam

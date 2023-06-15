@@ -2,6 +2,11 @@
 title: "Wertmetall gewinn"
 weight: 120
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 120
 ---
 
 ## Nesciunt, qui quam?

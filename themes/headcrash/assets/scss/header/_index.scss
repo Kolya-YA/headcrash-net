@@ -118,7 +118,7 @@
                     opacity: 0;
                     transform: translateY(calc(var(--main-gap) * -1));
                     transition:
-                        pointer-events 300ms 1s,
+                        // pointer-events 300ms 1s,
                         opacity 300ms ease-in-out 300ms,
                         transform 300ms ease-in-out 300ms;
 

@@ -2,6 +2,11 @@
 title: "Festplattenvernichtung"
 weight: 10
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 10
 ---
 
 ## Error, dicta mollitia

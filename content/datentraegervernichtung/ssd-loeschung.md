@@ -2,6 +2,11 @@
 title: "SSD Löschung"
 weight: 80
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 80
 ---
 
 ## Mollitia, obcaecati perferendis?

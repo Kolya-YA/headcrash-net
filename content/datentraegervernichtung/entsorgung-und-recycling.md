@@ -2,6 +2,11 @@
 title: "Entsorgung und Recycling"
 weight: 110
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 110
 ---
 
 ## Facilis, ipsum quia

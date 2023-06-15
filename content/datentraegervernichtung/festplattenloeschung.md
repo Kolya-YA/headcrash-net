@@ -2,6 +2,11 @@
 title: "Festplattenlöschung"
 weight: 60
 date: 2023-06-01
+
+menu:
+  top:
+      parent: Datenträgervernichtung
+      weight: 60
 ---
 
 ## Quod, officiis laboriosam&excl;
