@@ -106,24 +106,26 @@
                     position: absolute;
                     z-index: 99;
                     left: 0;
-                    // top: calc(100% + 5px);
+                    top: calc(100% - 4px);
                     width: max-content;
                     padding-block: var(--main-gap);
                     padding-inline: calc(var(--main-gap) * 2);
                     list-style: none;
                     background-color: var(--light-bg-color);
-                    border-radius: var(--border-radius);
+                    background-color: var(--dark-bg-color);
+                    border-bottom-left-radius: var(--border-radius);
+                    border-bottom-right-radius: var(--border-radius);
                     box-shadow: var(--box-shadow);
                     pointer-events: none;
                     opacity: 0;
-                    transform: translateY(calc(var(--main-gap) * -1));
-                    transition:
-                        // pointer-events 300ms 1s,
-                        opacity 300ms ease-in-out 300ms,
-                        transform 300ms ease-in-out 300ms;
+                    // transform: translateY(calc(var(--main-gap) * -1));
+                    // transition:
+                    //     opacity 300ms ease-in-out 300ms,
+                    //     transform 300ms ease-in-out 300ms;
 
                     & a {
-                        color: var(--dark-text-color);
+                        // color: var(--dark-text-color);
+                        color: inherit;
                         text-decoration: none;
                         line-height: 1.8;
                         transition: color 300ms ease-in-out;
@@ -136,7 +138,7 @@
                     &:is(:hover, :focus-within) {
                         pointer-events: all;
                         opacity: 1;
-                        transform: translateY(0);
+                        // transform: translateY(0);
                     }
                 } 
                 
@@ -161,16 +163,7 @@
                             transform: translateY(0);
                         }
                     }
-                }
-
-                .header__nav-sublist {
-
-                    
-                    
-
-                    
-                }
-                
+                }                
             }
 
 
