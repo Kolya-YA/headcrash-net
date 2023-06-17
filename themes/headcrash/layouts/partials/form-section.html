@@ -1,0 +1,38 @@
+{{ $headless := site.GetPage "/headless" }}
+{{ with $headless.Resources.GetMatch .  }}
+<section class="form">
+    <h3 class="form__title">{{ .Title }}</h3>
+    <form action="">
+        {{ range sort .Params.Form "weight" }}
+        <label>
+            {{ if eq .type "textarea" }}
+            {{ .label | markdownify }}
+            <textarea
+            name="{{ .name }}"
+            type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
+            {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
+            {{ with .placeholder }} placeholder="{{ . }}"{{ end}}
+            {{ if .req }} required{{ end }}
+            ></textarea>
+            {{ else if eq .type "checkbox" }}
+            <input
+                type="checkbox" name=""
+                {{ if .req }} required{{ end }}
+            >
+            {{ .label | markdownify }}
+            {{ else }}
+            {{ .label | markdownify }}
+            <input
+                name="{{ .name }}"
+                type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
+                {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
+                {{ with .placeholder }} placeholder="{{ . }}"{{ end}}
+                {{ if .req }} required{{ end }}
+            >
+            {{ end }}
+        </label><br>
+        {{ end }}
+        <button type="submit">{{ .Params.SendBtn.Text }}</button>
+    </form>
+</section>
+{{ end }}

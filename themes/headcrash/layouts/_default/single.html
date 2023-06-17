@@ -10,18 +10,12 @@
             <h5 class="meta">
                 {{ .Date.Format "02.01.2006" }} | {{ .WordCount }} Words
             </h5>
+            {{ with .Params.Form }}
+                {{ partial "form-section" . }}
+            {{ end }}
         </main>
         <aside class="single__aside">
             {{ partial "homepage/services" . }}
-            <div>
-                {{ with .PrevInSection }}
-                <a class="previous" href="{{ .Permalink }}"> {{ .Title }}</a>
-                {{ end }}
-                
-                {{ with .NextInSection }}
-                <a class="next" href="{{ .Permalink }}"> {{ .Title }}</a>
-                {{ end }}
-            </div>
         </aside>
     </div>
 </div>

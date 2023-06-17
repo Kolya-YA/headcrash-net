@@ -9,8 +9,6 @@ menu:
       weight: 10
 ---
 
-Datenrettung Festplatte
-
 ### Festplattenrettung bei Festplattencrash und Datenverlust
 
 Datenrettung FestplattenDie elektronische Datenverarbeitung ist eine der größten Errungenschaften unserer Zeit – falls sie reibungslos funktioniert. Aber was tut man, wenn die auf der Festplatte gespeicherten Informationen plötzlich nicht mehr zugänglich sind und wichtige Datensätze verloren sind? Dann nur nicht auch noch die Nerven verlieren, denn für solche Fälle gibt es kompetente Hilfe. Auf Datenverlust spezialisierte Experten sind in der Lage, schnell und unkompliziert verschwundene Speicherungen zu retten. Gelöschte oder beschädigte Daten können in den meisten Fällen zurückgeholt werden und unlesbar gewordene Speicherinformationen lassen sich wiederherstellen. Die **Datenrettung einer Festplatte** bezieht sich sowohl auf Dateien, als auch auf ganze Programme und Systeme. Neben einzelnen Festplatten lassen sich auch Festplattenverbunde wie Raid-Systeme und Server der Rekonstruktion unterziehen.
