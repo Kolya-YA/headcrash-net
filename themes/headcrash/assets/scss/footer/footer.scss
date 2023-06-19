@@ -1,10 +1,10 @@
 .footer {
-    --top-cut: 30px;
-    min-height: 12rem;
+    --top-cut: 1rem;
+    // min-height: 12rem;
     background: var(--dark-bg-gradient);
     margin-block-start: calc(var(--top-cut) + var(--main-gap));
     padding-block-start: calc(var(--top-cut) + var(--main-gap));
-    clip-path: polygon(0 var(--top-cut), 100% 0, 100% 100%, 0 100%);
+    // clip-path: polygon(0 var(--top-cut), 100% 0, 100% 100%, 0 100%);
     color: var(--light-bg-color);
     
     .footer-inner {
