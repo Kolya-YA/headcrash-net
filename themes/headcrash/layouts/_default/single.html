@@ -4,7 +4,7 @@
         <main class="single__main">
             <article>
                 {{ partial "back-to-section.html" . }}
-                {{ partial "page-header" . }}                
+                {{ partial "page-header" . }}        
                 {{ .Content }}
             </article>
             {{ with .Params.Form }}
@@ -12,7 +12,14 @@
             {{ end }}
         </main>
         <aside class="single__aside">
-            {{ partial "homepage/services" . }}
+            <div class="stk">
+
+                {{ if .Params.toc }}
+                <h3>Alphabetischer Index</h3>
+                {{ .TableOfContents }}
+                {{ end }}
+                {{ partial "homepage/services" . }}
+            </div>
         </aside>
     </div>
 </div>

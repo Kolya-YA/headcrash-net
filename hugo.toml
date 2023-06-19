@@ -23,3 +23,7 @@ disableKinds = ["taxonomy", "term"]
     route = "google map route url"
     
     heroBackground = "59.jpg"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2

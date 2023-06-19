@@ -57,9 +57,14 @@ a {
     color: var(--link-color-dark);
 }
 
+::marker {
+    color: var(--accent-color);
+}
+
 .width-wrapper {
     max-width: calc(min(1280px, 100vw));
     min-width: 360px;
     margin-inline: auto;
     padding-inline: var(--main-gap);
 }
+
