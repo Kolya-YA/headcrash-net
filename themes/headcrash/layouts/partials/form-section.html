@@ -4,10 +4,10 @@
     <h3 class="form__title">{{ .Title }}</h3>
     <form action="">
         {{ range sort .Params.Form "weight" }}
-        <label>
+        <label class="form__label">
             {{ if eq .type "textarea" }}
-            {{ .label | markdownify }}
-            <textarea
+            <span>{{ .label | markdownify }}</span>
+            <textarea class="form__input"
             name="{{ .name }}"
             type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
             {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
@@ -15,14 +15,14 @@
             {{ if .req }} required{{ end }}
             ></textarea>
             {{ else if eq .type "checkbox" }}
-            <input
+            <input class="form__input"
                 type="checkbox" name=""
                 {{ if .req }} required{{ end }}
             >
-            {{ .label | markdownify }}
+            <span>{{ .label | markdownify }}</span>
             {{ else }}
-            {{ .label | markdownify }}
-            <input
+            <span>{{ .label | markdownify }}</span>
+            <input class="form__input"
                 name="{{ .name }}"
                 type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
                 {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
@@ -30,9 +30,9 @@
                 {{ if .req }} required{{ end }}
             >
             {{ end }}
-        </label><br>
+        </label>
         {{ end }}
-        <button type="submit">{{ .Params.SendBtn.Text }}</button>
+        <button class="form__btn" type="submit">{{ .Params.SendBtn.Text }}</button>
     </form>
 </section>
 {{ end }}

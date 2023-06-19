@@ -17,7 +17,7 @@ form:
         req: true
         weight: 20
     -   name: phone
-        label: "Tel"
+        label: "Telefon"
         autocomplete: tel
         placeholder: "Tel"
         type: tel

@@ -5,7 +5,6 @@ date: 2023-06-01
 menu:
   info:
       weight: 110
-
 ---
 
 ### HÄUFIG GESTELLTE FRAGEN
