@@ -2,9 +2,14 @@
 title: "FAQ"
 date: 2023-06-01
 
+cover_img: "mark-konig-fbKMKNVJjwo-unsplash.jpg"
+cover_img_credits: "Photo by [Mark König](https://unsplash.com/de/@markkoenig?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/fbKMKNVJjwo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+
 menu:
+  top:
+      weight: 40
   info:
-      weight: 110
+      weight: 120
 ---
 
 ### HÄUFIG GESTELLTE FRAGEN

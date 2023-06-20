@@ -36,10 +36,7 @@
                 </div>
                 
                 <ul class="header__nav-list" role="list">
-                    {{ $top := .Site.Menus.top }}
-                    {{ $info := .Site.Menus.info }}
-                    {{ $headermenu := $top | append $info}}
-                    {{ range $headermenu }}
+                    {{ range .Site.Menus.top }}
                     {{
                         $active := or 
                         (or (page.IsMenuCurrent "top" . ) (page.IsMenuCurrent "info" . ))

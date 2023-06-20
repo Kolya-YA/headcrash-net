@@ -6,6 +6,8 @@ cover_img: "57.jpg"
 menu:
   top:
       weight: 10
+  service:
+      weight: 10
 ---
 
 ## Sichere, umweltfreundliche und kostenlose Festplattenvernichtung

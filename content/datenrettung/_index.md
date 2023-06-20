@@ -8,8 +8,10 @@ price: "price-datenrettung.md"
 
 menu:
     top:
-        weight: 40
+        weight: 30
         idetifier: "datenrettung"
+    service:
+        weight: 30
 ---
 
 ## Professionelle Datenrettung

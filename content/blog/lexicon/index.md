@@ -5,6 +5,10 @@ date: 2018-01-01
 toc: true
 cover_img: "alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
 cover_img_credits: "Photo by [Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/FO7JIlwjOtU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+
+menu:
+    info:
+        weight: 110
 ---
 
 In der Rubrik "Lexikon" werden grundlegende Konzepte von Datenspeichersystemen beleuchtet. Datenspeicherung umfasst verschiedene Technologien wie Festplatten, Solid-State-Laufwerke und Cloud-Speicher. Diese Speichersysteme sind jedoch anfällig für physikalische Schäden, elektronische Ausfälle oder versehentliche Löschungen. Die Datenrettung zielt darauf ab, verlorene Daten wiederherzustellen, indem sie spezialisierte Tools und Techniken einsetzt, um beschädigte oder gelöschte Dateien zu analysieren und zu reparieren. Ein fundiertes Verständnis der Grundkonzepte von Datenspeichersystemen ist unerlässlich, um effektive Datenrettungslösungen zu entwickeln und anzuwenden.

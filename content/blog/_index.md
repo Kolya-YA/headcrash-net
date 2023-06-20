@@ -4,8 +4,10 @@ description: "Neuigkeiten über Technologie und unsere Firma"
 date: 2023-06-01
 
 menu:
+  top:
+      weight: 50
   info:
-      weight: 120
+      weight: 130
 ---
 
 ### Neuigkeiten über Technologie und unsere Firma
