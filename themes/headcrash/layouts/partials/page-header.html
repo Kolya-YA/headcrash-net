@@ -9,7 +9,7 @@ style="--page-header-bg-image: url('{{ $bgimg.RelPermalink }}');">
 {{- end }}
     <div class="page-header__top">
         <div class="page-header__back-to-section">
-            {{/*  {{ partial "back-to-section" page }}  */}}
+            {{ partial "back-to-section" . }}
         </div>
         {{- $headless := site.GetPage "/headless" }}
         {{- $priceURL := "" }}
@@ -23,7 +23,7 @@ style="--page-header-bg-image: url('{{ $bgimg.RelPermalink }}');">
             {{- end }}
         {{- end }}
         {{- with $priceURL }}
-            <a class="page-header__price-link" href="{{ . }}">{{ $priceTitle }}</a>
+            <a class="page-header__link" href="{{ . }}">{{ $priceTitle }}</a>
         {{- end }}
     </div>
     <h1 class="page-header__title">{{ .Title }}</h1>

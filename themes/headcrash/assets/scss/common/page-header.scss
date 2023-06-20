@@ -27,13 +27,20 @@
         font-size: 3rem;
     }
     
-    &__price-link {
+    &__link {
         display: inline-block;
-        text-align: right;
-        padding-block: var(--main-gap);
-        padding-inline: calc(var(--main-gap) * 2);
-        background-color: #ddd6;
+        margin-block-end: var(--main-gap);
+        padding-inline: calc(var(--main-gap) * 1.5);
+        padding-block: calc(var(--main-gap) / 2);
+        background-color: var(--light-bg-color-light);
         border-radius: var(--border-radius);
-        color: var(--light-text-color);
+        box-shadow: var(--box-shadow);
+        text-decoration: none;
+        color: var(--dark-text-color);
+        transition: background-color 300ms ease;
+
+        &:is(:hover, :focus-visible) {
+            background-color: var(--link-color-light);
+        }
     }
 }
