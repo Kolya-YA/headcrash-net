@@ -3,6 +3,9 @@ title: "Datenrettung DVD"
 weight: 50
 date: 2023-06-01
 
+cover_img: "cameron-bunney-UAq8yrh_WAQ-unsplash.jpg"
+cover_img_credits: "Photo by [Cameron Bunney](https://unsplash.com/@bdbillustrations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/UAq8yrh_WAQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  
 menu:
   top:
       parent: Datenrettung
