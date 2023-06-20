@@ -34,10 +34,12 @@
         
         .stk {
             position: sticky;
-            top: 10px;
+            top: var(--main-gap);
             z-index: 10;
-
+            max-height: 100vh;
+            margin-inline: calc(var(--main-gap) * -1);
+            padding-inline: var(--main-gap);
+            overflow-y: scroll;
         }
     }
-
 }
