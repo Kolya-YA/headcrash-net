@@ -6,17 +6,21 @@
                 {{ partial "page-header" . }}        
                 {{ .Content }}
             </article>
-            {{ with .Params.Form }}
+            {{- with .Params.Form }}
                 {{ partial "form-section" . }}
-            {{ end }}
+            {{- end }}
         </main>
         <aside class="single__aside">
             <div class="stk">
-
-                {{ if .Params.toc }}
+                {{- if .Params.toc }}
                 <h3>Alphabetischer Index</h3>
                 {{ .TableOfContents }}
-                {{ end }}
+                {{- end }}
+                {{- if not (.Parent.IsHome) }}
+                    {{- with .CurrentSection.Pages }}
+                        {{ partial "aside-pages-list" . }}
+                    {{- end }}
+                {{- end }}
                 {{ partial "homepage/services" . }}
             </div>
         </aside>
