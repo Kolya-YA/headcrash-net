@@ -2,6 +2,7 @@
     --btt-size: 46px;
 
     position: fixed;
+    z-index: 100;
     right: calc(var(--main-gap) * 1.2);
     bottom: calc(var(--main-gap) * 4);
     display: flex;
