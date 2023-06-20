@@ -1,7 +1,9 @@
 {{ $page := . }}
-<div class="services">
+<div class="services{{ if not $page.IsHome }} services--aside{{ end }}">
+    {{ if $page.IsHome }}
     <div class="width-wrapper">
         <div class="sevices__block">
+    {{ end }}
             <h2 class="services__title">Unsere Services</h2>
             <ul class="services__list" role="list">
                 {{ range .Site.Menus.service }}
@@ -10,17 +12,15 @@
                     <a class="scard" href="{{ .URL }}">
                         <h3 class="scard__title">{{ .Name }}</h3>
                         <div class="scard__content">
-                            {{ if $page.IsHome }}
                             {{ with .Page.Resources.GetMatch .Page.Params.cover_img }}
                             {{ $coverImg := .Resize "320x webp q40" }}
                             <img src="{{ $coverImg.RelPermalink }}" alt="" class="scard__image">
                             {{ end }}
-                            {{ end }}
                             <div class="scard__text">
                                 {{ with .Page.Description }}
-                                    {{ . }}
+                                {{ . }}
                                 {{ else }}
-                                    {{ .Page.Summary | plainify}}
+                                {{ .Page.Summary | plainify}}
                                 {{ end }}
                             </div>
                         </div>
@@ -29,6 +29,8 @@
                 {{ end }}
                 {{ end }}
             </ul>
+    {{ if $page.IsHome }}
         </div>
     </div>
+    {{ end }}
 </div>

@@ -49,10 +49,10 @@
         }
 
         &__image {
-            width: 60%;
+            width: 70%;
             aspect-ratio: 3/2;
             margin-inline: auto;
-            margin-block-end: var(--main-gap);
+            margin-block: var(--main-gap);
             background-color: #ddd;
             object-fit: cover;
         }
@@ -63,6 +63,20 @@
 
         &:is(:hover, :focus-visible) {
             background-color: var(--link-color-light);
+        }
+    }
+
+    &.services--aside {
+        background-color: transparent;
+        color: var(--dark-text-color);
+
+        .scard {
+            padding-inline: calc(var(--main-gap) * 1.5);
+            box-shadow: var(--box-shadow);
+            
+            &::before {
+                content: none;
+            }
         }
     }
 }
