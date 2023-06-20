@@ -1,8 +1,8 @@
 .content {
     columns: 2 40ch;
     column-fill: balance;
-    gap: 2rem;
-    // width: calc(min(72ch, 100% - calc(var(--main-gap) * 2));
+    column-rule: dotted 4px var(--link-color-light);
+    gap: 2.5rem;
     margin-block-start: 1em;
     padding-block-start: var(--main-gap);
     padding-block-end: calc(var(--main-gap) * 2);

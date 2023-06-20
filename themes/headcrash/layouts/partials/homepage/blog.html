@@ -7,7 +7,7 @@
             <h2 class="blog__title">Blog / News</h2>
             <ul class="blog__list" role="list">
                 {{ with $blog.Pages }}
-                {{ range . }}
+                {{ range first 10 . }}
                 <li class="blog__item">
                     <a class="bcard" href="{{ .RelPermalink }}">
                         <h3 class="bcard__title">

@@ -3,7 +3,7 @@
     padding-block-end: calc(var(--main-gap) * 2);
 
     &__list {
-        margin: 0;
+        margin: var(--main-gap) 0 0 0;
         padding: 0;
         list-style: none;
         display: grid;
