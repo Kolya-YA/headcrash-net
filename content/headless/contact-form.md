@@ -41,7 +41,7 @@ form:
         req: true
         weight: 60
     -   name: agree
-        label: "Ich habe die [Datenschutzerklärung](/datenschutz) gelesen und akzeptiert."
+        label: 'Ich habe die [Datenschutzerklärung]({{< relref "datenschutz" >}}) gelesen und akzeptiert.'
         placeholder: "Problembeschreibung"
         type: checkbox
         req: true
