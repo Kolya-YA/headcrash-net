@@ -1,30 +1,24 @@
-@import "common/fonts";
-@import "common/custom-properties";
-@import "common/setup";
-@import "common/sc-details";
-@import "common/back-to-top";
-@import "common/page-header";
-@import "common/price-section";
-@import "common/form-section";
-@import "common/aside-pages-list";
-@import "common/table-of-contents";
-// @import "common/separator";
-// @import "common/link-btn";
-@import "header";
-// @import "index";
-@import "homepage/hero";
-@import "homepage/content";
-@import "homepage/services";
-@import "homepage/blog";
-@import "list";
-@import "single";
-// @import "form";
-// @import "contacts";
-// @import "form";
-// @import "common/lang-menu";
-// @import "section-main";
-// @import "section-certificates";
-// @import "section-team";
-@import "footer/footer";
-@import "footer/footer-nav";
-@import "footer/footer-legal";
+@use "common/fonts";
+@use "common/custom-properties";
+@use "common/setup";
+@use "common/sc-details";
+@use "common/back-to-top";
+@use "common/page-header";
+@use "common/price-section";
+@use "common/form-section";
+@use "common/aside-pages-list";
+@use "common/table-of-contents";
+
+@use "header";
+
+@use "homepage/hero";
+@use "homepage/content";
+@use "homepage/services";
+@use "homepage/blog";
+
+@use "list";
+@use "single";
+
+@use "footer/footer";
+@use "footer/footer-nav";
+@use "footer/footer-legal";

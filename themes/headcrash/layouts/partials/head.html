@@ -4,8 +4,8 @@
 
     <title>🛑 Change me</title>
 
-    {{/*  {{ $opts := dict "transpiler" "dartsass" "targetPath" "styles/main.css" }}  */}}
-    {{ $opts := dict "targetPath" "styles/main.css" }}
+    {{ $opts := dict "transpiler" "dartsass" "targetPath" "styles/main.css" }}
+    {{/*  {{ $opts := dict "targetPath" "styles/main.css" }}  */}}
     {{- $scss := resources.Get "scss/main.scss" }}
     {{ with resources.Get "scss/main.scss" }}
     {{/* {{- $style := $scss | toCSS $opts | minify | fingerprint }} */}}
