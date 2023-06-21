@@ -42,6 +42,10 @@ picture {
     margin-block-start: 1em;
 }
 
+:where(h1, h2, h3, h4, h5, h6):first-child {
+    margin-block-start: 0;
+}
+
 h3 {
     font-size: var(--fs-600);
 }
@@ -55,6 +59,40 @@ svg {
 
 a {
     color: var(--link-color-dark);
+}
+
+hr {
+    margin-block: var(--main-gap);
+    border: none;
+    border-top: dotted 4px var(--link-color-light);
+}
+
+table {
+    --border-width: 4px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-start: var(--main-gap);
+
+    th {
+        background-color: var(--accent-color-light);
+        
+        &:not(:first-child) {
+            border-left: solid var(--border-width) var(--light-bg-color);
+        }
+    }
+
+    tr:nth-child(even) {
+        background-color: var(--link-color-light);
+    }
+
+    td {
+        padding-inline: calc(var(--main-gap) / 2);
+    }
+
+    td:not(:first-child) {
+        border-left: solid var(--border-width) var(--light-bg-color);
+        text-align: center;
+    }
 }
 
 ::marker {
