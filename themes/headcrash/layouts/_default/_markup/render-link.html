@@ -1,7 +1,7 @@
 {{ $ext := strings.HasPrefix .Destination "http" -}}
-<a href="{{ .Destination }}" 
+<a href="{{ .Destination | safeURL }}" 
     {{- with .Title }} title="{{ . }}"{{ end -}}
     {{- if $ext -}} target="_blank" rel="noopener noreferrer"{{ end -}}
     >
-    {{- .Text -}}
+    {{- .Text | safeHTML -}}
 </a>
