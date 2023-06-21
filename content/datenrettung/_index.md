@@ -2,6 +2,7 @@
 title: "Datenrettung"
 description: "Die Datenrettung hat in den letzten Jahren immer mehr an Bedeutung gewonnen."
 cover_img: "61.jpg"
+cover_img_credits: "Photo by [Yuri Gurevich](https://gurfoto.ru/contacts/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [GurFoto](https://gurfoto.ru/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 date: 2023-06-01
 
 price: "price-datenrettung.md"

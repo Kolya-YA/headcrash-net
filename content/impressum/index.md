@@ -41,3 +41,5 @@ Unsere Seiten werden mit Sorgfalt erstellt und regelmäßig aktualisiert. Trotz 
 Des Weiteren behalten wir uns das Recht vor, Änderungen oder Ergänzungen der bereitgestellten Informationen jederzeit und ohne vorherige Ankündigung vorzunehmen. Inhalt und Struktur der Webseite sind urheberrechtlich geschützt. Die kommerzielle Vervielfältigung von Informationen oder Daten, insbesondere die kommerzielle Verwendung von Texten, Textteilen oder Bildmaterial, bedarf unserer vorherigen Zustimmung.
 
 Trotz allen inhaltlichen Kontrollen übernehmen wir keine Haftung für Inhalt der verlinkten Quellen. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+{{< img-credits >}}
