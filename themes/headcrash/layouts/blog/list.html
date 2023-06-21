@@ -6,9 +6,6 @@
                 {{ partial "page-header" . }}
                 {{ .Content }}
             </article>
-            <h5 class="meta">
-                {{ .Date.Format "02.01.2006" }} | {{ .WordCount }} Words
-            </h5>
             <ul>
                 {{ range .Pages }}
                 <li>
