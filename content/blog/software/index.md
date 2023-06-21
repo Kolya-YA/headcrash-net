@@ -10,6 +10,9 @@ cover_img_credits: "Photo by [Nejc Soklič](https://unsplash.com/@nejc_soklic?ut
 menu:
     info:
         weight: 120
+    top:
+        parent: Blog
+        weight: 10
 ---
 
 ## Datenrettungssoftware — Shareware, Freeware, Kostenpflichtig
