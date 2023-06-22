@@ -23,7 +23,7 @@ Unsere Bearbeitungszeiten sind hierbei
 
 Der Begriff Headcrash bezeichnet einen physikalischen Defekt an einer Festplatte. Dabei wird durch Außeneinwirkung wie zum Beispiel Erschütterungen der Lese- und Schreibkopf der Festplatte auf das Speichermedium gedrückt. Die Folge ist eine kaputte Festplatte und sehr wahrscheinlich Datenverlust.
 
-{{< figure src="datenrettung02.jpeg" caption=" Datenrettung *(Bild/01)*" >}}
+{{< figure src="datenrettung02.jpeg" caption="Datenrettung *(Bild/01)*" loading="lazy">}}
 Dieser ist einer der häufigsten Fehler, die aufgetreten sind und wegen derer eine Datenrettung durchgeführt werden musste. Aus diesem Grund haben wir uns den Begriff auf die Fahnen geschrieben. Er ist übrigens nach wie vor aktuell – trotz neuer Speichermedien, Schutzmechanismen und anderen Entwicklungen.
 
 Falls Sie in die unglückliche Situation kommen mit einem Headcrash oder einem anderen Datenverlust Bekanntschaft machen zu müssen helfen wir Ihnen sehr gerne Ihre Daten wieder her zu stellen.
