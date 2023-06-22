@@ -1,12 +1,13 @@
 baseURL = 'https://headcrash.net/'
 defaultContentLanguage = 'de'
-title = './HeadCrash'
-theme = "headcrash"
+title = "Datenträgervernichtung, Datenlöschung, Datenrettung — /HeadCrash"
 
+theme = "headcrash"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-    logoName = "Logo name"
+    description = "Datenträgervernichtung, Datenlöschung, Datenrettung"
+    logoName = "./HeadCrash"
     email = "dr-hdd@headcrash.net"
     phone = "+49 (0) 30 333 222 333"
     phones = [

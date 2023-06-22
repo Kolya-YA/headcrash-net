@@ -1,0 +1,24 @@
+{{ $description := "🛑 Change me (up to ~155 characters)" }}
+
+{{/*  {{ if .IsPage }}
+    {{ if .Params.description }}
+        {{- .Params.description -}}
+    {{ else }}
+        {{- .Summary -}}
+    {{ end }}
+{{ else }}
+    {{- .Site.Title -}} - {{- .Site.Params.description -}}
+{{ end }}  */}}
+
+{{ if page.IsHome }}
+    {{/*  {{ $title = site.Title }}  */}}
+{{ else if page.IsPage }}
+    {{/*  {{ $pageTitle :=
+        cond (isset page.Params "meta_title" )
+        page.Params.meta_title
+        page.Title
+    }}
+    {{ $title = (printf "%s | %s" $pageTitle site.Params.logoName) }}  */}}
+{{ end }}
+
+{{ return $description }}

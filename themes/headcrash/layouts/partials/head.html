@@ -1,23 +1,17 @@
+{{- $title := partial "title" }}
+{{- $description := partial "description" }}
+{{- $styles := partial "styles" }}
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>🛑 Change me</title>
-
-    {{ $opts := dict "transpiler" "dartsass" "targetPath" "styles/main.css" }}
-    {{/*  {{ $opts := dict "targetPath" "styles/main.css" }}  */}}
-    {{- $scss := resources.Get "scss/main.scss" }}
-    {{ with resources.Get "scss/main.scss" }}
-    {{/* {{- $style := $scss | toCSS $opts | minify | fingerprint }} */}}
-    {{- $style := . | toCSS $opts | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ .Data.Integrity }}">
-    {{ end }}
-
+    <title>{{ $title }}</title>
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     
     <!-- TODO: Change social media stuff -->
-    <meta property="og:title" content="🛑 Change me">
-    <meta name="description" content="🛑 Change me (up to ~155 characters)">
-    <meta property="og:description" content="🛑 Change me (up to ~155 characters)">
+    <meta property="og:title" content="{{ $title }}">
+    <meta name="description" content="{{ $description }}">
+    <meta property="og:description" content="{{ $description }}">
     <meta property="og:image" content="https://">
     
     <meta property="og:locale" content="{{ with site.LanguageCode | default site.Language.Lang }}{{ . }}{{ end }}">

@@ -2,8 +2,8 @@
     <div class="width-wrapper">
         <div class="header__block">
             <a {{ if not .IsHome }}href="{{ site.Home.RelPermalink }}"{{ end }}class="header__logo">
-                {{ partial "logo-svg" }}
-                <div class="header__logo-name">{{ .Site.Title }}</div>
+                {{ partial "logo-svg" . }}
+                <div class="header__logo-name">{{ site.Params.logoName }}</div>
             </a>
             <div class="header__nav-toggler" id="navShow">
                 <button type="button" aria-label="Menu" aria-expanded="false" aria-controls="mainnav">

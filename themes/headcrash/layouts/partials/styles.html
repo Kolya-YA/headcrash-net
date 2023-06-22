@@ -1,0 +1,5 @@
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "styles/main.css" }}
+{{ $styles := resources.Get "scss/main.scss" }}
+{{ $styles = $styles | toCSS $opts | fingerprint }}
+{{/*  {{ $styles = $styles | toCSS $opts | minify | fingerprint }}  */}}
+{{ return $styles }}

@@ -1,0 +1,14 @@
+{{ $title := (printf "%s | %s" site.Params.description site.Params.logoName) }}
+
+{{ if page.IsHome }}
+    {{ $title = site.Title }}
+{{ else if page.IsPage }}
+    {{ $pageTitle :=
+        cond (isset page.Params "meta_title" )
+        page.Params.meta_title
+        page.Title
+    }}
+    {{ $title = (printf "%s | %s" $pageTitle site.Params.logoName) }}
+{{ end }}
+
+{{ return $title }}
