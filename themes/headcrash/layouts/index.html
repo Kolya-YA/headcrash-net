@@ -2,12 +2,24 @@
 <main class="main">
     {{ partial "homepage/hero" . }}
     <div class="width-wrapper">
-        <div class="content">
+        <article class="content">
             <h2>{{ .Title }}</h2>
             {{ .Content }}
-        </div>
+        </article>
     </div>
     {{ partial "homepage/services" . }}
+    {{ with .Params.infoSection }}
+        {{ $headless := site.GetPage "/headless" }}
+        {{ with $headless.Resources.GetMatch . }}
+        <div class="width-wrapper">
+            <article class="content">
+                <h2>{{ .Title }}</h2>
+                {{ .Content }}
+            </a>
+        </div>
+        <hr>
+        {{ end }}
+    {{ end }}
 </main>
 <aside>
     {{ partial "homepage/blog" . }}

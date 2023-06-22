@@ -8,7 +8,7 @@
     padding-block-end: calc(var(--main-gap) * 2);
     
     & > * {
-        margin: 0;
+        break-inside: avoid;
     }
 
     & > * + * {
@@ -16,7 +16,13 @@
     }
 
     & > figure {
-        break-inside: avoid;
+            float: right;
+            max-width: 50%;
+            margin:
+                var(--main-gap)
+                0
+                var(--main-gap)
+                var(--main-gap);
 
         & > img {
             margin-inline: auto;

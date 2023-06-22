@@ -42,12 +42,21 @@ picture {
     margin-block-start: 1em;
 }
 
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}
+
 :where(h1, h2, h3, h4, h5, h6):first-child {
     margin-block-start: 0;
 }
 
 h3 {
     font-size: var(--fs-600);
+}
+
+p {
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 img,

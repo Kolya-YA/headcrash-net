@@ -30,12 +30,15 @@
                 margin: 0;
                 text-wrap: balance;
                 font-size: calc(clamp(2rem, 1rem + 5vw, 3.2rem));
-                line-height: 1.3;
+                letter-spacing: 0.01em;
+                line-height: 1.15;
             }
             
             & > ul {
                 margin-block-start: calc(var(--main-gap) / 2);
+                margin-block-end: var(--main-gap);
                 font-size: var(--fs-700);
+                line-height: 1.5;
             }
             
             & > .hero__contact {
