@@ -3,15 +3,17 @@
 
 
     &__list {
-        margin: 0;
+        margin-block: var(--main-gap);
+        margin-inline: 0;
         padding: 0;
         list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: var(--main-gap);
+        gap: var(--block-gap);
 
         .price__item {
             padding: var(--main-gap);
+            padding-block-start: var(--block-gap);
             border-radius: var(--border-radius);
             background-color: var(--light-bg-color-light);
             box-shadow: var(--box-shadow);
@@ -24,6 +26,7 @@
 .p-card {
 
     &__title {
+        color: var(--link-color-dark);
         text-align: center;
     }
 
@@ -32,15 +35,16 @@
         margin-block: var(--main-gap);
         justify-content: space-evenly;
         flex-wrap: wrap;
-        gap: 2px;
+        gap: var(--main-gap);
+        font-size: var(--fs-500);
         font-weight: 600;
-        background-color: #0005;
+        // background-color: #0005;
 
         span{
             display: block;
             flex: 1;
             text-align: center;
-            background-color: var(--light-bg-color-light);
+            background-color: var(--accent-color-light);
 
         }
     }
