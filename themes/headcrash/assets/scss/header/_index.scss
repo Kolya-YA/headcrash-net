@@ -1,5 +1,7 @@
+@use "nav-toggler";
+
 .header {
-    @media (min-width: 64em) {
+    @media (min-width: 70em) {
         --toggler-display: none;
         --nav-visibility: visible;
         --desktop-border: none;
@@ -34,25 +36,7 @@
                 color: var(--light-bg-color);
             }
         }
-        
-        .header__nav-toggler {
-            display: var(--toggler-display, block);
-        
-            button {
-                display: block;
-                appearance: none;
-                background: var(--btn-grey);
-                border: none;
-                cursor: pointer;
-                padding: 14px 12px;
-                line-height: 0;
-            }
-        
-            svg {
-                // stroke: var(--light-bg-color);
-            }
-        }
-        
+                
         .header__nav {
             display: flex;
             flex-direction: column;
@@ -138,7 +122,6 @@
                     &:is(:hover, :focus-within) {
                         pointer-events: all;
                         opacity: 1;
-                        // transform: translateY(0);
                     }
                 } 
                 

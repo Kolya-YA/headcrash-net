@@ -1,4 +1,4 @@
-// import './modules/top-menu';
+import './modules/main-nav';
 
 // import './modules/moto-rotator';
 // import './modules/modules-selector';

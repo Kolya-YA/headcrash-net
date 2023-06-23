@@ -1,0 +1,39 @@
+.nav-toggler {
+    display: var(--toggler-display, block);
+
+    button {
+        display: block;
+        appearance: none;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 14px 12px;
+        line-height: 0;
+
+        &:is(:hover, :focus-visible) {
+
+            & > svg {
+                stroke: var(--link-color);
+            }
+        }
+        & > svg:last-child {
+            display: none;
+        }
+
+        &[aria-expanded=true] {
+            
+            & > svg:first-child {
+                display: none;
+            }
+            
+            & > svg:last-child {
+                display: block;
+            }
+        }
+    }
+
+    svg {
+        stroke: var(--light-bg-color);
+        transition: stroke 300ms ease-in-out;
+    }
+}
