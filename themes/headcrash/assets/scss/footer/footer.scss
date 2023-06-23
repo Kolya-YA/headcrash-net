@@ -1,5 +1,10 @@
 .footer {
     --top-cut: 1rem;
+    --block-gap: clamp(
+        var(--main-gap),
+        calc(var(--main-gap) + 2vw),
+        calc(var(--main-gap) * 4)
+    );
     // min-height: 12rem;
     background: var(--dark-bg-gradient);
     margin-block-start: calc(var(--top-cut) + var(--main-gap));
@@ -11,9 +16,10 @@
         padding-block-start: var(--main-gap);
         padding-block-end: calc(var(--main-gap) * 2);
         display: flex;
+        flex-wrap: wrap-reverse;
         justify-content: space-between;
         align-items: center;
-
+        gap: var(--block-gap);
     }
 
     .footer__logo {
@@ -23,11 +29,17 @@
         text-decoration: none;
         line-height: 1;
         // border-bottom: 1px solid var(--dark-bg-color-light);
+        font-size: clamp(1.5rem, calc(2rem + 2vw), 3.2rem);
+        height: 1.25em;
+
+        & > svg {
+            max-height: 100%;
+        }
         
         & > h2 {
             margin: 0;
             font-family: var(--ff-accent);
-            font-size: 3rem;
+            font-size: inherit;
             font-weight: 400;
         }
     }
@@ -42,12 +54,8 @@
     .footer__navs {
         display: flex;
         flex-wrap: wrap;
-        gap: clamp(
-            var(--main-gap),
-            calc(var(--main-gap) + 3vw),
-            calc(var(--main-gap) * 4)
-        );
-
+        justify-content: center;
+        gap: var(--block-gap);
     }
 
     a {

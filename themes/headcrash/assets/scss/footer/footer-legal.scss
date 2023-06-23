@@ -1,4 +1,8 @@
 .footer__legal {
+    @media (min-width: 60ch) {
+        --justify-blocks: space-between;
+    }
+
     background-color: var(--dark-bg-color);
     border-top: 1px solid var(--dark-bg-color-light);
 
@@ -6,7 +10,7 @@
         padding-block: var(--main-gap);
 
         display: flex;
-        justify-content: space-between;
+        justify-content: var(--justify-blocks, center);
         flex-wrap: wrap-reverse;
         gap: var(--main-gap);
     }
@@ -18,8 +22,8 @@
         list-style: none;
     
         &__link {
-            // background-color: #8888;
             color: var(--light-bg-color);
+            text-decoration: none;
             transition: color 300ms linear;
 
             &:is(:hover, :focus-visible) {
