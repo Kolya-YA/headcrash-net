@@ -8,12 +8,7 @@
             {{- partial "header/nav-toggler" . }}
             
             <nav class="header__nav" id="mainnav"
-                aria-label="Main menu"
-                itemscope="itemscope"
-                itemtype="http://www.schema.org/SiteNavigationElement">
-                <div class="header__nav-top">
-                    
-                </div>
+                aria-label="Main menu">
                 
                 <ul class="header__nav-list" role="list">
                     {{ range .Site.Menus.top }}

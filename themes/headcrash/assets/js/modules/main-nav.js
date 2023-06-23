@@ -1,6 +1,6 @@
 const navTogglerBtn = document.querySelector('.nav-toggler button');
+const headerNav = document.querySelector('.header__nav');
 // const headerBottom = document.querySelector('.header-bottom');
-// const headerNav = document.querySelector('.header__nav');
 
 navTogglerBtn.addEventListener('click', ({ target }) => {
     const newStatus = navTogglerBtn.getAttribute('aria-expanded') === 'true'
@@ -18,7 +18,7 @@ navTogglerBtn.addEventListener('click', ({ target }) => {
         document.body.style.left = '0px';
         document.body.style.right = '0px';
     }
-    // headerNav.classList.toggle('header__nav--open');
+    headerNav.classList.toggle('header__nav--open');
 });
 
 // headerBottom.addEventListener('keyup', (e) => {
@@ -28,17 +28,3 @@ navTogglerBtn.addEventListener('click', ({ target }) => {
 //         headerNav.classList.toggle('header__nav--open');
 //     }
 // });
-
-// navHideBtn.addEventListener('click', () => {
-// navTop.addEventListener('click', (e) => {
-//     console.log(e)
-//     navTop.classList.toggle('header-bottom--open')
-//     const scrollY = document.body.style.top
-//     document.body.style.position = ''
-//     document.body.style.top = ''
-//     // window.scrollTo(0, parseInt(scrollY || '0') * -1)
-//     window.scrollTo({
-//         top: parseInt(scrollY || '0') * -1,
-//         behavior: 'smooth'
-//     })
-// })
