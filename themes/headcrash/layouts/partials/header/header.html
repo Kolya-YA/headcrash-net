@@ -1,4 +1,5 @@
 <header class="header">
+    {{ partial "header/skip-to-content" }}
     <div class="width-wrapper">
         <div class="header__block">
             <a {{ if not .IsHome }}href="{{ site.Home.RelPermalink }}"{{ end }}class="header__logo">
