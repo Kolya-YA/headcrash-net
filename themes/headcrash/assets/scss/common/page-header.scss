@@ -1,6 +1,12 @@
 .page-header {
 
     &--bg {
+        --page-header-padding: clamp(
+            var(--main-gap),
+            calc(var(--main-gap) + 1vw),
+            calc(var(--main-gap) * 2)
+            );
+
         margin: 0;
         aspect-ratio: 2;
         background: 
@@ -10,7 +16,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: calc(var(--main-gap) * 2);
+        padding: var(--page-header-padding);
         color: var(--light-text-color);
         display: flex;
         flex-direction: column;
@@ -21,15 +27,16 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: var(--main-gap);
     }
     
     &__title {
-        font-size: 3rem;
+        // font-size: 3rem;
     }
     
     &__link {
         display: inline-block;
-        padding-inline: calc(var(--main-gap) * 1.5);
+        padding-inline: calc(var(--main-gap) * 1.4);
         padding-block: calc(var(--main-gap) / 2);
         background-color: var(--light-bg-color-light);
         border-radius: var(--border-radius);

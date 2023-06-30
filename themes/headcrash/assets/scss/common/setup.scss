@@ -29,45 +29,13 @@ body {
     color: var(--dark-text-color);
 }
 
-main {
-    // width: calc(min(65ch, 100% - 4rem));
-    // margin-inline: auto;
-}
-
-/* Reset margins */
-h1, h2, h3, h4, h5, h6
-p,
-figure,
-picture {
-    margin-block-start: 1em;
-}
-
-h1, h2, h3, h4 {
-    text-wrap: balance;
-}
-
-:where(h1, h2, h3, h4, h5, h6):first-child {
-    margin-block-start: 0;
-}
-
-h3 {
-    font-size: var(--fs-600);
-}
-
-p {
-    -webkit-hyphens: auto;
-    hyphens: auto;
-}
-
-img,
-picture,
-svg {
+img, picture, svg {
     display: block;
     max-width: 100%;
 }
 
-a {
-    color: var(--link-color-dark);
+figure, picture {
+    margin-block-start: 1em;
 }
 
 hr {
@@ -104,14 +72,9 @@ table {
     }
 }
 
-::marker {
-    color: var(--accent-color);
-}
-
 .width-wrapper {
     max-width: calc(min(1280px, 100vw));
     min-width: 360px;
     margin-inline: auto;
     padding-inline: var(--main-gap);
 }
-

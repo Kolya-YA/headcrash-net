@@ -35,7 +35,7 @@
         .stk {
             position: sticky;
             top: var(--main-gap);
-            z-index: 10;
+            // z-index: 10;
             max-height: 100vh;
             margin-inline: calc(var(--main-gap) * -1);
             padding-inline: var(--main-gap);

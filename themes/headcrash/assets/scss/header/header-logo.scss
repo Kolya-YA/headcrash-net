@@ -3,8 +3,13 @@
     align-items: center;
     justify-content: space-between;
     gap: calc(var(--main-gap) / 2);
-    line-height: 0;
+    line-height: 1;
     text-decoration: none;
+
+    & > svg {
+        max-width: 56px;
+        max-height: 56px;
+    }
 
     &-name {
         padding-bottom: 1px;

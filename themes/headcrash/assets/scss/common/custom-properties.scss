@@ -46,6 +46,6 @@
 
     /* paddings, margins, gaps */
 
-    --main-gap: 1rem;
+    --main-gap: clamp(.7rem, calc(.5rem + 1vw), 1rem);
     --block-gap: calc(var(--main-gap) * 2)
 }
