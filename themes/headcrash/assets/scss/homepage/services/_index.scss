@@ -9,9 +9,7 @@
         list-style: none;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
-        column-gap: var(--main-gap);
-        row-gap: calc(var(--main-gap) * 2);
-        
+        gap: var(--block-gap);
     }
 
     .scard {
@@ -20,49 +18,30 @@
         height: 100%;
         padding: var(--main-gap);
         border-radius: 4px;
-        color: var(--dark-text-color);
+        color: var(--light-text-color);
         text-decoration: none;
-        background-color: var(--light-bg-color-light);
+        box-shadow: 0 0 10px #aaa7;
+        background: 
+            var(--scard-bg),
+            var(--dark-bg-gradient, var(--dark-bg-color));
+        background-blend-mode: overlay;
+        background-repeat: repeat-x;
+        background-size: cover;
+        background-position: center;
         transition: background-color 300ms;
-        
-        &::before {
-            --y-size: 12px;
-            content: "";
-            position: absolute;
-            top: calc(var(--y-size) * -1);
-            left: calc(var(--y-size) * 1);
-            display: block;
-            width: 50%;
-            height: calc(var(--y-size) * 2);
-            background-color: inherit;
-            border-top-left-radius: var(--y-size);
-            border-top-right-radius: var(--y-size);
-        }
 
         &__title {
-            margin-block-start: calc(var(--main-gap) / 2);
+            margin-block-start: calc(var(--main-gap) / 1);
+            margin-block-end: calc(var(--main-gap) * 4);
             text-align: center;
         }
         
         &__content {
-            
-        }
-
-        &__image {
-            width: 70%;
-            aspect-ratio: 3/2;
-            margin-inline: auto;
-            margin-block: var(--main-gap);
-            background-color: #ddd;
-            object-fit: cover;
-        }
-
-        &__text {
-
+            text-wrap: balance;
         }
 
         &:is(:hover, :focus-visible) {
-            background-color: var(--link-color-light);
+            background-color: var(--link-color-dark);
         }
     }
 
