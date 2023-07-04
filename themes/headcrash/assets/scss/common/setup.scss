@@ -29,6 +29,11 @@ body {
     color: var(--dark-text-color);
 }
 
+a:not([class]) {
+    text-decoration-thickness: max(0.08em, 1px);
+    text-underline-offset: 0.15em;
+}
+
 img, picture, svg {
     display: block;
     max-width: 100%;
@@ -70,6 +75,16 @@ table {
         border-left: solid var(--border-width) var(--light-bg-color);
         text-align: center;
     }
+}
+
+:focus-visible {
+    --outline-size: max(2px, 0.15em);
+
+    outline:
+        var(--outline-width, var(--outline-size))
+        var(--outline-style, solid)
+        var(--outline-color, currentColor);
+    outline-offset: var(--outline-offset, var(--outline-size));
 }
 
 .width-wrapper {
