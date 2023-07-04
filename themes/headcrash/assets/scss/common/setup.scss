@@ -37,6 +37,8 @@ a:not([class]) {
 img, picture, svg {
     display: block;
     max-width: 100%;
+    height: auto;
+    margin-inline: auto;
 }
 
 figure, picture {
