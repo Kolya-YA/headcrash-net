@@ -1,4 +1,5 @@
 {{ $heroBg := resources.Get (path.Join "images" .Site.Params.HeroBackground) }}
+{{ $phone := index site.Params.phones 0 }}
 {{ with $heroBg.Resize "1200x webp q30" }}
 <div class="hero" style="--hero-bg-image: url('{{ .RelPermalink }}');">
 {{ end }}
@@ -17,8 +18,8 @@
                     {{ end }}
                 </ul>
                 <div class="hero__contact">
-                    <a href="tel:+222333222">Ruf uns an!</a>
-                    <a href="mailto:info@mail.mail">Schreiben uns an!</a>
+                    <a href="tel:{{ replaceRE "\\s" "" $phone  }}">{{ $phone }}</a>
+                    <a href="{{ relref . "contact" }}">Schreiben uns an!</a>
                 </div>
             </div>
         </div>
