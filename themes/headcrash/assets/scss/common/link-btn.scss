@@ -1,0 +1,23 @@
+.link-btn {
+    margin-block: var(--main-gap);
+
+    & > a {
+        display: block;
+        max-width: 280px;
+        padding: var(--main-gap) calc(var(--main-gap) * 2);
+        text-align: center;
+        text-decoration: none;
+        font-family: var(--ff-accent);
+        font-size: var(--fs-500);
+        font-weight: 600;
+        color: var(--dark-text-color);
+        background-color: var(--accent-color);
+        box-shadow: var(--box-shadow);
+        border-radius: 3px;
+        transition: background-color 300ms;
+
+        &:is(:hover, :focus-visible) {
+            background-color: var(--link-color-light);
+        }
+    }
+}
