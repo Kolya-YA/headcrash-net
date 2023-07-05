@@ -23,7 +23,8 @@
         box-shadow: 0 0 10px #aaa7;
         background: 
             var(--scard-bg),
-            var(--dark-bg-gradient, var(--dark-bg-color));
+            // var(--dark-bg-gradient, var(--dark-bg-color));
+            var(--accent-color-night);
         background-blend-mode: overlay;
         background-repeat: repeat-x;
         background-size: cover;
