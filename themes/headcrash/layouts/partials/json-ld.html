@@ -3,7 +3,7 @@
     "@context": "https://schema.org/",
     "@type": "Organization",
     "name": "{{ site.Params.name }}",
-    "description": {{ .p_decsr }}
+    "description": {{ .p_decsr }},
     "url": "{{ site.BaseURL }}",
     "logo": "{{ "apple-touch-icon.png" | absURL }}",
     "foundingDate": "{{ site.Params.foundingDate }}",
@@ -16,7 +16,7 @@
         "addressLocality":"{{ index site.Params.address 3 }}",
         "postalCode":"{{ index site.Params.address 2 }}",
         "addressCountry":"{{ index site.Params.address 4 }}"
-        },
+        }
     "contactPoint":{
         "@type":"ContactPoint",
         "contactType":"customer service",
