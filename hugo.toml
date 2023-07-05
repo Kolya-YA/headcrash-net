@@ -7,7 +7,9 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
     description = "Datenträgervernichtung, Datenlöschung, Datenrettung"
+    name = "HeadCrash"
     logoName = "./HeadCrash"
+    foundingDate = 2005
     email = "dr-hdd@headcrash.net"
     phone = "+49 (0) 30 333 222 333"
     phones = [
@@ -17,7 +19,8 @@ disableKinds = ["taxonomy", "term"]
     address = [
         "HDDLab / XDatenrettung",
         "Danziger str. 78a",
-        "10405 Berlin",
+        "10405",
+        "Berlin",
         "Deutschland",
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
