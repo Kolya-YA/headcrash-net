@@ -1,7 +1,7 @@
 ---
 title: "Festplattenvernichtung"
 weight: 10
-date: 2023-06-01
+date: 2023-07-01
 
 menu:
   top:
@@ -9,6 +9,10 @@ menu:
       weight: 10
 ---
 
-## Error, dicta mollitia
+Die Firma headcrash.net in Berlin bietet Ihnen einen professionellen Service für die Festplattenvernichtung an. Die Festplattenvernichtung ist ein wichtiger Schritt, um Ihre sensiblen Daten vor unbefugtem Zugriff zu schützen und die Anforderungen der EU-Datenschutzgrundverordnung (DSGVO) zu erfüllen.
 
-Harum vero ratione totam alias quis mollitia cumque reprehenderit facere vitae reiciendis! Fuga facere illo ipsam culpa commodi consequatur porro quidem delectus labore sunt eveniet, ab dolor assumenda tenetur velit voluptas suscipit neque amet aliquam perferendis. Enim, voluptas? Quasi ullam repellendus nulla eligendi possimus debitis tenetur perspiciatis magnam consectetur amet aperiam, accusantium voluptates laboriosam, atque blanditiis, voluptatem nisi mollitia beatae rem dolorum voluptatum aspernatur explicabo quam. Minus magni itaque debitis, recusandae possimus, alias numquam ducimus cum placeat qui a? Blanditiis porro nemo ratione sit architecto impedit ipsum sequi tempora reiciendis debitis numquam, quae minus natus est asperiores sunt ducimus itaque totam cum quam laborum, quibusdam possimus! Itaque laboriosam nam, quisquam dicta reprehenderit ut amet! Consectetur voluptatibus, temporibus consequatur possimus repellat dolorem? Culpa dolore esse assumenda magni aliquid ratione laborum iste laboriosam velit ipsam sit exercitationem quasi, deleniti autem suscipit quaerat nesciunt nemo tempora doloribus porro a at. Quis odit harum quae, non adipisci possimus sequi porro rerum blanditiis repudiandae mollitia optio iure quaerat numquam vero soluta voluptate! Accusantium maiores, neque dolor enim blanditiis exercitationem asperiores officia iusto aspernatur eos reprehenderit, ab, aliquam odio. Similique quia impedit aliquam! Fugit repellat et ut, temporibus delectus commodi enim labore sint totam nemo tempore aliquid explicabo amet qui? Error vero consequatur, possimus labore dolore maiores laboriosam quis recusandae similique doloremque illum, sint expedita non odio ipsum dolor aperiam ipsa repudiandae. Consequuntur sequi delectus libero vero eius! Commodi porro eligendi minima dicta eum quas provident, eaque corrupti optio cum aspernatur eius, neque magnam necessitatibus sapiente in illum et, ut esse blanditiis quidem culpa. Velit, fuga? Illum quisquam voluptatum odio ipsum excepturi, error eum debitis est quis voluptas non obcaecati consectetur veniam minus nam, maiores inventore saepe ratione itaque magnam ducimus minima recusandae, molestias rerum? Accusamus, recusandae esse quos, adipisci praesentium sunt commodi eos officiis amet dolore veniam, nobis doloremque expedita sint illo impedit sed facere rem quisquam dolor quam. Veniam dolore optio blanditiis magni necessitatibus esse aspernatur in reprehenderit sint porro unde ipsum, eligendi eaque dolor ipsa, atque alias. Dolorum quam tempora veniam tenetur accusantium nesciunt, possimus, commodi illum quos ipsa voluptates esse reiciendis suscipit voluptate magnam non optio necessitatibus exercitationem tempore repudiandae! Aliquam natus obcaecati mollitia reiciendis quia sint libero fugit quas expedita, vero doloremque magnam voluptas, hic velit. Alias deleniti quibusdam autem hic blanditiis cum, qui labore, itaque aut mollitia dignissimos perferendis dolorum tenetur sit? Dignissimos voluptatem autem maiores quia rem saepe non?
+Die Festplattenvernichtung bei headcrash.net erfolgt in mehreren Schritten:
+
+- Zunächst werden die Festplatten sicher gelöscht oder entmagnetisiert mit einem speziellen Gerät, das einen starken Magnetfeldimpuls erzeugt (Degausser). Dieser Vorgang zerstört die magnetische Struktur der Festplatte und macht die Daten unlesbar.
+- Anschließend werden die Festplatten geschreddert mit einem leistungsstarken Schredder, der die Festplatten in kleine Stücke zerkleinert. Der Schredder entspricht der Sicherheitsstufe H5 nach DIN 66399, das heißt, er erzeugt Partikel, die kleiner als 10 mm{{< sup "2" >}} sind.
+- Schließlich werden die geschredderten Festplatten entsorgt gemäß den gesetzlichen Vorschriften. Sie erhalten ein Vernichtungsprotokoll mit den Seriennummern der vernichteten Festplatten als Nachweis für die ordnungsgemäße Entsorgung.

@@ -1,5 +1,5 @@
 ---
-title: "Wertmetall gewinn"
+title: "Wertmetall gewinn —"
 weight: 120
 date: 2023-06-01
 

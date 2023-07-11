@@ -1,5 +1,5 @@
 ---
-title: "DSGVO"
+title: "DSGVO —"
 weight: 90
 date: 2023-06-01
 

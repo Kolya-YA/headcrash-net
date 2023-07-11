@@ -1,5 +1,5 @@
 ---
-title: "SSD Löschung"
+title: "SSD Löschung —"
 weight: 80
 date: 2023-06-01
 

@@ -1,5 +1,5 @@
 ---
-title: "Festplattenlöschung"
+title: "Festplattenlöschung —"
 weight: 60
 date: 2023-06-01
 

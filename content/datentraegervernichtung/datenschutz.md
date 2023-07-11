@@ -1,7 +1,7 @@
 ---
 title: "Datenschutz"
 weight: 30
-date: 2023-06-01
+date: 2023-07-01
 
 menu:
   top:
@@ -9,6 +9,18 @@ menu:
       weight: 30
 ---
 
-## Totam, quos commodi&excl;
+Die Firma headcrash.net ist Ihr erfahrener Partner für die Datenrettung in Berlin. Die Datenrettung ist ein sensibler Prozess, der hohe Anforderungen an den Datenschutz stellt. Die Firma headcrash.net nimmt den Datenschutz sehr ernst und hält sich an die Vorgaben der EU-Datenschutzgrundverordnung (DSGVO) <https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Broschueren/INFO1.html> und des Berliner Datenschutzgesetzes (BlnDSG) <https://dsgvo-gesetz.de/blndsg/>.
 
-Natus eveniet quidem accusantium iste dignissimos possimus in et sit dolorem? Ducimus a debitis nulla saepe consectetur quibusdam doloremque rerum eius. Quidem illo quasi iste earum nemo possimus. Temporibus excepturi doloremque reiciendis laborum doloribus error, sint illo, dolore fugiat perferendis, optio non sunt tempora ad quam suscipit corrupti fugit dignissimos. Animi ratione, neque deserunt praesentium enim quaerat deleniti corrupti veritatis dolorem dolores molestias sunt ipsa velit. Magnam ipsam quis officiis beatae officia autem dignissimos modi quam sed illo? Quis eveniet quisquam voluptas officia quos maiores perferendis veritatis velit esse! Modi eveniet aperiam facilis, veritatis impedit et, eos voluptatem eum doloremque nostrum velit quisquam facere architecto voluptatum tenetur beatae odio ipsam officia ex illum inventore qui doloribus maiores illo? Fugiat corrupti optio distinctio ipsum perspiciatis quaerat deleniti quod dolorum, magnam molestias amet deserunt eius! Quasi deserunt error reprehenderit nobis nostrum veniam rem cupiditate, ducimus aspernatur recusandae nesciunt totam nam sed dolorem, harum earum dolores unde a autem? Dignissimos quidem quisquam accusantium est officia hic ex perferendis explicabo repudiandae incidunt quaerat, illum cumque et voluptatum nostrum quod dolor expedita aliquid veritatis beatae nam. Possimus vero facilis veritatis reiciendis exercitationem doloribus, nulla consequatur optio incidunt numquam soluta, autem ut, ipsa repellendus explicabo. Nostrum alias soluta sint esse, quasi qui expedita optio consequuntur omnis molestias ad doloremque, quae eveniet aperiam dolorum assumenda asperiores vel possimus ut et cumque enim rerum dolore. Placeat pariatur, laudantium amet hic eaque quibusdam doloremque tempora molestiae, at, numquam ducimus neque quo aliquid iure officiis non eum. Quia reprehenderit adipisci error quis consectetur itaque et, delectus sed incidunt, autem ex ullam amet nisi labore optio necessitatibus nostrum vel quisquam ipsum numquam eligendi possimus mollitia. Veritatis quae hic dolorum explicabo eius inventore doloribus sunt voluptates, iure eveniet accusantium tempore, cum similique eaque dolorem ipsum molestiae ea pariatur? Eveniet tempora voluptas dolorem, beatae error natus temporibus? Rem quae libero nemo consequuntur amet voluptatibus dolorem adipisci magnam, ea laudantium dignissimos quaerat eum at ex voluptate optio fuga modi commodi excepturi pariatur expedita, temporibus facilis. Consequuntur, laudantium, blanditiis quo quas aliquam iste soluta eligendi deleniti, dolorum dignissimos rerum illo sit praesentium. Ut laudantium dicta velit fugit magni blanditiis assumenda officia explicabo veritatis, sed at pariatur, ea reiciendis consequatur, omnis minima iste quas quis! Consequuntur laborum tenetur ipsam quod id voluptatum suscipit ea non nihil alias, soluta voluptatibus, nesciunt mollitia quisquam numquam. Vitae alias error unde ipsa obcaecati et molestias mollitia maxime, quam rerum facilis!
+Die Datenschutz-Grundverordnung (DSGVO) ist eine europäische Verordnung, die den Schutz personenbezogener Daten in der Europäischen Union regelt. Die DSGVO gilt für alle Unternehmen, die personenbezogene Daten von EU-Bürgern verarbeiten, unabhängig von ihrem Sitz. Die DSGVO verpflichtet die Unternehmen zu folgenden Grundsätzen:
+
+- Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz
+- Zweckbindung
+- Datenminimierung
+- Richtigkeit
+- Speicherbegrenzung
+- Integrität und Vertraulichkeit
+- Rechenschaftspflicht
+
+Die Firma headcrash.net beachtet diese Grundsätze bei der Datenrettung und informiert Sie über die Zwecke, die Art und den Umfang der Datenverarbeitung. Sie holt Ihre Einwilligung ein, bevor sie Ihre Daten rettet, und löscht Ihre Daten nach Abschluss der Datenrettung, sofern keine gesetzlichen Aufbewahrungspflichten bestehen. Sie schützt Ihre Daten vor unbefugtem Zugriff, Verlust oder Beschädigung durch geeignete technische und organisatorische Maßnahmen. Sie dokumentiert alle Vorgänge im Zusammenhang mit der Datenrettung und meldet eventuelle Verletzungen des Schutzes personenbezogener Daten an die zuständige Aufsichtsbehörde <https://dsgvo-gesetz.de/art-33-dsgvo/>.
+
+Die Firma headcrash.net ist Ihr verantwortungsvoller Ansprechpartner für die Datenrettung in Berlin. Sie können sich auf die Kompetenz und die Diskretion von headcrash.net verlassen und sicher sein, dass Ihre Daten in guten Händen.

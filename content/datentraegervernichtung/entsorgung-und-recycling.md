@@ -1,5 +1,5 @@
 ---
-title: "Entsorgung und Recycling"
+title: "Entsorgung und Recycling —"
 weight: 110
 date: 2023-06-01
 
