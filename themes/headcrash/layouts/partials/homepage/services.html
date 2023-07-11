@@ -6,34 +6,33 @@
     {{ end }}
             <h2 class="services__title">Unsere Services</h2>
             <ul class="services__list" role="list">
-                {{ range .Site.Menus.service }}
-                {{ if not ($page.IsMenuCurrent "service" .) }}
-                {{ $scardBg := .Page.Resources.GetMatch .Page.Params.cover_img }}
+                {{- range .Site.Menus.service -}}
+                {{- if not ($page.IsMenuCurrent "service" .) }}
+                {{- $scardBg := .Page.Resources.GetMatch .Page.Params.cover_img }}
                 <li class="services__item">
-                    {{ if $scardBg }}
-                    {{ $scardBg = $scardBg.Resize "320x webp q40" }}
+                    {{- if $scardBg }}
+                    {{- $scardBg = $scardBg.Resize "320x webp q40" }}
                     <a href="{{ .URL }}"
                         class="scard scard--bg"
-                        style="--scard-bg: url('{{ $scardBg.RelPermalink }}')"
-                    >
-                    {{ else }}    
+                        style="--scard-bg: url('{{ $scardBg.RelPermalink }}')">
+                    {{- else }}    
                     <a href="{{ .URL }}" class="scard">
-                    {{ end }}
+                    {{- end }}
                         <h3 class="scard__title">{{ .Name }}</h3>
                         <div class="scard__content">
-                            {{ with .Page.Description }}
+                            {{- with .Page.Description }}
                             {{ . }}
-                            {{ else }}
+                            {{- else }}
                             {{ .Page.Summary | plainify}}
-                            {{ end }}
+                            {{- end }}
                         </div>
                     </a>
                 </li>
-                {{ end }}
-                {{ end }}
+                {{- end }}
+                {{- end }}
             </ul>
-    {{ if $page.IsHome }}
+    {{- if $page.IsHome }}
         </div>
     </div>
-    {{ end }}
+    {{- end }}
 </div>

@@ -11,11 +11,11 @@
                     Vertrauen Sie ihn HeadCrash an!
                 </h2>
                 <ul>
-                    {{ range .Site.Menus.service }}
-                    {{ if ne .Name "FAQ"}}
+                    {{- range .Site.Menus.service -}}
+                    {{- if ne .Name "FAQ"}}
                     <li class="services__item">{{ .Name }}</li>
-                    {{ end }}
-                    {{ end }}
+                    {{- end }}
+                    {{- end }}
                 </ul>
                 <div class="hero__contact">
                     <a href="tel:{{ replaceRE "\\s" "" $phone  }}">{{ $phone }}</a>

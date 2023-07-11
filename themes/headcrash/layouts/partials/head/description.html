@@ -4,7 +4,7 @@
     {{ with page.Description }}
         {{ $description = . }}
     {{ else }}
-        {{ $description = page.Summary }}
+        {{ $description = page.Summary | plainify}}
     {{ end }}
 {{ end }}
 

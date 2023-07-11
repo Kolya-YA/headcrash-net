@@ -2,37 +2,34 @@
     {{ partial "header/skip-to-content" }}
     <div class="width-wrapper">
         <div class="header__block">
-            <a {{ if not .IsHome }}href="{{ site.Home.RelPermalink }}"{{ end }}class="header__logo">
+            <a href="{{ site.Home.RelPermalink }}" class="header__logo" aria-label="Homepage">
                 {{ partial "logo-svg" . }}
-                <div class="header__logo-name">{{ site.Params.logoName }}</div>
+                <span class="header__logo-name">{{ site.Params.logoName }}</span>
             </a>
             {{- partial "header/nav-toggler" . }}
             
-            <nav class="header__nav" id="mainnav"
-                aria-label="Hauptmenü">
-                
+            <nav class="header__nav" id="mainnav" aria-label="Hauptmenü">
                 <ul class="header__nav-list" role="list">
-                    {{ range .Site.Menus.top }}
-                    {{
+                    {{- range .Site.Menus.top }}
+                    {{-
                         $active := or 
                         (or (page.IsMenuCurrent "top" . ) (page.IsMenuCurrent "info" . ))
                         (or (page.HasMenuCurrent "top" . ) (page.HasMenuCurrent "info" . ))
                     }}
-                    <li
-                        class="header__nav-item
+                    <li class="header__nav-item
                         {{- if $active }} header__nav-item--active{{ end }}
                         {{- if .HasChildren }} header__nav-item--has-children{{ end -}}
                     ">
                         <a href="{{ .URL }}">{{ .Name }}</a>
-                        {{ with .Children }}
+                        {{- with .Children }}
                         <ul class="header__nav-sublist">
-                            {{ range . }}
+                            {{- range . }}
                             <li class="header__nav-subitem">
                                 <a href="{{ .URL }}">{{ .Name }}</a>
                             </li>
-                            {{ end }}
+                            {{- end }}
                         </ul>
-                        {{ end }}
+                        {{- end }}
                     </li>
                     {{ end }}
                 </ul>
