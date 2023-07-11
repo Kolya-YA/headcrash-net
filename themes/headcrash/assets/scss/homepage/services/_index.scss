@@ -17,7 +17,7 @@
         display: block;
         height: 100%;
         padding: var(--main-gap);
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         color: var(--light-text-color);
         text-decoration: none;
         box-shadow: 0 0 10px #aaa7;
@@ -32,7 +32,7 @@
         transition: background-color 300ms;
 
         &__title {
-            margin-block-start: calc(var(--main-gap) / 1);
+            margin-block-start: var(--main-gap);
             margin-block-end: calc(var(--main-gap) * 4);
             text-align: center;
         }

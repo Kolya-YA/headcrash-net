@@ -23,25 +23,18 @@
     --dark-bg-gradient: radial-gradient(
         farthest-corner circle at 9% 73%, #414a3b 5% 5%, 89%, #748268 100%
     );
-
-    // --box-shadow: 
-    // rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
-    // rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     
     --box-shadow:
-        var(--devsite-page-box-shadow,
         0 1px 2px hsla(94, 11%, 25%, 0.3),
-        0 1px 3px hsla(94, 11%, 25%, 0.15));
+        0 1px 3px hsla(94, 11%, 25%, 0.15);
 
-    --border-radius: 3px;
+    --border-radius: 0.2rem;
 
     --ff-main: "Exo", Arial, Helvetica, sans-serif;
-    // --ff-accent: "Fira Code", "Courier New", Courier, monospace;
     --ff-accent: "Courier New", Courier, monospace;
     --ff-mono: "Courier New", Courier, monospace;
     
     /* font-sizes */
-    --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
     --fs-800: 3.5rem;
     --fs-700: 1.5rem;
     --fs-600: 1.2rem;
@@ -51,7 +44,6 @@
     --fs-200: 0.875rem;
 
     /* paddings, margins, gaps */
-
     --main-gap: clamp(.7rem, calc(.5rem + 1vw), 1rem);
     --block-gap: calc(var(--main-gap) * 2)
 }

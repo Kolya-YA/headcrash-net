@@ -11,7 +11,7 @@
     width: var(--btt-size);
     height: var(--btt-size);
     background-color: var(--accent-color);
-    border-radius: 15%;
+    border-radius: var(--border-radius);
     // box-shadow: var(--main-shadow);
     visibility: hidden;
 

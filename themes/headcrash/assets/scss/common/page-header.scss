@@ -4,7 +4,7 @@
         --page-header-padding: clamp(
             var(--main-gap),
             calc(var(--main-gap) + 1vw),
-            calc(var(--main-gap) * 2)
+            var(--block-gap)
             );
 
         margin: 0;
@@ -31,7 +31,6 @@
     }
     
     &__title {
-        // font-size: 3rem;
     }
     
     &__link {

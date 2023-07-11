@@ -18,12 +18,10 @@
 
     &__block {
         position: relative;
-        border-radius: 5px;
-        overflow: hidden;
         
         .hero__content {
             width: calc(min(76ch, 100% - 4rem));
-            padding-block: calc(var(--main-gap) * 2);
+            padding-block: var(--block-gap);
             color: var(--light-text-color);
             
             &-title {
@@ -50,7 +48,7 @@
                 & > a {
                     flex: 1 1 240px;
                     max-width: 280px;
-                    padding: var(--main-gap) calc(var(--main-gap) * 2);
+                    padding: var(--main-gap) var(--block-gap);
                     text-align: center;
                     text-decoration: none;
                     font-family: var(--ff-accent);
@@ -58,7 +56,7 @@
                     color: var(--dark-text-color);
                     background-color: var(--accent-color);
                     box-shadow: var(--box-shadow);
-                    border-radius: 3px;
+                    border-radius: var(--border-radius);
                     transition: background-color 300ms;
 
                     &:is(:hover, :focus-visible) {

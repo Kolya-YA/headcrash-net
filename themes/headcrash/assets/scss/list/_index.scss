@@ -1,8 +1,8 @@
 .list {
-    margin-block-start: calc(var(--main-gap) * 2);
+    margin-block-start: var(--block-gap);
     display: flex;
     flex-wrap: wrap;
-    gap: calc(var(--main-gap) * 2);
+    gap: var(--block-gap);
 
     &__main {
         flex: 1 1 48ch;   
@@ -21,7 +21,7 @@
                 justify-content: space-between;
 
                 time {
-                    font-size: var(--fs-500);
+                    font-size: var(--fs-400);
                 }
             }
         }

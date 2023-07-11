@@ -4,7 +4,8 @@
     & > a {
         display: block;
         max-width: 280px;
-        padding: var(--main-gap) calc(var(--main-gap) * 2);
+        padding-block: var(--main-gap);
+        padding-inline: var(--block-gap);
         text-align: center;
         text-decoration: none;
         font-family: var(--ff-accent);
@@ -13,7 +14,7 @@
         color: var(--dark-text-color);
         background-color: var(--accent-color);
         box-shadow: var(--box-shadow);
-        border-radius: 3px;
+        border-radius: var(--border-radius);
         transition: background-color 300ms;
 
         &:is(:hover, :focus-visible) {

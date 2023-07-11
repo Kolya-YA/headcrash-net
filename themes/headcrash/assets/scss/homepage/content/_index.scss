@@ -5,7 +5,7 @@
     gap: 2.5rem;
     margin-block-start: 1em;
     padding-block-start: var(--main-gap);
-    padding-block-end: calc(var(--main-gap) * 2);
+    padding-block-end: var(--block-gap);
     
     & > * {
         break-inside: avoid;

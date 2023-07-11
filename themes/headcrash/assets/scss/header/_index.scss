@@ -83,7 +83,7 @@
                     top: calc(100% - 4px);
                     width: max-content;
                     padding-block: var(--main-gap);
-                    padding-inline: calc(var(--main-gap) * 2);
+                    padding-inline: var(--block-gap);
                     list-style: none;
                     background-color: var(--dark-bg-color);
                     border-bottom-left-radius: var(--border-radius);

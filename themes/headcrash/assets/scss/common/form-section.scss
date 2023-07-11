@@ -58,8 +58,8 @@
             border-radius: 50%;
             background-color: var(--colorM);
             box-shadow:
-                calc(var(--main-gap) * 2) 0 var(--colorM),
-                calc(var(--main-gap) * -2) 0 var(--colorD);
+                var(--block-gap) 0 var(--colorM),
+                calc(var(--block-gap) * -1) 0 var(--colorD);
             animation: loader 2s ease-in-out infinite;
         }
 
@@ -67,20 +67,20 @@
             0%, 100% {
                 background-color: var(--colorM);
                 box-shadow:
-                    calc(var(--main-gap) * 2) 0 var(--colorM),
-                    calc(var(--main-gap) * -2) 0 var(--colorD);
+                    var(--block-gap) 0 var(--colorM),
+                    calc(var(--block-gap) * -1) 0 var(--colorD);
             }
             33% {
                 background-color: var(--colorD);
                 box-shadow:
-                    calc(var(--main-gap) * 2) 0 var(--colorM),
-                    calc(var(--main-gap) * -2) 0 var(--colorM);
+                    var(--block-gap) 0 var(--colorM),
+                    calc(var(--block-gap) * -1) 0 var(--colorM);
             }
             66% {
                 background-color: var(--colorM);
                 box-shadow:
-                    calc(var(--main-gap) * 2) 0 var(--colorD),
-                    calc(var(--main-gap) * -2) 0 var(--colorM);
+                    var(--block-gap) 0 var(--colorD),
+                    calc(var(--block-gap) * -1) 0 var(--colorM);
             }
             
         }
