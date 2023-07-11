@@ -13,6 +13,10 @@
         --desktop-size: auto;
         --desktop-ul-display: flex;
         --desktop-position: static;
+        --desktop-sublist-left: auto;
+        --desktop-sublist-position: absolute;
+        --desktop-sublist-opacity: 0;
+        --desktop-pointer-events: none;
     }
 
     position: relative;
@@ -28,17 +32,16 @@
         .header__nav {
             display: flex;
             flex-direction: column;
-            // visibility: var(--nav-visibility, hidden);
-            // position: var(--desktop-position, fixed);
             position: var(--desktop-position, absolute);
             transform: var(--desktop-transform, translateX(120%));
             transition: var(--desktop-transform, (transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), visibility 0.3s linear));
             top: 100%;
-            // bottom: 0;
             right: 0;
             z-index: 10;
             width: var(--desktop-size, calc(min(22rem, 100vw)));
-            min-height: var(--desktop-size, 100vh);
+            min-height: var(--desktop-size, calc(100dvh - 100%));
+            max-height: 100%;
+            overflow-y: scroll;
             padding: var(--desktop-padding, 0.6rem);
             color: var(--light-bg-color);
             background-color: var(--desktop-border, var(--light-text-color));
@@ -47,6 +50,7 @@
         
             &-list {
                 display: var(--desktop-ul-display, block);
+                column-gap: calc(var(--main-gap) / 2);
                 margin: var(--desktop-margin, 1rem 0 0);
                 border-top: var(--desktop-border, 2px solid var(--btn-grey));
                 padding: 0;
@@ -65,29 +69,28 @@
                 &:is(:hover, :focus-visible) {
                     color: var(--link-color);
                     text-decoration-color: inherit;
-                }
-                
+                }                
             }
 
             &-item--has-children {
                 position: relative;
 
                 .header__nav-sublist {
-                    position: absolute;
+                    position: var(--desktop-sublist-position, static);
                     z-index: 99;
                     right: 0;
+                    left: var(--desktop-sublist-left, 0.5em);
                     top: calc(100% - 4px);
                     width: max-content;
                     padding-block: var(--main-gap);
                     padding-inline: calc(var(--main-gap) * 2);
                     list-style: none;
-                    background-color: var(--light-bg-color);
                     background-color: var(--dark-bg-color);
                     border-bottom-left-radius: var(--border-radius);
                     border-bottom-right-radius: var(--border-radius);
                     box-shadow: var(--box-shadow);
-                    pointer-events: none;
-                    opacity: 0;
+                    pointer-events: var(--desktop-pointer-events, all);
+                    opacity: var(--desktop-sublist-opacity, 1);
 
                     & a {
                         color: inherit;
@@ -104,12 +107,13 @@
                         pointer-events: all;
                         opacity: 1;
                     }
-                } 
-                
+                }
+
                 & > a::before {
                     content: "\25b8";
                     display: inline-block;
-                    margin-inline-end: 8px;
+                    position: absolute;
+                    left: -0.25em;
                     transition: transform 300ms ease-in-out;
                 }
                 

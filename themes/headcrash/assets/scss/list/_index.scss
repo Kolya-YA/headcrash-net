@@ -5,8 +5,29 @@
     gap: calc(var(--main-gap) * 2);
 
     &__main {
-        flex: 1 1 48ch;
+        flex: 1 1 48ch;   
+        
+        .list-content {
+
+            &__list {
+                margin-block: var(--main-gap);
+            }
+            
+            &__item {
+                font-size: var(--fs-600);
+                line-height: 1.9;
+                
+                display: list-item flex;
+                justify-content: space-between;
+
+                time {
+                    font-size: var(--fs-500);
+                }
+            }
+        }
     }
+
+
     
     &__aside {
         flex: 1;

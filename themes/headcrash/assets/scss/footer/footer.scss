@@ -1,20 +1,18 @@
 .footer {
     --top-cut: 1rem;
-    --block-gap: clamp(
+    --footer-gap: clamp(
         var(--main-gap),
         calc(var(--main-gap) + 2vw),
         calc(var(--main-gap) * 4)
     );
-    // min-height: 12rem;
+    
     background: var(--dark-bg-gradient);
-    margin-block-start: calc(var(--top-cut) + var(--main-gap));
-    padding-block-start: calc(var(--top-cut) + var(--main-gap));
-    // clip-path: polygon(0 var(--top-cut), 100% 0, 100% 100%, 0 100%);
+    margin-block-start: var(--footer-gap);
+    padding-block-start: var(--footer-gap);
     color: var(--light-bg-color);
     
     .footer-inner {
-        padding-block-start: var(--main-gap);
-        padding-block-end: calc(var(--main-gap) * 2);
+        padding-block-end: var(--footer-gap);
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-between;
@@ -28,7 +26,6 @@
         gap: var(--main-gap);
         text-decoration: none;
         line-height: 1;
-        // border-bottom: 1px solid var(--dark-bg-color-light);
         font-size: clamp(1.5rem, calc(2rem + 2vw), 3.2rem);
         height: 1.25em;
 
@@ -55,7 +52,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: var(--block-gap);
+        gap: var(--footer-gap);
     }
 
     a {
