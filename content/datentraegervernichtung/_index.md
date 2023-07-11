@@ -1,5 +1,6 @@
 ---
 title: "Datenträgervernichtung"
+metaTitle: "Professioneller Datenträgervernichtungsdienst"
 date: 2023-06-01
 cover_img: "57.jpg"
 

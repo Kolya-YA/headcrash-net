@@ -1,6 +1,6 @@
-{{- $title := partial "title" }}
-{{- $description := partial "description" }}
-{{- $styles := partial "styles" }}
+{{- $title := partial "head/title" }}
+{{- $description := partial "head/description" }}
+{{- $styles := partial "head/styles" }}
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,6 @@
     <title>{{ $title }}</title>
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     
-    <!-- TODO: Change social media stuff -->
     <meta property="og:title" content="{{ $title }}">
     <meta name="description" content="{{ $description }}">
     <meta property="og:description" content="{{ $description }}">
@@ -26,7 +25,6 @@
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
     <link rel="manifest" href="{{ "my.webmanifest" | absURL }}">
 
-    <!-- TODO: Change theme color -->
     <meta name="theme-color" content="#5cb931">
-    {{ partial "json-ld.html" (dict "p_title" $title "p_decsr" $description)  }}
+    {{ partial "head/json-ld" (dict "p_title" $title "p_decsr" $description)  }}
 </head>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html{{ with site.LanguageCode | default site.Language.Lang }} lang="{{ . }}"{{ end }}>
 <html>
-    {{- partial "head" . -}}
+    {{- partial "head/head" . -}}
     <body>
         {{- partial "header/header" . -}}
         {{- block "main" . }}{{- end }}

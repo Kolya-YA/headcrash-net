@@ -6,7 +6,8 @@ theme = "headcrash"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-    description = "Datenträgervernichtung, Datenlöschung, Datenrettung"
+    description = "Wir sind Ihr führendes Datenrettungsunternehmen für professionelle Datenträgervernichtung, zuverlässige Datenlöschung und effektive Datenrettung. Vertrauen Sie auf unsere Expertise!"
+    descrTmp = "🛑 Change me (up to ~155 characters)"
     name = "HeadCrash"
     logoName = "./HeadCrash"
     foundingDate = 2005

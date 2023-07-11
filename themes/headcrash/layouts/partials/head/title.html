@@ -2,12 +2,13 @@
 
 {{ if page.IsHome }}
     {{ $title = site.Title }}
-{{ else if page.IsPage }}
-    {{ $pageTitle :=
-        cond (isset page.Params "meta_title" )
-        page.Params.meta_title
-        page.Title
-    }}
+{{ else }}
+    {{ $pageTitle := "" }}
+    {{ with  page.Params.metaTitle }}
+        {{ $pageTitle = . }}
+    {{ else }}
+        {{ $pageTitle = page.Title }}
+    {{ end }}    
     {{ $title = (printf "%s | %s" $pageTitle site.Params.logoName) }}
 {{ end }}
 
