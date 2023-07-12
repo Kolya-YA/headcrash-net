@@ -2,6 +2,7 @@
 {{ with $headless.Resources.GetMatch .  }}
 <section class="form">
     <h3 class="form__title">{{ .Title }}</h3>
+    <button type="button" class="sdialog__open-btn">open sdialog</button> // TODO: remove this button
     <form class="form__form" action="">
         {{ range sort .Params.Form "weight" }}
         <label class="form__label">
@@ -37,6 +38,12 @@
             <span class="label">{{ .Params.SendBtn.Text }}</span>
             <span class="loader" hidden></span>
         </button>
+        <dialog class="form__succsses-dialog sdialog">
+            <h2 class="sdialog__title">{{ .Params.succssesDialog.title }}</h2>
+            <p>{{ .Params.succssesDialog.content }}</p>
+            <p>{{ .Params.succssesDialog.thanks }}</p>
+            <button class="sdialog__close-btn" aria-label="Close dialog">╳</button>
+        </dialog>
     </form>
 </section>
 {{ end }}

@@ -49,4 +49,9 @@ form:
 
 sendBtn:
     text: "Absenden"
+
+succssesDialog:
+    title: "Gesendet!"
+    content: "Ihre Nachricht wurde erfolgreich gesendet und wird so schnell wie möglich bearbeitet."
+    thanks: "Vielen Dank!"
 ---

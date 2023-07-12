@@ -5,30 +5,33 @@ import showSuccess from "./showSuccess";
 
 const cForm = document.querySelector('.form__form');
 
+showSuccess();
+
 if (cForm) {
     const submitBtn = document.querySelector('[type=submit]');
     const srvUrl = 'https://jsonplaceholder.typicode.com/posts';
 
     cForm.addEventListener('submit', async (e) => {
         e.preventDefault();
+        submitBtn.disabled = true;
+        formLoader(submitBtn);
 
         const formData = new FormData(cForm);
         const data = Object.fromEntries(formData);
+
         if (!formValidator(data, true)) {
-            console.log('Validator finded some errors!');
+            console.log('The validator found some errors!');
             return;
         }
 
-        try {
-            submitBtn.disabled = true;
-            formLoader(submitBtn)
+        try {    
             const response = await fetch(srvUrl)
             if (response.ok) {
                 const result = await response.json();
                 console.log(result);
                 showSuccess();
             } else {
-                console.error('Not OK response: ', response)
+                console.error('Response is not OK! Details: ', response)
             }
         }
         catch (error) {
