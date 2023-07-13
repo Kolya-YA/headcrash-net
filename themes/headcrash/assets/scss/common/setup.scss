@@ -19,8 +19,8 @@ body {
     min-height: 100vh;
     min-height: 100dvh;
     min-width: 360px;
-    margin: 0;
     overflow-x: hidden;
+    overflow-x: clip;
     font-family: var(--ff-main);
     font-size: var(--fs-500);
     line-height: 1.6;
