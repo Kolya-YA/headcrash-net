@@ -7,42 +7,57 @@ form:
         label: "Ihr Name"
         autocomplete: name
         placeholder: "Ihr Name"
+        minlength: 1
+        maxlength: 256
+        errorMsg: "Bitte gültigen Namen angeben"
         req: true
         weight: 10
     -   name: email
         label: "E-Mail"
         autocomplete: email
         placeholder: "E-Mail"
+        errorMsg: "Bitte gültige Email angeben"
         type: email
         req: true
         weight: 20
     -   name: phone
         label: "Telefon"
-        autocomplete: tel
+        autocomplete: "tel"
         placeholder: "Tel"
+        pattern11: "[\\d\\s\\-–—+]{2,6}"
+        errorMsg: 'Bitte gültige Telefonnummer angeben *(nur Ziffern, "-", "+" und Leerzeichen)*'
+        title: 'Bitte gültige Telefonnummer angeben (nur Ziffern, "-", "+" und Leerzeichen)'
         type: tel
         req: false
         weight: 30
     -   name: company
-        label: "Ihr Firma"
+        label: "Ihre Firma"
         autocomplete: organization
-        placeholder: "Ihr Firma"
+        placeholder: "Ihre Firma"
+        maxlength: 256
+        errorMsg: "Bitte gültige Info angeben"
         req: false
         weight: 40
     -   name: model
         label: "Betreff / Modell der Festplatte"
         placeholder: "Betreff / Modell der Festplatte"
+        maxlength: 256
+        errorMsg: "Bitte gültige Info angeben"
         req: false
         weight: 50
     -   name: msg
         label: "Problembeschreibung"
         placeholder: "Problembeschreibung"
+        minlength: 6
+        maxlength: 2048
+        errorMsg: "Bitte gültigen Text angeben"
         type: textarea
         req: true
         weight: 60
     -   name: agree
-        label: 'Ich habe die [Datenschutzerklärung]({{< relref "datenschutz" >}}) gelesen und akzeptiert.'
+        label: 'Ich habe die [Datenschutzerklärung]({{< relref "datenschutz" >}}) gelesen und akzeptiert'
         placeholder: "Problembeschreibung"
+        errorMsg: "Bitte bestätigen Sie Ihre Zustimmung"
         type: checkbox
         req: true
         weight: 70

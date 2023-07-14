@@ -10,9 +10,12 @@
             <span>{{ .label | markdownify }}</span>
             <textarea class="form__input"
             name="{{ .name }}"
-            type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
+            type="textarea"
+            rows="5"
             {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
             {{ with .placeholder }} placeholder="{{ . }}"{{ end}}
+            {{ with .minlength }} minlength="{{ . }}"{{ end}}
+            {{ with .maxlength }} maxlength="{{ . }}"{{ end}}
             {{ if .req }} required{{ end }}
             ></textarea>
             {{ else if eq .type "checkbox" }}
@@ -28,10 +31,14 @@
                 type="{{with .type }}{{ . }}{{ else }}text{{ end }}"
                 {{ with .autocomplete }} autocomplete="{{ . }}"{{ end}}
                 {{ with .placeholder }} placeholder="{{ . }}"{{ end}}
+                {{ with .minlength }} minlength="{{ . }}"{{ end}}
+                {{ with .maxlength }} maxlength="{{ . }}"{{ end}}
+                {{ with .pattern }} pattern="{{ . }}"{{ end}}
+                {{ with .title }} title="{{ . }}"{{ end}}
                 {{ if .req }} required{{ end }}
             >
             {{ end }}
-            <div class="form__err-msg">Error message</div>
+            <div class="form__{{ .name }}-err-msg">{{ .errorMsg | markdownify }}</div>
         </label>
         {{ end }}
         <button class="form__btn" type="submit">
