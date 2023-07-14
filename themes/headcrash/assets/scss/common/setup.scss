@@ -89,8 +89,8 @@ table {
     outline:
         var(--outline-width, var(--outline-size))
         var(--outline-style, solid)
-        var(--outline-color, currentColor);
-    outline-offset: var(--outline-offset, var(--outline-size));
+        var(--outline-color, var(--accent-color-light                   ));
+    outline-offset: var(--outline-offset, calc(var(--outline-size) * 1.5) );
 }
 
 .width-wrapper {

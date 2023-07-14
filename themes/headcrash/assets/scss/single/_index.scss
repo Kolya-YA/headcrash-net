@@ -19,7 +19,7 @@
             max-height: 100vh;
             margin-inline: calc(var(--main-gap) * -1);
             padding-inline: var(--main-gap);
-            overflow-y: scroll;
+            overflow-y: auto;
         }
     }
 }
