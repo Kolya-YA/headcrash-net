@@ -2,6 +2,10 @@
     color: var(--accent-color);
 }
 
+summary::marker {
+    color: var(--accent-color-dark);
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin-block-start: 1.2em;
     overflow-wrap: break-word;
