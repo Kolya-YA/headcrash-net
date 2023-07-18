@@ -29,7 +29,7 @@ Auf dieser Seite finden Sie eine von uns zusammengetragene Auflistung von kosten
 
 ## Liste der Programme zur Datenrettung
 
-| Software | Wertung |
+| Software | Bewertung |
 | --- | --- |
 | [Ontrack EasyRecovery Lite]({{< relref "#ontrack-easyrecovery-lite" >}}) | ★★★★★★ |
 | [Stellar Phoenix NTFS 2.2]({{< relref "#StellarPhoenixNTFS" >}}) | ★★★★★★ |

@@ -1,5 +1,5 @@
 ---
-title: "Lexicon"
+title: "Lexikon"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
 date: 2018-01-01
 toc: true
