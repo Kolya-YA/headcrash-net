@@ -7,8 +7,8 @@ form:
         label: "Ihr Name"
         autocomplete: name
         placeholder: "Ihr Name"
-        minlength: 1
-        maxlength: 256
+        maxlength: 128
+        pattern: "^(?!\\s+$).+"
         errorMsg: "Bitte gültigen Namen angeben"
         req: true
         weight: 10

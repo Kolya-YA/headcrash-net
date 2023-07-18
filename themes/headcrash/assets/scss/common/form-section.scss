@@ -4,9 +4,10 @@
         margin-block: var(--main-gap);
     }
 
-    &__label {
+    &__label {position: relative;
         display: block;
-        margin-block-end: var(--main-gap);
+        margin-block-end: var(--block-gap);
+        margin-block-end: calc(var(--main-gap) * 1.5);
 
         &:has(*:required) > span::after {
             content: "*";
@@ -19,7 +20,10 @@
         display: block;
         min-width: 100%;
         font: inherit;
-        padding: .25em .5em;
+        padding-block: calc(var(--main-gap) / 4);
+        padding-inline: calc(var(--main-gap) / 2);
+        border: 1px solid var(--accent-color-dark);
+        border-radius: var(--border-radius);
         
         &[type="checkbox"] {
             display: inline-block;
@@ -29,6 +33,22 @@
             transform: scale(1.8);
             transform-origin: left;
         }
+        
+        &[aria-invalid='false'] {
+            box-shadow: inset 0 0 calc(var(--main-gap) /2) var(--accent-color);
+        }
+        
+        &[aria-invalid='true'] {
+            box-shadow: inset 0 0 calc(var(--main-gap) /2) var(--warning-color);
+        }
+    }
+
+    &__err-msg {
+        position: absolute;
+        bottom: -1.6rem;
+        padding-inline: calc(var(--main-gap) / 2);
+        font-size: var(--fs-200);
+        color: var(--warning-color);
     }
     
     &__btn {
