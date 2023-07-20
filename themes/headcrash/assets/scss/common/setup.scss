@@ -49,6 +49,10 @@ input, button, textarea, select {
     font: inherit;
 }
 
+ul {
+    max-width: fit-content;
+}
+
 hr {
     margin-block: var(--main-gap);
     border: none;
