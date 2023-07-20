@@ -14,6 +14,7 @@
         --desktop-ul-display: flex;
         --desktop-position: static;
         --desktop-overflow-y: visible;
+        --desktop-sublist-width: max-content;
         --desktop-sublist-left: auto;
         --desktop-sublist-position: absolute;
         --desktop-sublist-opacity: 0;
@@ -82,7 +83,7 @@
                     right: 0;
                     left: var(--desktop-sublist-left, 0.5em);
                     top: calc(100% - 4px);
-                    width: max-content;
+                    width: var(--desktop-sublist-width, 100%);
                     padding-block: var(--main-gap);
                     padding-inline: var(--block-gap);
                     list-style: none;
