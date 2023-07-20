@@ -6,6 +6,7 @@ date: 2023-07-01
 menu:
   top:
       parent: Datenträgervernichtung
+      identifier: Datensicherheit-inner
       weight: 20
 ---
 
