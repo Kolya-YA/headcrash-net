@@ -13,6 +13,8 @@ menu:
 
 Datenrettung Flash SpeicherGehen sensible Daten plötzlich verloren, ist dies nicht nur ärgerlich, sondern kann unter Umständen erhebliche wirtschaftliche Folgen nach sich ziehen. Doch dies ist kein Grund für Verzweifelung und Endzeitstimmung, denn es gibt Rettung von professioneller Seite. Ein großer Teil des Datenverlustes kann von IT-Experten gezielt gänzlich rekonstruiert werden. Gerade Daten, die auf mobilen Kompakt-Speichern festgehalten wurden, sind oft einmalig und deshalb besonders wertvoll. Unsere Datenrettungsspezialisten rekonstruieren in modernen Reinraumlabors Ihre Daten aus den zerstörten Speichermedien. Gelöschte Daten lassen sich Mittels besonderer Software-Anwendung und spezifizierten Fachwissens wiederherstellen.
 
+{{< imgr src="flash-speicher.jpg" alt="Flash-Speicher M.2" >}}
+
 Ob **USB-Sticks, Speicherkarten von Digitalkameras und Mobiltelefonen oder Handhelds sowie MP3-Player**, die meisten Kompaktspeicher sind Flash-Speicher-Systeme. Daneben wird diese Technik auch in DiskOnChip, Solid State Drives und Hybridfestplatten verwendet. Als eingebettete Systeme findet man sie in Mikrocontrollern oder sie werden zur dauerhaften Speicherung von Betriebssystemen von Computern oder auch bei grafikfähigen Taschenrechnern verwendet.
 
 Flash-Speicher, genauer Flash-EEPROM, sind digitale Speicherchips, auf denen Daten ohne permanente Versorgungsspannung gespeichert werden können. Es handelt sich demnach um einen nichtflüchtigen Speicher, auf dem die Informationen persistent gespeichert werden. Sie werden besonders dort eingesetzt, wo Daten auf kleinstem Raum möglichst kompakt festgeschrieben werden müssen. Aufgrund ihres geringen Formats sind sie überaus widerstandsfähig gegen Erschütterungen.
