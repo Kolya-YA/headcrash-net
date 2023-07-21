@@ -10,6 +10,8 @@ menu:
 
 Die Zertifizierung bei der Festplattenvernichtung ist ein Nachweis für die Qualität und die Sicherheit der Vernichtung. Die Zertifizierung erfolgt nach der DIN 66399, einer deutschen Norm, die den Stand der Technik in der Datenträgervernichtung abbildet. Die DIN 66399 orientiert sich an den hohen Anforderungen der EU-Datenschutzgrundverordnung (DSGVO), die den Schutz personenbezogener Daten in der Europäischen Union regelt.
 
+{{< imgr src="zertifizierung.jpg" alt="Festplatte unter der Lupe" >}}
+
 Die Zertifizierung bei der Festplattenvernichtung umfasst mehrere Aspekte:
 
 - Die Zertifizierung der Maschinen zur Vernichtung von Datenträgern, die bestimmte Anforderungen an die Partikelgröße, die Schnittbreite und die Schnittlänge erfüllen müssen. Die Maschinen werden in sieben Sicherheitsstufen eingeteilt, je nachdem, wie klein die Partikel sind, die nach der Vernichtung übrig bleiben. Je höher die Sicherheitsstufe, desto geringer die Möglichkeit der Datenrekonstruktion.

@@ -11,6 +11,8 @@ menu:
 
 Die Firma headcrash.net in Berlin bietet Ihnen einen professionellen Service für die Festplattenvernichtung an. Die Festplattenvernichtung ist ein wichtiger Schritt, um Ihre sensiblen Daten vor unbefugtem Zugriff zu schützen und die Anforderungen der EU-Datenschutzgrundverordnung (DSGVO) zu erfüllen.
 
+{{< imgr src="festplattenvernichtung-02.jpg" alt="Viele alte Festplatten zu vernichten" >}}
+
 Die Festplattenvernichtung bei headcrash.net erfolgt in mehreren Schritten:
 
 - Zunächst werden die Festplatten sicher gelöscht oder entmagnetisiert mit einem speziellen Gerät, das einen starken Magnetfeldimpuls erzeugt (Degausser). Dieser Vorgang zerstört die magnetische Struktur der Festplatte und macht die Daten unlesbar.
