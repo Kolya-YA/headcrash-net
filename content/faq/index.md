@@ -16,12 +16,18 @@ menu:
 
 In diesem Abschnitt haben wir die häufigsten, wichtigsten und interessantesten Fragen unserer Kunden zusammengestellt. Sollte Ihre Frage hier nicht aufgeführt sein, wenden Sie sich bitte über das Kontaktformular oder telefonisch an uns.
 
-{{<details "Was ist passiert?">}}
-In der **Vergangenheit** hat eine Reihe von Ereignissen stattgefunden, die zu dem aktuellen Zustand oder der aktuellen Situation geführt haben. Dabei können verschiedene Faktoren eine Rolle gespielt haben, wie zum Beispiel natürliche Prozesse, menschliche Handlungen oder unvorhergesehene Umstände. Es ist wichtig zu beachten, dass die genaue **Antwort** auf diese Frage von den spezifischen Umständen und dem Kontext abhängt, auf den sie sich bezieht.
+{{<details "Was ist ein Headcrash?">}}
+Ein Headcrash ist eine Beschädigung der magnetischen Oberfläche einer Festplatte durch den Kontakt mit dem Lesekopf. Dies kann zu Datenverlust, Geräuschen, Fehlfunktionen oder Ausfällen der Festplatte führen. Eine Datenrettung bei einem Headcrash-Schaden kann ausschließlich unter Reinraum-Bedingungen und mit Verwendung von speziellen Soft- und Hardware-Werkzeugen durchgeführt werden.
 {{</details>}}
 
-{{<details "Was wird als nächstes passieren?">}}
-Es ist unmöglich, mit absoluter Sicherheit vorherzusagen, was als Nächstes passieren wird. Die Zukunft ist von einer Vielzahl von Faktoren abhängig, die sich ständig ändern können. Verschiedene Ereignisse und Entscheidungen, sei es auf individueller oder kollektiver Ebene, können den Verlauf der Zukunft beeinflussen. Daher bleibt die genaue Antwort auf diese Frage ungewiss und wird durch die *Dynamik* und *Komplexität* des Lebens bestimmt.
+{{<details "Wie kann man einen Headcrash vermeiden?">}}
+Ein Headcrash kann durch verschiedene Faktoren verursacht werden, wie z.B. Stöße, Erschütterungen, Temperaturschwankungen, Verschmutzung, Verschleiß oder Herstellungsfehler. Um einen Headcrash zu vermeiden, sollte man folgende Vorsichtsmaßnahmen treffen:
+
+- Die Festplatte an einem stabilen, trockenen und kühlen Ort aufbewahren und vor Staub schützen.
+- Die Festplatte nicht bewegen oder schütteln, wenn sie in Betrieb ist oder kurz danach.
+- Die Festplatte regelmäßig überprüfen und warten, z.B. mit Diagnose- oder Defragmentierungsprogrammen.
+- Die Festplatte nicht überlasten oder überhitzen lassen, z.B. durch zu viele Programme oder Dateien.
+- Die Festplatte nicht öffnen oder manipulieren, da dies die Garantie erlischt und die Daten gefährdet.
 {{</details>}}
 
 {{<details "Wohin soll man rennen?">}}
