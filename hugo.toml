@@ -12,7 +12,6 @@ disableKinds = ["taxonomy", "term"]
     logoName = "./HeadCrash"
     foundingDate = 2005
     email = "dr-hdd@headcrash.net"
-    phone = "+49 (0) 30 333 222 333"
     phones = [
         "+49 30 417 25 045",
         "0800-433-5-222"
