@@ -1,5 +1,5 @@
 # Building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to server via SSH
+name: Deploy Hugo site to server via FTP
 
 on:
   # Allows you to run this workflow manually from the Actions tab
@@ -56,7 +56,4 @@ jobs:
           server: ftp://headcrash.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public
-
-
-
+          local-dir: ./public/
