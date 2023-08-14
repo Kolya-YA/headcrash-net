@@ -1,12 +1,29 @@
 const navTogglerBtn = document.querySelector('.nav-toggler button');
 const headerNav = document.querySelector('.header__nav');
-// const headerBottom = document.querySelector('.header-bottom');
 
 navTogglerBtn.addEventListener('click', ({ target }) => {
     const newStatus = navTogglerBtn.getAttribute('aria-expanded') === 'true'
-        ? false
-        : true;
+        ? 'false'
+        : 'true';        
+    const navVisibility = headerNav.getAttribute('data-visibility');
+    
     navTogglerBtn.setAttribute('aria-expanded', newStatus)
+
+    console.log("vis", navVisibility)
+    
+    if (navVisibility === 'hidden') {
+        headerNav.setAttribute('data-visibility', 'visible');
+        headerNav.classList.add('header__nav--open');
+    } else {
+        const trEnd = (e) => {
+            console.log("END", e.propertyName, navVisibility)
+            headerNav.setAttribute('data-visibility', 'hidden');
+            headerNav.removeEventListener('transitionend', trEnd)
+        };
+
+        headerNav.classList.remove('header__nav--open');
+        headerNav.addEventListener('transitionend', trEnd)
+    }
 
     // avoid body scrolling
     if (document.body.style.position === 'fixed') {
@@ -18,7 +35,6 @@ navTogglerBtn.addEventListener('click', ({ target }) => {
         document.body.style.left = '0px';
         document.body.style.right = '0px';
     }
-    headerNav.classList.toggle('header__nav--open');
 });
 
 // headerBottom.addEventListener('keyup', (e) => {

@@ -8,7 +8,7 @@
             </a>
             {{- partial "header/nav-toggler" . }}
             
-            <nav class="header__nav" id="mainnav" aria-label="Hauptmenü">
+            <nav class="header__nav" id="mainnav" data-visibility="hidden" aria-label="Hauptmenü">
                 <ul class="header__nav-list" role="list">
                     {{- range .Site.Menus.top }}
                     {{-
