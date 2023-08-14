@@ -2,7 +2,7 @@
     {{ partial "header/skip-to-content" }}
     <div class="width-wrapper">
         <div class="header__block">
-            <a href="{{ site.Home.RelPermalink }}" class="header__logo" aria-label="Homepage">
+            <a href="{{ site.Home.RelPermalink }}" class="header__logo" aria-label="{{ site.Params.logoName }}. Startseite.">
                 {{ partial "logo-svg" . }}
                 <span class="header__logo-name">{{ site.Params.logoName }}</span>
             </a>
