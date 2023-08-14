@@ -1,5 +1,12 @@
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "styles/main.css" }}
-{{ $styles := resources.Get "scss/main.scss" }}
-{{ $styles = $styles | toCSS $opts | fingerprint }}
-{{/*  {{ $styles = $styles | toCSS $opts | minify | fingerprint }}  */}}
+{{ $opts := dict 
+    "transpiler" "dartsass"
+    "targetPath" "styles/main.css"
+    "enableSourceMap" (not hugo.IsProduction)
+}}
+{{ $styles := resources.Get "scss/main.scss" | toCSS $opts }}
+{{ if hugo.IsProduction }}
+{{ $styles = $styles | minify | fingerprint "md5" }}
+{{ else }}
+{{ $styles = $styles | fingerprint "md5" }}
+{{ end }}
 {{ return $styles }}
