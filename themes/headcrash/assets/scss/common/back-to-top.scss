@@ -5,18 +5,16 @@
     z-index: 100;
     right: calc(var(--main-gap) * 1.2);
     bottom: calc(var(--main-gap) * 4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-content: center;
     width: var(--btt-size);
     height: var(--btt-size);
     background-color: var(--accent-color);
     border-radius: var(--border-radius);
-    // box-shadow: var(--main-shadow);
+    box-shadow: var(--box-shadow);
     visibility: hidden;
 
     &__arrow {
-        position: fixed;
         width: calc(var(--btt-size) / 2);
         height: calc(var(--btt-size) / 2);
         border-left: solid;
