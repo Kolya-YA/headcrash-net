@@ -1,6 +1,11 @@
 {{- $title := partial "head/title" }}
 {{- $description := partial "head/description" }}
 {{- $styles := partial "head/styles" }}
+{{- $ogImg := resources.Get (path.Join "images" .Site.Params.HeroBackground) }}
+{{- with .Page.Params.cover_img }}
+{{- $ogImg = $.Resources.GetMatch . -}}
+{{- end }}
+{{- $ogImg = $ogImg.Resize "512x webp q70" }}
 
 <head>
     <meta charset="UTF-8">
@@ -11,15 +16,12 @@
     <meta property="og:title" content="{{ $title }}">
     <meta name="description" content="{{ $description }}">
     <meta property="og:description" content="{{ $description }}">
-    <meta property="og:image" content="https://">
-    
+    <meta property="og:image" content="{{ $ogImg.Permalink }}">
     <meta property="og:locale" content="{{ with site.LanguageCode | default site.Language.Lang }}{{ . }}{{ end }}">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:url" content="{{ .Permalink }}">
-
     <link rel="canonical" href="{{ .Permalink }}">
-
     <link rel="icon" href="{{ "favicon.ico" | absURL }}">
     <link rel="icon" href="{{ "favicon.svg" | absURL }}" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
