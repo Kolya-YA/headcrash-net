@@ -19,7 +19,7 @@
             ></textarea>
             {{ else if eq .type "checkbox" }}
             <input class="form__input"
-                type="checkbox" name=""
+                type="checkbox" name="{{ .name }}"
                 {{ if .req }} required{{ end }}
             >
             <span>{{ .label | markdownify }}</span>
@@ -48,6 +48,12 @@
         </button>
         <dialog class="form__succsses-dialog sdialog">
             <h2 class="sdialog__title">{{ .Params.succssesDialog.title }}</h2>
+            <p>{{ .Params.succssesDialog.content }}</p>
+            <p>{{ .Params.succssesDialog.thanks }}</p>
+            <button class="sdialog__close-btn" aria-label="Close dialog">╳</button>
+        </dialog>
+        <dialog class="form__error-dialog sdialog">
+            <h2 class="sdialog__title">{{ .Params.errorDialog.title }}</h2>
             <p>{{ .Params.succssesDialog.content }}</p>
             <p>{{ .Params.succssesDialog.thanks }}</p>
             <button class="sdialog__close-btn" aria-label="Close dialog">╳</button>

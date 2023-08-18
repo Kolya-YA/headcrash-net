@@ -24,9 +24,10 @@ form:
         label: "Telefon"
         autocomplete: "tel"
         placeholder: "Tel"
-        pattern11: "[\\d\\s\\-–—+]{2,6}"
-        errorMsg: 'Bitte gültige Telefonnummer angeben *(nur Ziffern, "-", "+" und Leerzeichen)*'
-        title: 'Bitte gültige Telefonnummer angeben (nur Ziffern, "-", "+" und Leerzeichen)'
+        pattern: "[0-9\\s–—+\\-]{4,32}"
+        maxlength: 32
+        errorMsg: 'Bitte gültige Telefonnummer angeben *(nur Ziffern, "-", "+" und Leerzeichen, 4 bis 32 Zeichen)*'
+        title: 'Bitte gültige Telefonnummer angeben (nur Ziffern, "-", "+" und Leerzeichenб 4 bis 32 Zeichen)'
         type: tel
         req: false
         weight: 30
@@ -38,7 +39,7 @@ form:
         errorMsg: "Bitte gültige Info angeben"
         req: false
         weight: 40
-    -   name: model
+    -   name: subject
         label: "Betreff / Modell der Festplatte"
         placeholder: "Betreff / Modell der Festplatte"
         maxlength: 256
@@ -69,4 +70,9 @@ succssesDialog:
     title: "Gesendet!"
     content: "Ihre Nachricht wurde erfolgreich gesendet und wird so schnell wie möglich bearbeitet."
     thanks: "Vielen Dank!"
+
+errorDialog:
+    title: "Fehler"
+    content: "Es gab ein Problem bei der Übermittlung Ihrer Nachricht. Bitte versuchen Sie es später erneut"
+    thanks: "Vielen Dank für Ihr Verständnis."
 ---
