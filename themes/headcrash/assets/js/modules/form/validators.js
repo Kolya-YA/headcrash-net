@@ -23,8 +23,13 @@ export default (input) => {
             return false;
         }
     }
-
-    //TODO: add pattern validaion
+    
+    if (input.hasAttribute('pattern')) {
+        const regex = new RegExp(`^${input.getAttribute('pattern')}$`);
+        if (regex.test(input.value.trim()) === false) {
+            return false;
+        }
+    }
 
     return true;
 }   

@@ -1,41 +1,19 @@
-import formLoader from "./formLoader";
+import { inputsValidator } from "./inputsValidator";
 import formValidator from "./formValidator";
-import showFormError from "./showFormError";
-import showSuccess from "./showSuccess";
-import inputValidator from "./inputValidator";
-import markInputInvalid from "./markInputInvalid";
-import markInputValid from "./markInputValid";
+import { showSuccessMsg, showErrorMsg, showFormLoader } from "./showFormMsgs";
+
+const apiURL = 'http://localhost:3000/api/mailer';
 
 const cForm = document.querySelector('.form__form');
 
 if (cForm) {
-    const submitBtn = document.querySelector('[type=submit]');
-    const srvUrl = 'https://jsonplaceholder.typicode.com/posts';
+    const srvUrl = apiURL;
 
-    const inputs = cForm.querySelectorAll('input, textarea');
-    
-    inputs.forEach(input => {
-        input.addEventListener('input', () => {
-            if (inputValidator(input)) {
-                input.setAttribute('aria-invalid', 'false');
-            } else {
-                input.removeAttribute('aria-invalid');
-            }
-        })
-        
-        input.addEventListener('change', () => {
-            if (inputValidator(input)) {
-                markInputValid(input)
-            } else {
-                markInputInvalid(input);
-            }
-        })
-    })
+    inputsValidator(cForm.querySelectorAll('input, textarea'));
 
     cForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        submitBtn.disabled = true;
-        formLoader(submitBtn, 'show');
+        showFormLoader(cForm, 'show');
 
         const formData = new FormData(cForm);
         const data = Object.fromEntries(formData);
@@ -46,7 +24,14 @@ if (cForm) {
         }
 
         try {    
-            const response = await fetch(srvUrl)
+            const response = await fetch(srvUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': apiURL
+                },
+                body: JSON.stringify(data)
+            })
             if (response.ok) {
                 const result = await response.json();
                 console.log(result);
@@ -55,12 +40,11 @@ if (cForm) {
             }
         }
         catch (error) {
-            showFormError(error);
+            showErrorMsg(error);
         } finally {
             setTimeout(() => {
-                formLoader(submitBtn, 'hide');
-                submitBtn.disabled = false
-                showSuccess();
+                showFormLoader(cForm, 'hide');
+                showSuccessMsg();
             }, 2000);
         }
     })
