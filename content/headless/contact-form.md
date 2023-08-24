@@ -24,7 +24,7 @@ form:
         label: "Telefon"
         autocomplete: "tel"
         placeholder: "Tel"
-        pattern: "[0-9\\s–—+\\-]{4,32}"
+        pattern: "^$|[0-9\\s–—+\\-]{4,32}"
         maxlength: 32
         errorMsg: 'Bitte gültige Telefonnummer angeben *(nur Ziffern, "-", "+" und Leerzeichen, 4 bis 32 Zeichen)*'
         title: 'Bitte gültige Telefonnummer angeben (nur Ziffern, "-", "+" und Leerzeichenб 4 bis 32 Zeichen)'
