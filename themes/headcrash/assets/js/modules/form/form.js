@@ -2,7 +2,8 @@ import { inputsValidator } from "./inputsValidator";
 import formValidator from "./formValidator";
 import { showSuccessMsg, showErrorMsg, showFormLoader } from "./showFormMsgs";
 
-const apiURL = 'http://localhost:3000/api/mailer';
+// const apiURL = 'http://localhost:3000/api/mailer';
+const apiURL = 'https://rmc-mailer.onrender.com/api/mailer';
 
 const cForm = document.querySelector('.form__form');
 

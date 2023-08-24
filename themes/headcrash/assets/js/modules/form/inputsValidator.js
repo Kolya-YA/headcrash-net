@@ -4,7 +4,6 @@ import { setInputInvalid, setInputValid } from "./setInputValidInvalid";
 export const inputsValidator = (inputs) => {
     inputs.forEach(input => {
         input.addEventListener('input', () => {
-            console.log(input.value, validators(input));
             if (validators(input)) {
                 input.setAttribute('aria-invalid', 'false');
             } else {
