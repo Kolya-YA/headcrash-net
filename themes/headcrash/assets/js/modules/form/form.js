@@ -28,6 +28,7 @@ if (cForm) {
         try {    
             const response = await fetch(srvUrl, {
                 method: 'POST',
+                mode: 'cors',
                 headers: {
                     'Content-Type': 'application/json',
                     'Access-Control-Allow-Origin': apiURL
