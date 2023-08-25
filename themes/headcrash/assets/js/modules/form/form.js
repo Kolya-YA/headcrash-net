@@ -1,6 +1,6 @@
 import { inputsValidator } from "./inputsValidator";
 import formValidator from "./formValidator";
-import { showSuccessMsg, showErrorMsg, showFormLoader } from "./showFormMsgs";
+import { showMsgDialog, showFormLoader } from "./showFormMsgs";
 
 // const apiURL = 'http://localhost:3000/api/mailer';
 const apiURL = 'https://rmc-mailer.onrender.com/api/mailer';
@@ -19,8 +19,9 @@ if (cForm) {
         const formData = new FormData(cForm);
         const data = Object.fromEntries(formData);
 
-        if (!formValidator(data, true)) {
+        if (!formValidator(data)) {
             console.log('The validator found some errors!');
+            showFormLoader(cForm, 'hide');
             return;
         }
 
@@ -34,18 +35,19 @@ if (cForm) {
                 body: JSON.stringify(data)
             })
             if (response.ok) {
-                const result = await response.json();
-                console.log(result);
+                showMsgDialog('.form__succsses-dialog', 10000);
+                cForm.reset();
             } else {
                 console.error('Response is not OK! Details: ', response)
+                showMsgDialog('.form__error-dialog', 5000);
             }
         }
         catch (error) {
-            showErrorMsg(error);
+            console.error('Response has some error! ', error)
+            showMsgDialog('.form__error-dialog', 5000);
         } finally {
             setTimeout(() => {
                 showFormLoader(cForm, 'hide');
-                showSuccessMsg();
             }, 2000);
         }
     })

@@ -1,32 +1,19 @@
-export const showSuccessMsg = () => {
-    const successDialog = document.querySelector('.form__succsses-dialog');
-    const closeBtn = successDialog.querySelector('sdialog__close-btn');
+export const showMsgDialog = (className, timer = 15000) => {
+    const msgDialog = document.querySelector(className);
+    const closeBtn = msgDialog.querySelector('.sdialog__close-btn');
 
-    sdialog.showModal();
-    
+    msgDialog.showModal();
+
     setTimeout(() => {
-        successDialog.close();
-    }, 15000)
+        msgDialog.close();
+        return true;
+    }, timer)
     
     closeBtn.addEventListener('click', () => {
-        successDialog.close();
+        msgDialog.close();
+        return true;
     },  { once: true })    
 }
-
-export const showErrorMsg = (error) => {
-    const errorDialog = document.querySelector('.form__error-dialog');
-    const closeBtn = errorDialog.querySelector('sdialog__close-btn');
-
-    sdialog.showModal();
-    
-    setTimeout(() => {
-        errorDialog.close();
-    }, 15000)
-    
-    closeBtn.addEventListener('click', () => {
-        errorDialog.close();
-    },  { once: true })  
-};
 
 export const showFormLoader = (cForm, action = 'hide') => {
     const submitBtn = cForm.querySelector('[type=submit]');
