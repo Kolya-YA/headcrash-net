@@ -1,7 +1,10 @@
-{{ $footerScript := resources.Get "js/footer-script.js" | js.Build (dict "target" "es2020") -}}
+{{- $jsParams := dict "isProduction" hugo.IsProduction }}
+{{- $buildOptions := dict "target" "es2020" "params" $jsParams }}
 
-{{ if not .Site.IsServer }}
+{{- $footerScript := resources.Get "js/footer-script.js" | js.Build $buildOptions -}}
+
+{{- if not .Site.IsServer }}
   {{ $footerScript = $footerScript | minify | fingerprint -}}
-{{ end -}}
+{{- end }}
 
 <script defer src="{{ $footerScript.RelPermalink }}"></script>

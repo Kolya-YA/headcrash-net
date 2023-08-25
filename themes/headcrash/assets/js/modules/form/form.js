@@ -1,9 +1,11 @@
+import * as hugoParams from '@params';
 import { inputsValidator } from "./inputsValidator";
 import formValidator from "./formValidator";
 import { showMsgDialog, showFormLoader } from "./showFormMsgs";
 
-// const apiURL = 'http://localhost:3000/api/mailer';
-const apiURL = 'https://rmc-mailer.onrender.com/api/mailer';
+const apiURL = hugoParams.isProduction
+    ? 'https://rmc-mailer.onrender.com/api/mailer'
+    : 'http://localhost:3000/api/mailer';
 
 const cForm = document.querySelector('.form__form');
 
@@ -30,8 +32,7 @@ if (cForm) {
                 method: 'POST',
                 mode: 'cors',
                 headers: {
-                    'Content-Type': 'application/json',
-                    'Access-Control-Allow-Origin': apiURL
+                    'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(data)
             })
