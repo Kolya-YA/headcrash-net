@@ -1,6 +1,6 @@
 ---
 title: Impressum
-date: 2023-01-01
+date: 2023-08-29
 url: impressum
 
 menu:
@@ -12,7 +12,7 @@ Headcrash.net ist zentrale Anlaufstellen zum Thema Datenrettung. Wir sind kein o
 
 **Vertragspartner im Bezug auf Datenrettung ist:**
 
-HDDLab/XDatenrettung  
+**headCrash.net**  
 Danzigerstr 78a 10405 Berlin  
 Deutschland
 

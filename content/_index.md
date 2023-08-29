@@ -1,7 +1,7 @@
 ---
 titLe: Professionelle Datenrettung
 description: ""
-date: 2023-06-01
+date: 2023-08-29
 
 infoSection: "home-info/index.md"
 ---
@@ -23,6 +23,6 @@ Wir als Dienstleister haben uns auf die Datenwiederherstellung spezialisiert und
 
 {{< imgr src="20230626_154333.jpg" alt="Geöffnete Festplatte im Reinraum" >}}
 
-Der Prozess der Datenrettung ist bei uns einfach und schnell gehalten. Sie können sich hier über den Ablauf der Datenrettung informieren. Der Prozess startet mit dem Absenden Ihrer Anfrage an uns. Für diejenigen, die lieber telefonieren stehen unsere Kundenberater parat um alle relevanten Daten aufzunehmen und Ihnen zu helfen.
+Der Prozess der **Datenrettung** ist bei uns einfach und schnell gehalten. Hier können Sie sich über den Ablauf der Datenrettung informieren. Der Prozess beginnt mit dem Absenden Ihrer Anfrage an uns. Für diejenigen, die lieber telefonieren, stehen unsere Kundenbetreuer bereit, um alle relevanten Daten aufzunehmen und Ihnen zu helfen.
 
 Falls sie sich erstmal näher zum Thema Datenrettung einlesen möchten finden Sie auf unserer Webseite ein [Lexikon-Datenrettung]({{< relref "blog/lexicon" >}}) mit Erklärungen zu den Fachbegriffen und den Sachverhalten im Bereich der Datenrettung.
