@@ -1,6 +1,6 @@
 ---
 title: Impressum
-date: 2023-08-29
+date: 2023-08-30
 url: impressum
 
 menu:
@@ -16,7 +16,7 @@ Headcrash.net ist zentrale Anlaufstellen zum Thema Datenrettung. Wir sind kein o
 Danzigerstr 78a 10405 Berlin  
 Deutschland
 
-E-Mail: info(at)hddlab.de  
+E-Mail: hddtech(at)gmx.net  
 Tel: 030 41725045, 0800-4335222 (kostenlos aus dem dt. Festnetz)
 
 Für Anfragen über Headcrash.net gelten die AGB von HDDLab Datenrettung welche Ihnen nach Kontaktaufnahme auf Wunsch zugesandt werden.
