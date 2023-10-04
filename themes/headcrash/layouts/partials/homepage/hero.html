@@ -1,7 +1,7 @@
 {{ $heroBg := resources.Get (path.Join "images" .Site.Params.HeroBackground) }}
 {{ $phone := index site.Params.phones 0 }}
 {{ with $heroBg.Resize "1200x webp q30" }}
-<div class="hero" style="--hero-bg-image: url('{{ .RelPermalink }}');">
+<div class="hero" role="banner" style="--hero-bg-image: url('{{ .RelPermalink }}');">
 {{ end }}
     <div class="width-wrapper">
         <div class="hero__block">

@@ -1,5 +1,5 @@
 {{ $page := . }}
-<div class="services{{ if not $page.IsHome }} services--aside{{ end }}">
+<section class="services{{ if not $page.IsHome }} services--aside{{ end }}">
     {{ if $page.IsHome }}
     <div class="width-wrapper">
         <div class="sevices__block">
@@ -35,4 +35,4 @@
         </div>
     </div>
     {{- end }}
-</div>
+</section>
