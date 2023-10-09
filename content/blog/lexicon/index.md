@@ -1,7 +1,7 @@
 ---
 title: "Lexikon"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
-date: 2018-01-01
+date: 2023-10-08
 toc: true
 cover_img: "alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
 cover_img_credits: "Photo by [Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/FO7JIlwjOtU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -65,7 +65,15 @@ Sollte es doch einmal zu einer Infektion kommen, dann können Systemabstürze un
 
 ### Arbeitsspeicher / RAM
 
-**RAM** — Random Access Memory oder auch Arbeitsspeicher genannt; alle Daten, die hier gespeichert werden gelöscht, sobald der Computer ausgeschaltet wird.
+Der Arbeitsspeicher, auch RAM *(Random Access Memory)* genannt, ist ein flüchtiger Speicher, der von einem Computer verwendet wird, um aktuelle Daten und Programme zu speichern. Er ist wesentlich schneller als der Langzeitspeicher auf einer Festplatte oder einem Solid State Drive (SSD).
+
+Der Arbeitsspeicher wird für die folgenden Aufgaben verwendet:
+
+- Speichern der aktuell ausgeführten Programme und Daten;
+- Zwischenspeichern von Daten, die vom Prozessor benötigt werden;
+- den Zugriff auf Daten zu beschleunigen;
+
+Je mehr Arbeitsspeicher ein Computer hat, desto mehr Programme und Daten können gleichzeitig ausgeführt werden. Dies kann die Leistung des Computers verbessern, insbesondere bei rechenintensiven Aufgaben wie Videobearbeitung oder Spielen.
 
 ### Archiv-Bit
 
@@ -735,6 +743,21 @@ So soll sich alle 2 Jahre die Komponentenanzahl und damit die Leistung von Baute
 
 Das Ende dieser Leistungsverdoppelung wurde von Moor für 2007 voraus gesagt, jedoch geht Digital Enterprise von einer weiteren konstanten Steigerung bis 2029 aus.
 
+### MTBF *(Mean Time Between Failures)*
+
+MTBF steht für "Mean Time Between Failures" und gibt an, wie lange ein Speichermedium im Durchschnitt ohne Ausfall funktioniert. Sie wird in Stunden angegeben. Eine MTBF von 1 Million Stunden bedeutet, dass das Speichermedium mit einer Wahrscheinlichkeit von 50 % nach 1 Million Stunden ausfällt.
+
+Je höher der MTBF-Wert, desto zuverlässiger ist das Speichermedium. Solid State Drives (SSDs) haben in der Regel einen höheren MTBF-Wert als Festplatten. Das liegt daran, dass SSDs keine beweglichen Teile haben, die ausfallen können.
+
+Der MTBF-Wert ist jedoch nur ein Richtwert. Die tatsächliche Lebensdauer eines Speichermediums kann von verschiedenen Faktoren beeinflusst werden, z. B. von der Umgebungstemperatur, der Nutzung und der Art der gespeicherten Daten.
+
+Hier einige Beispiele für MTBF-Werte verschiedener Speichermedien:
+
+- **Festplatte:** 100.000 – 1.000.000 Stunden
+- **SSD:** 1.000.000 – 10.000.000 Stunden
+- **Magnetband:** 10.000.000 – 100.000.000 Stunden
+Um die Lebensdauer eines Speichermediums zu verlängern, sollte es an einem trockenen und kühlen Ort gelagert werden. Außerdem sollte es nicht übermäßig beansprucht werden.
+
 ### Multifunktionsgerät
 
 Ein Multifunktionsgerät bezeichnet im Allgemeinen ein Gerät, welches mehrere Funktionen übernehmen kann. Die gängigste Deutung für den Namen Multifunktionsgerät ist unter anderen ein Gerät, das Drucken, Scannen, Kopieren und Faxen kann und so bis zu vier Geräten in sich vereint. Auch solche Geräte besitzen einen Festplattenspeicher und können erweitert werden, sowie ausgelesen um einen eventuellen Fehler festzustellen.
@@ -744,9 +767,26 @@ Neben einer Festplatte besitzen solche Geräte meist noch verschiedene Anschluss
 
 ## N
 
-### NAS
+### NAS *(Network Attached Storage)*
 
-NAS = Network Attached Storage; das NAS ist ein File-Server, der ein oder mehrere interne voreingestellte Server umfasst und für die Sicherung von Daten von Bedeutung ist.
+NAS steht für "Network Attached Storage" und bezeichnet ein Netzwerkspeichergerät. NAS-Geräte sind eigenständige Geräte, die an ein Netzwerk angeschlossen werden und als zentraler Speicherort für Daten dienen. Sie können von mehreren Computern oder anderen Geräten im Netzwerk genutzt werden.
+
+NAS-Geräte sind in der Regel mit mehreren Festplatten ausgestattet. Diese Festplatten können zu einem RAID-Verbund zusammengefasst werden, um die Datensicherheit zu erhöhen.
+
+NAS-Geräte werden in unterschiedlichen Größen und Konfigurationen angeboten. Sie können für verschiedene Zwecke verwendet werden, z. B. zum Speichern von Dateien, Bildern, Videos oder Backups.
+
+Hier einige Vorteile von NAS-Geräten:
+
+- Zentraler Speicherort für Daten
+- Zugriff von verschiedenen Geräten
+- Hohe Datensicherheit durch RAID-Verbund
+- Einfache Installation und Verwaltung
+- Hier einige Nachteile von NAS-Geräten
+
+Höherer Anschaffungspreis im Vergleich zu externen Festplatten
+
+- Stromverbrauch
+- Geräuschentwicklung
 
 ### Netzteil
 
