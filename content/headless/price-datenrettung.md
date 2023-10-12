@@ -1,6 +1,6 @@
 ---
 title: Datenrettung preise
-date: 2023-06-01
+date: 2023-10-11
 
 price:
     -   title: "Logischer Schaden"
@@ -20,7 +20,7 @@ price:
     -   title: "Speicherkarten"
         cost: "300–900 €"
         duration: "bis zu 14 Tagen"
-        text: "Datenrettung SD, CF Karte. Datenrettung bei Elektronik- schaden, mechanische Schäden, Defekt der Controller oder Leitplatte. Flash Memory – SD, CF, XD, MS."
+        text: "Datenrettung von SD-, CF-Karten. Datenrettung bei Elektronikschäden, mechanischen Schäden, Defekt des Controllers oder der Leiterplatte. Flash-Speicher - SD, CF, XD, MS."
     -   title: "CD, DVD, BLU-RAY"
         cost: "300–600 €"
         duration: "bis zu 7 Tagen"
