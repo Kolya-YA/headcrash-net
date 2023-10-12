@@ -38,7 +38,6 @@
         gap: var(--main-gap);
         font-size: var(--fs-500);
         font-weight: 600;
-        // background-color: #0005;
 
         span{
             display: block;
@@ -47,5 +46,9 @@
             background-color: var(--accent-color-light);
 
         }
+    }
+
+    &__text {
+        hyphens: auto;
     }
 }
