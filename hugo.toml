@@ -4,6 +4,7 @@ title = "Datenträgervernichtung, Datenlöschung, Datenrettung — /HeadCrash"
 
 theme = "headcrash"
 disableKinds = ["taxonomy", "term"]
+enableRobotsTXT = true
 
 [params]
     description = "Wir sind Ihr führendes Datenrettungsunternehmen für professionelle Datenträgervernichtung, zuverlässige Datenlöschung und effektive Datenrettung. Vertrauen Sie auf unsere Expertise!"

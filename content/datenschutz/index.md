@@ -2,6 +2,7 @@
 title: Datenschutz
 date: 2023-01-01
 url: datenschutz
+noRobots: true
 
 menu:
   legal:

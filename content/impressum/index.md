@@ -2,6 +2,7 @@
 title: Impressum
 date: 2023-08-30
 url: impressum
+noRobots: true
 
 menu:
   legal:

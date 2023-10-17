@@ -28,6 +28,10 @@
     <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
     <link rel="manifest" href="{{ "my.webmanifest" | absURL }}">
 
+    {{- if page.Params.NoRobots }}
+    <meta name="robots" content="noindex, follow"> 
+    {{- end }}
+
     <meta name="theme-color" content="#5cb931">
     {{ partial "head/json-ld" (dict "p_title" $title "p_decsr" $description)  }}
 </head>
