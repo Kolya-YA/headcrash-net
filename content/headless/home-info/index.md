@@ -5,7 +5,7 @@ date: 2023-06-01
 
 ### Ablauf Datenrettung
 
-Hier finden Sie den Schritt-für-Schritt Ablauf einer Datenrettung:
+**Hier finden Sie den Schritt-für-Schritt Ablauf einer Datenrettung:**
 
 - Sie starten eine Anfrage über unser [Kontaktformular]({{< relref "contact" >}}) oder über unsere kostenlose Telefon-Hotline (0800-4335222).
 - Sobald Ihre Nachricht übermittelt wurde bearbeiten wir Sie unverzüglich und treten gegebenenfalls mit Ihnen für Rückfragen in Kontakt.
@@ -13,8 +13,10 @@ Hier finden Sie den Schritt-für-Schritt Ablauf einer Datenrettung:
 - Wir analysieren den Sachverhalt und erstellen auf Basis einer Analyse ein Angebot.
 - Wenn Ihnen das Angebot zusagt und Sie es annehmen werden die Daten wieder hergestellt.
 - Anschließend bringt Ihnen unser Kurier wieder Ihr Speichermedium oder falls ein physikalischer Austausch stattfinden musste - Ihre Daten und Ihr Speichermedium separat.
-Unsere Bearbeitungszeiten sind hierbei
 
+**Unsere Bearbeitungszeiten sind hierbei:**
+
+- Kosten und Dauer der Datenrettungsdienste finden Sie in unserer [Preisliste]({{< relref "datenrettung#price" >}})
 - Business Service: 2-4 Werktage
 - Option High Priority: sofort 24/7
 - Economy Service: 10-14 Werktage
