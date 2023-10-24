@@ -1,7 +1,8 @@
 ---
 title: "Lexikon"
+metaTitle: "Lexikon zum Thema Datenspeicher und Datenrettung"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
-date: 2023-10-08
+date: 2023-10-24
 toc: true
 cover_img: "alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
 cover_img_credits: "Photo by [Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/FO7JIlwjOtU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -807,7 +808,7 @@ Aufgenommen in das Lexikon am 31.05.2008
 
 ### NFS
 
-NFS = Network File System; NFS bezeichnet ein System von Unix zur Zugreifen auf Dateien innerhalb eines Netzwerkes.
+NFS — Network File System. NFS ist ein System von Unix, um auf Dateien in einem Netzwerk zuzugreifen.
 
 ### NTFS
 
