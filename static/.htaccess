@@ -1,3 +1,7 @@
 RewriteEngine On
 ErrorDocument 404 /404.html
 Redirect 303 /datenrettung/datenrettung-headcrash.html /datenrettung/
+Redirect 303 /festplattenvernichtung.html /datentraegervernichtung/festplattenvernichtung/
+Redirect 303 /datenrettung/datenrettung-raid-systeme.html /datenrettung/raid-systeme/
+Redirect 303 /ratgeber/ratgeber-datenrettung-festplatten-tools-diagnose-tools.html /blog/software/
+Redirect 303 /datenrettung/datenrettung-festplatten.html /datenrettung/festplatte/
