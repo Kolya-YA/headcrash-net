@@ -1,8 +1,11 @@
 ---
 title: "Datenträgervernichtung"
-metaTitle: "Professioneller Service für die Vernichtung von Datenträgern"
-date: 2023-10-15
+metaTitle: "Professioneller Datenträger-Vernichtungsservice"
+description: "Festplatten, SSDs und andere Datenträger vernichten wir kostenlos. Unsere Entsorgungsmethoden sind umweltschonend und entsprechen den Sicherheitsstandards des BDSG-Datenschutzgesetzes und der DIN 33858."
+date: 2023-10-02
 cover_img: "57.jpg"
+
+price: "price-datentraegervernichtung.md"
 
 menu:
   top:
@@ -12,7 +15,6 @@ menu:
 ---
 
 ## Sichere, umweltfreundliche und kostenlose Festplattenvernichtung
-<!--more-->
 
 In den vergangenen Jahren hat die Produktion von Speichermedien wie Festplatten und USB-Sticks enorm zugenommen. Der Bedarf an Datenspeichern ist weltweit stark gestiegen. Doch wohin mit den alten Festplatten? Wie kann man am sichersten und umweltfreundlichsten alte oder defekte Festplatten entsorgen?
 
