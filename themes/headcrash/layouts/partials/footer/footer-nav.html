@@ -9,18 +9,17 @@
         </a>
     </li>
     {{- end }}
-    {{- range index site.Menus . }}
-    {{- $pageUrl := .URL }}
-    {{- with .Page.Params.price }}
-    {{- $headless := site.GetPage "/headless" }}
-    {{- with $headless.Resources.GetMatch .  }}
-    <li class="footer-nav__item">
-        <a  class="footer-nav__link"
-        href="{{ path.Join $pageUrl "/#price" }}">
-        {{- .Title -}}        
-        </a>
-    </li>
-    {{- end }}
-    {{- end }}
+    {{- range $i, $page := index site.Menus . }}
+        {{- with .Page.Params.price }}
+            {{- $headless := site.GetPage "/headless" }}
+            {{- with $headless.Resources.GetMatch .  }}
+                {{ if eq $i 0 }}<hr>{{ end }}
+                <li class="footer-nav__item">
+                    <a  class="footer-nav__link" href='{{ path.Join $page.URL "/#price" }}'>
+                        {{- .Title -}}        
+                    </a>
+                </li>
+            {{- end }}
+        {{- end }}
     {{- end }}
 </ul>
