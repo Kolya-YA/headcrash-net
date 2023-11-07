@@ -5,7 +5,7 @@
         <div class="sevices__block">
     {{ end }}
             <h2 class="services__title">Unsere Services</h2>
-            <ul class="services__list" role="list">
+            <ul class="services__list">
                 {{- range .Site.Menus.service -}}
                 {{- if not ($page.IsMenuCurrent "service" .) }}
                 {{- $scardBg := .Page.Resources.GetMatch .Page.Params.cover_img }}

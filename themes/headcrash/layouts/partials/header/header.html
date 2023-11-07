@@ -9,7 +9,7 @@
             {{- partial "header/nav-toggler" . }}
             
             <nav class="header__nav" id="mainnav" data-visibility="hidden" aria-label="Hauptmenü">
-                <ul class="header__nav-list" role="list">
+                <ul class="header__nav-list">
                     {{- range .Site.Menus.top }}
                     {{-
                         $active := or 
