@@ -8,15 +8,17 @@
     <source
         srcset="
         {{- with $respSizes -}}
-            {{- range . -}}
+            {{ $len := (len .) }}
+            {{- range $i, $size := . -}}
                 {{- if ge $src.Width . -}}
-                    {{- ($src.Resize (printf "%sx webp" . )).RelPermalink }} {{ . }}w,
+                    {{- ($src.Resize (printf "%sx webp" $size )).RelPermalink }} {{ $size }}w
+                    {{- if lt $i (sub $len 1) }},{{ end }}
                 {{ end -}}
             {{- end -}}
         {{- end -}}
         "
         sizes="{{ $dataSizes }}"
-    />    
+    >    
     <img
         src="{{ $actualImg.RelPermalink }}"
         width="{{ $src.Width }}"
@@ -24,5 +26,5 @@
         alt="{{ $alt }}"
         loading="lazy"
         decoding="async"
-    />
+    >
 </picture>
