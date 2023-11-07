@@ -2,7 +2,7 @@
 title: "Lexikon"
 metaTitle: "Lexikon zum Thema Datenspeicher und Datenrettung"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
-date: 2023-10-24
+date: 2023-11-07
 toc: true
 cover_img: "alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
 cover_img_credits: "Photo by [Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/FO7JIlwjOtU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -15,15 +15,13 @@ menu:
         weight: 20
 ---
 
-In der Rubrik "Lexikon" werden grundlegende Konzepte von Datenspeichersystemen beleuchtet. Datenspeicherung umfasst verschiedene Technologien wie Festplatten, Solid-State-Laufwerke und Cloud-Speicher. Diese Speichersysteme sind jedoch anfällig für physikalische Schäden, elektronische Ausfälle oder versehentliche Löschungen. Die Datenrettung zielt darauf ab, verlorene Daten wiederherzustellen, indem sie spezialisierte Tools und Techniken einsetzt, um beschädigte oder gelöschte Dateien zu analysieren und zu reparieren. Ein fundiertes Verständnis der Grundkonzepte von Datenspeichersystemen ist unerlässlich, um effektive Datenrettungslösungen zu entwickeln und anzuwenden.
-
-{{< imgr src="lexikon.jpg" alt="Die wichtigsten Teile einer Festplatte" >}}
+In der Rubrik "Lexikon" werden grundlegende Konzepte von Datenspeichersystemen beleuchtet. Datenspeicherung umfasst verschiedene Technologien wie Festplatten, Solid-State-Laufwerke und Cloud-Speicher. Diese Speichersysteme sind jedoch anfällig für physikalische Schäden, elektronische Ausfälle oder versehentliche Löschungen. Die Datenwiederherstellung zielt darauf ab, verlorene Daten wiederherzustellen, indem spezialisierte Werkzeuge und Techniken zur Analyse und Reparatur beschädigter oder gelöschter Dateien verwendet werden. Ein gutes Verständnis der Grundkonzepte von Datenspeichersystemen ist für die Entwicklung und Anwendung effektiver Datenrettungslösungen unerlässlich.
 
 ## A
 
 ### Abgesicherter Modus
 
-Wenn der Computer im abgesicherten Modus gestartet wird, werden nur die aller notwendigsten Komponenten des Betriebssystems hochgefahren. Dies kann helfen Fehlerquellen zu analysieren und zu beseitigen.
+Beim Starten des Computers im **abgesicherten Modus** werden nur die notwendigsten Komponenten des Betriebssystems gestartet. Dies kann helfen, Fehlerquellen zu analysieren und zu beheben.
 
 ### Absturz
 
@@ -474,11 +472,13 @@ Oft kann man in den Systemeinstellungen auch zusätzliche akustische Fehlermeldu
 
 ### Festplatte
 
-Eine Festplatte oder HDD (Hard Disk Drive) ist die wohl am weitesten verbreitete Art eines Speichermediums.
+Eine **Festplatte** oder **HDD** *(Hard Disk Drive)* ist wahrscheinlich das am weitesten verbreitete Speichermedium.
 
-Die markanten Eigenschaften eines solchen Mediums sind die mechanischen Einrichtungen, welche nötig sind um die Informationen magnetisch auf dem Datenträger abzuspeichern. Hierzu wird ein Arm, ausgestattet mit einem Schreib- und Lesekopf verwendet.
+Die Hauptmerkmale eines solchen Mediums sind die mechanischen Vorrichtungen, die erforderlich sind, um die Informationen magnetisch auf dem Datenträger zu speichern. Zu diesem Zweck wird ein Arm verwendet, der mit einem Schreib- und Lesekopf ausgestattet ist.
 
-Solche Festplatten gibt es sowohl als interne sowie als externe Geräte.
+Es gibt sowohl interne als auch externe Festplatten.
+
+{{< imgr src="lexikon.jpg" alt="Die wichtigsten Teile einer Festplatte" >}}
 
 ### Festplatten Crash / Head Crash
 
@@ -548,9 +548,9 @@ Ein Hacker ist eine Umgangssprachliche Bezeichnung für eine Person, die sich mi
 
 Ein Cracker im Gegenzug ist eine Person, welche sich mit ihrem Equipment Zugang auf fremde Systeme verschafft. Cacker nutzen dabei Lücken in Systemen aus und diese Art der unerlaubten Zugriffsverletzung kann vom relativ harmlosen Hobby bis hin zu Internet Kriminalität wie dem ausspionieren von Zugriffsdaten (Kontonummer, Passwort, etc.) oder Industriespionage gehen. In Fachkreisen wird auf dieser Begriffsunterscheidung bestanden.
 
-### Harddisc
+### Hard disc
 
-Harddisc ist die englische Bezeichnung für eine Festplatte. Siehe auch Festplatte.
+**Hard disc** ist die englische Bezeichnung für eine Festplatte. Siehe auch [Festplatte](#festplatte).
 
 ### Hardware
 
@@ -1133,6 +1133,10 @@ Bei den heutigen Betriebssystemen gibt es diese Möglichkeit nicht mehr. STRG + 
 ### Wasserschaden
 
 Wasserschäden sind Schäden, die durch den Kontakt meist empfindlicher Computer-Komponenten mit Wasser entstehen. Häufig können Speichermedien nach einem durch Wasser verursachten Schaden wiederhergestellt werden.
+
+### WebP
+
+Das **WebP-Format** ist ein Bildkomprimierungsformat, das von *Google* erfunden und 2010 erstmals veröffentlicht wurde. Es wurde entwickelt, um Bilder in hoher Qualität bei geringer Dateigröße im Vergleich zu anderen Formaten wie JPEG und PNG zu ermöglichen. **WebP** benutzt moderne Technologien zur Komprimierung von Bildern. Dadurch werden die Dateigrößen signifikant reduziert, während die Bildqualität erhalten bleibt. Dadurch werden die Ladezeiten der Website verbessert und es wird Bandbreite gespart, was insbesondere bei der Nutzung des Internets auf mobilen Geräten von Vorteil ist.
 
 ### Wechselplatte
 
