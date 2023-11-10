@@ -1,14 +1,13 @@
 baseURL = 'https://headcrash.net/'
 defaultContentLanguage = 'de'
-title = "Datenträgervernichtung, Datenlöschung, Datenrettung — /HeadCrash"
+title = "Datenrettung, Datenträgervernichtung, Datenlöschung — ./HeadCrash"
 
 theme = "headcrash"
 disableKinds = ["taxonomy", "term"]
 enableRobotsTXT = true
 
 [params]
-    description = "Wir sind Ihr führendes Datenrettungsunternehmen für professionelle Datenträgervernichtung, zuverlässige Datenlöschung und effektive Datenrettung. Vertrauen Sie auf unsere Expertise!"
-    descrTmp = "🛑 Change me (up to ~155 characters)"
+    description = "Wir sind Ihr führendes Datenrettungsunternehmen für professionelle Datenträgervernichtung, zuverlässige Datenlöschung und effektive Datenwiederherstellung. Vertrauen Sie auf unsere Expertise!"
     name = "HeadCrash"
     logoName = "./HeadCrash"
     foundingDate = 2005
