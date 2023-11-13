@@ -4,7 +4,7 @@
 
 - Hugo static site generator ([link](https://gohugo.io/))
 - SCSS
-- Java Script
+- JavaScript
 - A11y
 - SEO
 
