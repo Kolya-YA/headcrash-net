@@ -9,7 +9,7 @@ menu:
       weight: 10
 ---
 
-Die Firma headcrash.net in Berlin bietet Ihnen einen professionellen Service für die Festplattenvernichtung an. Die **[Festplattenvernichtung](http://https://hddlab.de/datenrettung/festplattenvernichtung.html/)** ist ein wichtiger Schritt, um Ihre sensiblen Daten vor unbefugtem Zugriff zu schützen und die Anforderungen der EU-Datenschutzgrundverordnung (DSGVO) zu erfüllen.
+Die Firma headcrash.net in Berlin bietet Ihnen einen professionellen Service für die Festplattenvernichtung an. Die **[Festplattenvernichtung](http://hddlab.de/datenrettung/festplattenvernichtung.html)** ist ein wichtiger Schritt, um Ihre sensiblen Daten vor unbefugtem Zugriff zu schützen und die Anforderungen der EU-Datenschutzgrundverordnung (DSGVO) zu erfüllen.
 
 {{< imgr src="festplattenvernichtung-02.jpg" alt="Viele alte Festplatten zu vernichten" >}}
 
