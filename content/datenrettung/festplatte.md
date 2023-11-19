@@ -1,7 +1,7 @@
 ---
 title: "Datenrettung Festplatte"
 weight: 10
-date: 2023-10-11
+date: 2023-11-19
 
 menu:
   top:
@@ -11,7 +11,7 @@ menu:
 
 ### Festplattenrettung bei Festplattencrash und Datenverlust
 
-Datenrettung FestplattenDie elektronische Datenverarbeitung ist eine der größten Errungenschaften unserer Zeit – falls sie reibungslos funktioniert. Aber was tut man, wenn die auf der Festplatte gespeicherten Informationen plötzlich nicht mehr zugänglich sind und wichtige Datensätze verloren sind? Dann nur nicht auch noch die Nerven verlieren, denn für solche Fälle gibt es kompetente Hilfe. Auf Datenverlust spezialisierte Experten sind in der Lage, schnell und unkompliziert verschwundene Speicherungen zu retten. Gelöschte oder beschädigte Daten können in den meisten Fällen zurückgeholt werden und unlesbar gewordene Speicherinformationen lassen sich wiederherstellen. Die **Datenrettung einer Festplatte** bezieht sich sowohl auf Dateien, als auch auf ganze Programme und Systeme. Neben einzelnen Festplatten lassen sich auch Festplattenverbunde wie Raid-Systeme und Server der Rekonstruktion unterziehen.
+Datenrettung FestplattenDie elektronische Datenverarbeitung ist eine der größten Errungenschaften unserer Zeit – falls sie reibungslos funktioniert. Aber was tut man, wenn die auf der Festplatte gespeicherten Informationen plötzlich nicht mehr zugänglich sind und wichtige Datensätze verloren sind? Dann nur nicht auch noch die Nerven verlieren, denn für solche Fälle gibt es kompetente Hilfe. Auf Datenverlust spezialisierte Experten sind in der Lage, schnell und unkompliziert verschwundene Speicherungen zu retten. Gelöschte oder beschädigte Daten können in den meisten Fällen zurückgeholt werden und unlesbar gewordene Speicherinformationen lassen sich wiederherstellen. Die **[Datenrettung einer Festplatte](http://xdatenrettung.de/festplatte/)** bezieht sich sowohl auf Dateien, als auch auf ganze Programme und Systeme. Neben einzelnen Festplatten lassen sich auch Festplattenverbunde wie Raid-Systeme und Server der Rekonstruktion unterziehen.
 
 HDD ist die gebräuchliche Abkürzung für eine **Festplatte**[^*] und steht für das englische „hard disk drive“. Das Speichermedium besitzt eine ferromagnetische rotierende Scheibe, auf deren starre Oberfläche binäre Daten geschrieben werden. Die Speicherung auf den Festplatten erfolgt durch Magnetisierung von Plattenabschnitten. Gespeichert werden können die unterschiedlichsten Daten, und ein Lesekopf kann anschließend die magnetisierten Daten wieder auslesen.
 

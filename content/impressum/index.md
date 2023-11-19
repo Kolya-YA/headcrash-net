@@ -1,6 +1,6 @@
 ---
 title: Impressum
-date: 2023-08-30
+date: 2023-11-19
 url: impressum
 noRobots: true
 
@@ -14,21 +14,19 @@ Headcrash.net ist zentrale Anlaufstellen zum Thema Datenrettung. Wir sind kein o
 **Vertragspartner im Bezug auf Datenrettung ist:**
 
 **headCrash.net**  
-Danzigerstr 78a 10405 Berlin  
+Siemensstr.10 10551 Berlin  
 Deutschland
 
 E-Mail: hddtech(at)gmx.net  
-Tel: 030 41725045, 0800-4335222 (kostenlos aus dem dt. Festnetz)
-
+Tel: 030-4408242 
 Für Anfragen über Headcrash.net gelten die AGB von HDDLab Datenrettung welche Ihnen nach Kontaktaufnahme auf Wunsch zugesandt werden.
 
 ### Seitenbetreiber — Informationen gemäß TMG, TDDSG, MDStV
 
 Headcrash Datenrettung  
-R.H.K. GmbH  
-Danzigerstr. 78a  
-10405 Berlin  
-Tel: +49 30 41725045
+Siemensstr.10 
+10551 Berlin   
+Tel: 030-4408242
 
 HRB 65866 AG Charlottenburg  
 UstID-Nummer: DE12325452

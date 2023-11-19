@@ -1,7 +1,7 @@
 ---
 title: "Datenrettung SD Karte"
 weight: 30
-date: 2023-06-01
+date: 2023-11-19
 
 menu:
   top:
@@ -11,7 +11,7 @@ menu:
 
 ## Datenrettung von Speicherkarten (SD Karten, CF Karten, MMC, …)
 
-Datenrettung SpeicherkartenHat man Informationen auf leicht transportablen Geräten wie Digitalkameras, Mobiltelefonen oder USB-Sticks gespeichert, ist der unerwartete Verlust sehr folgenschwer, weil oft keine Sicherheitskopien existieren. Sind es nur die letzten Urlaubsfotos oder Musikstücke, so lässt sich das vielleicht noch verschmerzen, bei hochsensiblen und wichtige Daten jedoch kann dies einer Katastrophe gleich kommen. Dennoch gibt es keinen Grund zu übertriebener Besorgnis oder gar Panik. Es existieren einige Möglichkeiten, die auf den **Speicherkarten** der elektronischen Geräte verloren gegangenen Daten noch zu retten.
+**[Datenrettung Speicherkarten](https://www.xdatenrettung.de/sd-karte/)** Hat man Informationen auf leicht transportablen Geräten wie Digitalkameras, Mobiltelefonen oder USB-Sticks gespeichert, ist der unerwartete Verlust sehr folgenschwer, weil oft keine Sicherheitskopien existieren. Sind es nur die letzten Urlaubsfotos oder Musikstücke, so lässt sich das vielleicht noch verschmerzen, bei hochsensiblen und wichtige Daten jedoch kann dies einer Katastrophe gleich kommen. Dennoch gibt es keinen Grund zu übertriebener Besorgnis oder gar Panik. Es existieren einige Möglichkeiten, die auf den **Speicherkarten** der elektronischen Geräte verloren gegangenen Daten noch zu retten.
 
 {{< imgr src="sd-karten.jpg" alt="SD Karten" >}}
 
