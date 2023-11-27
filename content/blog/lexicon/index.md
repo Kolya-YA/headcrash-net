@@ -2,7 +2,7 @@
 title: "Lexikon"
 metaTitle: "Lexikon zum Thema Datenspeicher und Datenrettung"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
-date: 2023-11-07
+date: 2023-11-27
 toc: true
 cover_img: "alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
 cover_img_credits: "Photo by [Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/FO7JIlwjOtU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -150,7 +150,7 @@ Ein Bandlaufwerk wie die Kassette oder das Tonband werden auch als Streamer beze
 
 Ein Betriebssystem ist eine grafisch aufbereitete Benutzeroberfläche, die es dem Nutzer erleichtern soll sich mit den einzelnen Prozessen zurecht zu finden. Sie stellt dem Benutzer den Desktop zur Verfügung und steuert die Geräte, Programme und Anwendungsprozesse die während des Betriebs ablaufen.
 
-Die bekanntesten Betriebssysteme sind Windows, Linux und Mac OS.
+Die bekanntesten Betriebssysteme sind [Windows](#windows), Linux und [macOS](#macos).
 
 ### BIOS
 
@@ -704,9 +704,14 @@ Bei einer Low Level Formatierung gibt es folgende Optionen:
 
 ## M
 
-### MacOS
+### M.2
 
-MacOS ist die Bezeichnung des Betriebssystems für den Macintosh PC des Herstellers Apple.
+**M.2** ist eine Spezifikation für interne Computer-Karten und Anschlüsse, die früher als *Next Generation Form Factor (NGFF)* bekannt war. Sie wurde entworfen, um mSATA zu ersetzen. Durch ihre kleineren und flexiblen Abmessungen, sowie erweiterten Funktionen ist M.2 besser für den Anschluss von SSDs geeignet, insbesondere in kompakten Geräten wie Ultrabooks oder Tablets. Nach dem Aus von SATA-Express hat sich M.2 aber auch im Desktop-Bereich durchgesetzt.
+Der **M.2-Standard** unterstützt drei Bussysteme: PCI Express (bis 4.0), SATA Revision 3.x und USB 3.0. M.2-Varianten haben einen Anschluss, über den bis zu vier PCI-Express-Lanes (bis zu 4 × 16 GT/s), ein SATA Revision 3.x (6 Gbit/s) und/oder ein USB-3.0-Port (5 Gbit/s) angeschlossen werden können. Auf diese Weise können sowohl PCI-Express- als auch SATA-Speicher per M.2 angeschlossen werden. An jedem Port können auch beide Bussysteme gleichzeitig genutzt werden.
+
+### macOS
+
+Das [Betriebssystem](#betriebssystem) **macOS**, das früher als **Mac OS X** und **OS X** bekannt war, ist das von Apple entwickelte Betriebssystem für Laptops und Desktop-Computer der Mac-Reihe. Es hat eine Desktop-Umgebung, die auf Objektorientierung basiert, sowie standardmäßige UNIX-03-Schnittstellen. Es ist das erfolgreichste kommerzielle UNIX-Betriebssystem für Personal Computer. Apple ersetzte damit das klassische Mac-Betriebssystem Mac OS. Außerdem diente es als Basis für weitere Apple-Entwicklungen wie iPod, iPhone und iPad. Darwin bildet mit seinem Hybridkernel XNU die gemeinsame Grundlage.
 
 ### Magnetband
 
