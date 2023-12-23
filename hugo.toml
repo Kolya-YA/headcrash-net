@@ -25,14 +25,14 @@ enableRobotsTXT = true
     email = "hddtech@gmx.net"
     # Used in the footer
     phones = [
-        "+49 30 417 25 045",
-        "0800-433-5-222"
+        "030-4408242",
+        
     ]
     # Used in the footer
     address = [
         "*headCrash.net*",
-        "Danziger str. 78a",
-        "10405",
+        "Siemensstr.10",
+        "10551",
         "Berlin",
         "Deutschland",
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
