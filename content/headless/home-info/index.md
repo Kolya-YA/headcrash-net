@@ -7,7 +7,7 @@ date: 2023-06-01
 
 **Hier finden Sie den Schritt-für-Schritt Ablauf einer Datenrettung:**
 
-- Sie starten eine Anfrage über unser [Kontaktformular]({{< relref "contact" >}}) oder über unsere kostenlose Telefon-Hotline (0800-4335222).
+- Sie starten eine Anfrage über unser [Kontaktformular]({{< relref "contact" >}}) oder über unsere kostenlose Telefon-Hotline (030-4408242).
 - Sobald Ihre Nachricht übermittelt wurde bearbeiten wir Sie unverzüglich und treten gegebenenfalls mit Ihnen für Rückfragen in Kontakt.
 - Sie schicken uns das Speichermedium auf dem Postweg zu.
 - Wir analysieren den Sachverhalt und erstellen auf Basis einer Analyse ein Angebot.
@@ -31,9 +31,9 @@ Dieser ist einer der häufigsten Fehler, die aufgetreten sind und wegen derer ei
 
 Falls Sie in die unglückliche Situation kommen mit einem Headcrash oder einem anderen Datenverlust Bekanntschaft machen zu müssen helfen wir Ihnen sehr gerne Ihre Daten wieder her zu stellen.
 
-Für die direkte Anfrage benutzen Sie bitte unser [Kontaktformular]({{< relref "contact" >}}). Selbstverständlich erreichen Sie uns auch telefonisch, deutschlandweit über unsere kostenfreie **Service Nummer 0800-4335222**.
+Für die direkte Anfrage benutzen Sie bitte unser [Kontaktformular]({{< relref "contact" >}}). Selbstverständlich erreichen Sie uns auch telefonisch, deutschlandweit über unsere kostenfreie **Service Nummer 030-4408242**.
 
-Für Anfragen aus dem Ausland steht Ihnen Hilfe unter der folgenden Telefonnummer zur Verfügung **+49 (0) 30 41725045**.
+Für Anfragen aus dem Ausland steht Ihnen Hilfe unter der folgenden Telefonnummer zur Verfügung **030-4408242**.
 
 ### Datenwiederherstellung
 
