@@ -38,7 +38,7 @@ enableRobotsTXT = true
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
     # Used in the footer, google map route url
-    mapRoute =  "https://www.google.at/maps/dir//Siemens+Str.+10,+10551+Berlin" 
+    mapRoute =  "https://www.google.at/maps/dir//G8MJ+2X Berlin" 
     
     # Name of the image for the hero section on home page. Image is located ./assets/images/
     heroBackground = "59.jpg"
