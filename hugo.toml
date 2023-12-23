@@ -38,7 +38,7 @@ enableRobotsTXT = true
         "*Parkplätze stehen vor dem Haus zur Verfügung*"
     ]
     # Used in the footer, google map route url
-    mapRoute =  "https://www.google.at/maps/dir//Danziger+Str.+78A,+10405+Berlin/@52.5387078,13.4221649,17z/data=!4m18!1m8!3m7!1s0x47a84e0724a8b2b7:0x7ee6cd5e74ad8f56!2sDanziger+Str.+78A,+10405+Berlin!3b1!8m2!3d52.5387046!4d13.4247398!16s%2Fg%2F11csns0kl5!4m8!1m0!1m5!1m1!1s0x47a84e0724a8b2b7:0x7ee6cd5e74ad8f56!2m2!1d13.4247398!2d52.5387046!3e3?hl=de&entry=ttu" 
+    mapRoute =  "https://www.google.at/maps/dir//Siemens+Str.+10,+10551+Berlin" 
     
     # Name of the image for the hero section on home page. Image is located ./assets/images/
     heroBackground = "59.jpg"
