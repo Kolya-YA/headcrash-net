@@ -45,9 +45,13 @@ Man unterscheidet hier zwischen On-Access- bzw. On-Demand Scannern. On-Access be
 
 Die Headcrash Anti-Virus Empfehlungen:
 
-- <www.bitdefender.de>
-- Kaspersky Labs Trial-Download
-- B04 ZoneAlarm Internet Security Suite: Herbstaktion
+- **Bitdefender:** Beste Gesamtleistung
+- **Avira:** Bestes Preis-Leistungs-Verhältnis
+- **AVG:** Bester Schutz für Einzelanwender
+- **McA**fee: Bester Schutz auf mehreren Geräten
+- **Avast:** Bester Schutz für Remote-Benutzer
+- **ESET:** Bester Schutz für technische Anwender
+- **Norton:** Beste Antiviren-Software für Cyber-Sicherheitslösungen.
 
 Trotz zumeist gut funktionierenden Update Funktionen muss man sich der Tatsache bewusst sein, dass Virenprogramme nur auf bekannte und analysierte Bedrohungen reagieren können. Eine Infektion kann man also auch mit einem „besseren“ Anti-Virenprogramm nicht ausschließen.
 
@@ -61,6 +65,17 @@ Auch ohne Virenscanner gibt es einige Richtlinien nach denen man sich durch das 
 - Keine Piratensoftware installieren (Edonkey, Kazaa, Warez Seiten)
 
 Sollte es doch einmal zu einer Infektion kommen, dann können Systemabstürze und erheblicher Datenverlust die Folge sein. Eine regelmäßige Backup-Strategie ist hierbei eine sehr gute präventive Maßnahme.
+
+### APFS (Apple File System)
+
+Das Apple File System *(APFS)* ist ein Dateisystem, das im Juni 2016 von Apple als Nachfolger von HFS+ vorgestellt wurde.
+
+Ursprünglich war es nur für iOS verfügbar. Der erste offizielle Einsatz von **APFS** auf Mobilgeräten wurde am 27. März 2017 mit der iOS-Version 10.3 bekannt gegeben. In Mac OS wurde APFS ab Version 10.13 High Sierra implementiert.
+Seit macOS High Sierra kann **APFS** genutzt und auch als Systemlaufwerk verwendet werden.
+
+iOS 10.3 machte **APFS** zum Standard-Dateisystem für iPhones und iPads.
+
+Ursprünglich wurde **APFS** für SSD-Laufwerke optimiert.
 
 ### Arbeitsspeicher / RAM
 
@@ -450,9 +465,9 @@ Festplatten haben mittlerweile die Größe von Schokoladentafeln erreicht und ma
 
 ## F
 
-### FAT (File Allocation Protocol)
+### FAT (File Allocation Table)
 
-FAT oder auch File Allocation Table steht für das Dateisystem eines Speichermediums und legt die Größe der Cluster auf dem Medium fest.
+FAT oder auch File Allocation Table *(Dateizuordnungstabelle)* steht für das Dateisystem eines Speichermediums und legt die Größe der Cluster auf dem Medium fest.
 
 Die aktuelle Speichermedium Version bei FAT ist FAT32 und steht für 32 Bit im Gegensatz zu älteren Versionen wie FAT 16 und FAT 12, die somit 16 oder 12 Bit unterstützen.
 
