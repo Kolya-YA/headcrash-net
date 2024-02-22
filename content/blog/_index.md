@@ -1,7 +1,7 @@
 ---
-title: "Blog"
+title: "Blog und Artikel"
 description: "Neuigkeiten über Technologie und unsere Firma"
-date: 2023-10-03
+date: 2024-02-22
 
 menu:
   top:

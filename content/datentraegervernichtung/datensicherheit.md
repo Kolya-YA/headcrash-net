@@ -1,6 +1,6 @@
 ---
 title: "Datensicherheit"
-metaTitle: "Datenschutz und Sicherheit bei Datenträgervernichtung"
+metaTitle: "Datenschutz & Datenträgervernichtung"
 description: "Datenschutz und Sicherheit bei der Vernichtung von Datenträgern gemäß den Bestimmungen des Bundesdatenschutzgesetzes und des Bundesamtes für Sicherheit in der Informationstechnik (BSI)"
 weight: 20
 date: 2023-11-14

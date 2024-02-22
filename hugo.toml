@@ -3,7 +3,7 @@ baseURL = 'https://headcrash.net/'
 # Do not change! 
 defaultContentLanguage = 'de'
 # SEO — text for title tag in head section
-title = "Datenrettung, Datenträgervernichtung, Datenlöschung — ./HeadCrash"
+title = "Datenrettung & Datenträgervernichtung — ./HeadCrash"
 
 # Do not change! Used theme name
 theme = "headcrash"

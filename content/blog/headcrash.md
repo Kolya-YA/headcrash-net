@@ -1,5 +1,5 @@
 ---
-title: "Headcrash"
+title: "Was bedeutet HeadCrash?"
 description: "Gefahren und Konsequenzen bei einem Headcrash. Von einem Headcrash spricht man, wenn die Schreib/Leseköpfe auch Head genannt oder Kurzform Köpfe auf die ferromagnetische Magnetoberflächen bei einer Festplatte auftreffen."
 date: 2016-05-01
 ---

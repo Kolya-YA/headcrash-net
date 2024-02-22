@@ -1,6 +1,6 @@
 ---
 title: "Lexikon"
-metaTitle: "Lexikon zum Thema Datenspeicher und Datenrettung"
+metaTitle: "Lexikon der Datenspeicherung und Datenrettung"
 description: "Erfahren Sie in unserem Lexikon mehr über Datenrettung und die Grundkonzepte von Datenspeichersystemen. Finden Sie wichtige Informationen zur Wiederherstellung verlorener oder beschädigter Daten."
 date: 2023-11-27
 toc: true
