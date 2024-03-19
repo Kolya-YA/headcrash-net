@@ -6,6 +6,7 @@ date: 2024-02-22
 menu:
   top:
       weight: 50
+      name: Blog
   info:
       weight: 130
 ---
