@@ -1,12 +1,12 @@
 .footer {
     
     .footer-nav {
+        padding: 0;
+        list-style: none;
+
         @media (min-width: 50ch) {
             --item-align: block-start;
         }
-
-        padding: 0;
-        list-style: none;
 
         &__item {
             text-align: var(--item-align, center);

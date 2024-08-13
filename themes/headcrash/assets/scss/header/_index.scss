@@ -2,7 +2,10 @@
 @use "nav-toggler";
 @use "header-logo";
 
-.header {
+.header {    
+    position: relative;
+    background-color: var(--dark-bg-color);
+    
     @media (min-width: 70em) {
         --toggler-display: none;
         // --nav-visibility: visible;
@@ -21,10 +24,7 @@
         --desktop-sublist-opacity: 0;
         --desktop-pointer-events: none;
     }
-    
-    position: relative;
-    background-color: var(--dark-bg-color);
-    
+
     &__block {
         display: flex;
         justify-content: space-between;
