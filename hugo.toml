@@ -47,3 +47,7 @@ enableRobotsTXT = true
 [markup]
   [markup.tableOfContents]
     endLevel = 2
+
+[services]
+  [services.googleAnalytics]
+    ID = "GTM-N59NSMNN"
