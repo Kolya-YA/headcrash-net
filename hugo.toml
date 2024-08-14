@@ -44,6 +44,11 @@ enableRobotsTXT = true
     heroBackground = "59.jpg"
 
 # Do not change!
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = false
+
 [markup]
   [markup.tableOfContents]
     endLevel = 2

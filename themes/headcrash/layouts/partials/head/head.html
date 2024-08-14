@@ -8,7 +8,7 @@
 {{- $ogImg = $ogImg.Resize "512x webp q70" }}
 
 <head>
-    {{ partial "head/google_analytics.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title }}</title>
