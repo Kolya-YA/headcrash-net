@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.132.1
+      HUGO_VERSION: 0.133.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -58,7 +58,8 @@ jobs:
       - name: FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: headcrash.net
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
+          local-dir: ./public/  # Hugo's default output directory
+          server-dir: /httpdocs/  # The directory on your FTP server
