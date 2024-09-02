@@ -55,13 +55,12 @@ jobs:
           hugo \
             --minify \
             --baseURL https://headcrash.net
-      - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: FTP deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: 82.165.51.81
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          ssh_private_key: ''
-          local_path: './public/*'
-          remote_path: '/httpdocs/'
-          sftp_only: true
+          timeout: 120000
+          local-dir: ./public/  # Hugo's default output directory
+          server-dir: /var/www/vhosts/headcrash.net/httpdocs/  # The directory on your FTP server
