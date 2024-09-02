@@ -62,4 +62,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./public/  # Hugo's default output directory
-          server-dir: /httpdocs/  # The directory on your FTP server
+          server-dir: ./httpdocs/  # The directory on your FTP server
