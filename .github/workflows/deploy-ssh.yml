@@ -63,3 +63,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           timeout: 60000
           local-dir: ./public/  # Hugo's default output directory
+          log-level: verbose
