@@ -31,7 +31,7 @@ enableRobotsTXT = true
     # Used in the footer
     address = [
         "*headCrash.net*",
-        "Siemensstr.10",
+        "Siemensstr. 10",
         "10551",
         "Berlin",
         "Deutschland",
