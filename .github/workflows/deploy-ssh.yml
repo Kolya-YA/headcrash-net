@@ -72,5 +72,6 @@ jobs:
             server: 82.165.51.81
             port: 22
             local_path: './public/'
+            remote_path: '/'
             sftp_only: true
             password: ${{ secrets.FTP_PASSWORD }}
