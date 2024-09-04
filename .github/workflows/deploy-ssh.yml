@@ -55,12 +55,22 @@ jobs:
           hugo \
             --minify \
             --baseURL https://headcrash.net
-      - name: FTP deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      # - name: FTP deploy
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      #   with:
+      #     server: 82.165.51.81
+      #     username: ${{ secrets.FTP_USERNAME }}
+      #     password: ${{ secrets.FTP_PASSWORD }}
+      #     timeout: 60000
+      #     local-dir: ./public/  # Hugo's default output directory
+      #     log-level: verbose
+
+      - name: Deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: 82.165.51.81
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          timeout: 60000
-          local-dir: ./public/  # Hugo's default output directory
-          log-level: verbose
+            username: ${{ secrets.FTP_USERNAME }}
+            server: 82.165.51.81
+            port: 22
+            local_path: './public/'
+            sftp_only: true
+            password: ${{ secrets.FTP_PASSWORD }}
